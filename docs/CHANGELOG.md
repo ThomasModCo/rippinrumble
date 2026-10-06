@@ -1,5 +1,16 @@
 # Rippin Rumble — changelog
 
+## v0.10 — 2026-10-06 — gallery: one row of six, arrows
+
+### Changed
+- The gallery popup is a fixed size and shows one row of six cards per page, with previous and next arrows at the sides and "Page 1 of 3" underneath. Left and right arrow keys and a swipe also turn the page. Each tab remembers its page.
+- Gallery cards are larger: 195 px wide on a 1440 px window, up from about 124 px (57% larger). They scale down on narrower windows.
+- Card names and "Not found yet" are centred under each card.
+- On phones in portrait the same six cards per page are laid out as two rows of three, because six across would be too small to read.
+
+### Verified
+- Paging on every tab at 1440x820 and 390x800 (2x): 3 pages for Common, Uncommon and Rare, 1 for Legendary; arrows switch off at the ends; popup size stays the same on every tab and page. Screenshots read. No console errors, no outside requests.
+
 ## v0.9 — 2026-10-06 — gallery by rarity
 
 ### Changed
