@@ -1,5 +1,64 @@
 # Rippin Rumble — changelog
 
+## v0.7 — 2026-10-06 — maximum clarity once cards have landed
+
+### Added
+- When the five cards have landed, each finished card (art, frame, name) is resampled once to the exact number of screen pixels it covers, lightly sharpened, and laid over its 3D twin on the pixel grid. Nothing scales or filters it while it rests. It follows the 3D card for hover, and is resampled again when the card settles at a new size (hover lift, window resize). It fades out when the round ends.
+- Higher-resolution card art: `art_optimized/cards_hd/`, 1200x1800, about 280 KB per card (14 MB for the set). Used for the 3D scene, the landed cards and the popup. The gallery grid keeps the lighter 800x1200 copies in `cards/`.
+- While cards are landed the scene behind them drops the film grain, halves the vignette, turns bloom down and shows true image colours (no tone mapping, correct sRGB output).
+
+### Trade-offs
+- The foil shimmer on rare and legendary cards is hidden while they rest, because the landed image sits on top of it. It still plays during the reveal.
+- Each round downloads about 1.4 MB of card art, up from about 0.4 MB.
+
+### Settings
+- `CONFIG.landedClarity` (master switch), `landedDom`, `landedSharpen` (0.9), `landedBloom`, `cardDir`, `cardTexScale`. `?sharp=0` still switches all clarity changes off for comparison.
+
+### Verified
+- Same card, same position, 2x pixel density: fine-detail measure 307 in v0.6, 505 in v0.7, 521 for the browser drawing the image file directly; brightness and contrast now match the direct image (52.7 / 35.7 against 53.4 / 35.5).
+- Two rounds at 1280x760, one at 375x667 (2x): landed cards appear, sit at rest on the pixel grid, the popup opens from a click through them, and they are hidden again in the lobby. No console errors, no outside requests.
+
+### Not verified
+- Frame rate and memory on a real phone. The automated 5,010-round check was last run on v0.1; game logic is unchanged since, but it has not been repeated.
+
+## v0.6 — 2026-10-06 — the real cause of the blurry cards
+
+### Fixed
+- The 3D scene was being drawn at 1x resolution and stretched to fit high-density screens. The post-processing composer ignores the screen's pixel ratio when it is given its own render target, which the prototype does. It is now told the pixel ratio explicitly, so the scene is drawn at the screen's real resolution (up to `CONFIG.dprCap`, 2x).
+
+### Kept from v0.5
+- Screen-sized card textures, 4x anti-aliasing, 1.5x rendering on standard screens. These were not the main cause; v0.5 on its own made almost no visible difference on a high-density screen.
+
+### Verified
+- Same card, same position, 2x pixel density: fine-detail measure (variance of the Laplacian over the card art) 101 in v0.5, 307 in v0.6, 521 for the browser drawing the image file directly. Compared from native-pixel crops. No console errors, no outside requests.
+
+### Not verified
+- Frame rate on a real phone. On a 2x screen the scene now draws four times as many pixels as the prototype did, with anti-aliasing on top. If it stutters, lower `CONFIG.msaa` or `CONFIG.dprCap`.
+
+### Still different from the popup
+- Cards in the scene are lit, tone-mapped and pass through bloom, vignette and grain, so they look slightly hazier and lower in contrast than the flat image.
+
+## v0.5 — 2026-10-06 — sharper cards in the 3D scene
+
+### Why cards looked softer in the game than in the popup
+- The popup shows the image directly. In the game the same image is a texture on a 3D card: the full 805x1200 texture was shrunk by the graphics card using blended mipmaps (soft), the scene had no anti-aliasing (rough borders), and standard-density screens rendered at 1x.
+
+### Changed
+- Card textures are now pre-scaled to the size the card has on screen (times `CONFIG.cardTexOversample`, 1.3) with a high-quality resize, and drawn without mipmaps.
+- 4x anti-aliasing on the scene (`CONFIG.msaa`), where the browser supports it.
+- Standard-density screens render at 1.5x and scale down (`CONFIG.minPixelRatio`). High-density screens still render at up to 2x (`CONFIG.dprCap`).
+- Card choice is repeatable when `?seed=` is set (test aid only).
+- Adding `?sharp=0` to the address switches all three changes off, for comparing old and new.
+
+### Not changed
+- Math, provider, round flow, art files. Only `index.html` differs from v0.4.
+
+### Verified
+- Plays a round at 1280x760 at 1x and 2x pixel density with no console errors and no outside requests. Old and new compared on the same cards from screenshots: finer detail and cleaner borders in the new rendering.
+
+### Not verified
+- Frame rate on a real phone with the heavier rendering. If it drops, lower `msaa` or `minPixelRatio`.
+
 ## v0.4 — 2026-10-06 — card details popup
 
 ### Added
