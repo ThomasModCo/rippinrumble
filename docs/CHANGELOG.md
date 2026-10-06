@@ -1,5 +1,32 @@
 # Rippin Rumble — changelog
 
+## v0.9 — 2026-10-06 — gallery by rarity
+
+### Changed
+- Gallery now opens on four tabs: Common, Uncommon, Rare, Legendary, each showing its found count. A tab shows every card in that rarity: found cards show their art and name, the rest show the card back with "Not found yet". Tapping a found card opens its details; closing returns to the same tab.
+- The Gallery and Help buttons now stay on screen after a reveal, not only in the lobby. They are still hidden while a pack is ripping.
+- The interface keeps clear of phone notches and rounded corners (safe-area insets).
+
+### Includes
+- The v0.8 fix: the card popup opens above the landed cards.
+
+### Verified
+- Three rounds, then each tab opened at 1100x680 and 390x800 (2x): card counts per tab 18 / 14 / 13 / 5, found cards match what was pulled, a found card opens its details and closes back to the gallery, and the gallery opens from the result screen. No console errors, no outside requests.
+
+### Not changed
+- The gallery still resets when the page is reloaded (session only), as decided for the first build.
+
+## v0.8 — 2026-10-06 — popup above landed cards
+
+### Fixed
+- The card popup opened underneath the card that was clicked. The sharp landed cards added in v0.7 were stacked above the popup layer (a hovered card had a higher stacking order than the popup). The landed layer is now isolated below the whole interface.
+
+### Verified
+- Clicked each of the five landed cards in turn: the popup opened every time and no landed card was drawn over it. Screenshot read. No console errors, no outside requests.
+
+### Packaging
+- From this version every package is complete (index.html, the whole art_optimized folder, docs), so folders can be replaced safely.
+
 ## v0.7 — 2026-10-06 — maximum clarity once cards have landed
 
 ### Added
