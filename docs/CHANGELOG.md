@@ -1,5 +1,25 @@
 # Rippin Rumble — changelog
 
+## v0.4 — 2026-10-06 — card details popup
+
+### Added
+- Tap or click a revealed card to open a popup overlay with a larger framed image, the card name, rarity, type, faction and the full description from the "Chimera cards" sheet. Works from the gallery too (pulled cards only); closing returns to the gallery.
+- A one-time hint, "Tap a card to read about it", shown after a reveal until the player opens a card.
+- Card data file `docs/cards_chimera_2.json`: all 50 cards with level, type, faction and description (copied from the sheet on 6 October 2026).
+
+### Changed
+- Fonts: Roboto (Apache 2.0, bundled) for body text, meaning card descriptions and the text in the help, gallery and Coins sheets. Bebas Neue for card titles, including gallery captions. Orbitron stays on the interface: buttons, headings, labels, numbers.
+- Opening a card during Autoplay stops Autoplay.
+
+### Not changed
+- Math, provider, round flow and art. Only `index.html` differs from v0.3.
+
+### Verified
+- Popup opened by a real click on a revealed card and from the gallery at 1280x760 and 375x667; closes with the X, the backdrop and Esc; no console errors, no outside requests. Layout read from screenshots at both sizes.
+
+### Open
+- Descriptions are shown as written in the sheet, including the references to existing franchises flagged earlier. Renaming is still deferred by the owner.
+
 ## v0.3 — 2026-10-06 — result box
 
 ### Changed
