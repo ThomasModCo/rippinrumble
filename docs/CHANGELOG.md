@@ -1,5 +1,30 @@
 # Rippin Rumble — changelog
 
+## v0.3 — 2026-10-06 — result box
+
+### Changed
+- Result box is now a plain translucent black box with slightly rounded corners. The cut-corner outline, which rendered with broken borders, is removed.
+
+### Not changed
+- Math, provider, round flow, art and the v0.2 card font. Only `index.html` differs.
+
+### Verified
+- Plays a round at 1280x760 and 375x667 with no console errors and no outside requests; result box read from screenshots at both sizes.
+
+## v0.2 — 2026-10-06 — card font
+
+### Changed
+- Card names and rarity labels are drawn in Bebas Neue (SIL Open Font License, bundled in `index.html`). The interface stays in Orbitron. Sizes are tunables: `CONFIG.cardFont`, `cardNamePx`, `cardRarityPx`.
+
+### Not changed
+- Math, provider, round flow and art are identical to v0.1. Only `index.html` differs.
+
+### Verified
+- Loads and plays a round at 1280x760 with no console errors and no outside requests; card text read from a screenshot. The 5,010-round and 200,000-round checks were run on v0.1 and not repeated, since no game logic changed.
+
+### Open
+- Owner feedback: rare and legendary cards appear too often. This comes from the engine's deck make-up (see the concept doc); a decision on the math is pending.
+
 ## v0.1 — 2026-10-05 — first playable build (playtest, local provider)
 
 Built from the prototype `Rippin Rumble – Pack Lobby.html`, the math config `rippinrumble_config_1.json` and the spec `rippinrumble_spec_1.md`.
