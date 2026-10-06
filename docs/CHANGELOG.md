@@ -1,5 +1,21 @@
 # Rippin Rumble — changelog
 
+## v0.11 — 2026-10-06 — cinematic sound effects
+
+### Changed
+- All sound effects replaced. The square-wave beeps are gone; each effect is now layered from filtered noise, sub-bass, detuned oscillators and bells, through a shared generated reverb and a compressor. Still no audio files apart from the music loop, which is unchanged.
+  - Pack rip: rising whoosh, paper crackle, low rumble. Pack burst: bass impact with a long tail.
+  - Common: card whoosh and muted thud. Uncommon: adds a warm two-note swell and a bell. Rare: impact, rising major chord, bells. Legendary: brass-like swell, sub drop, choir pad, bell sparkle (about 3.6 s).
+  - Coins returned: a short bell cascade. Buttons: a soft tock.
+- Impacts carry a mid-range layer so they are still heard on phone speakers, which cannot reproduce the deep bass.
+- `CONFIG.sfxVol` is now 1.0 (was 0.6).
+
+### Verified
+- Each effect rendered offline and measured: none clips (loudest peak 0.87 of full scale, the legendary reveal), and loudness steps up with rarity (peaks 0.21, 0.37, 0.40, 0.87). Three rounds played with sound on, no errors.
+
+### Not verified
+- How they sound. They have been measured, not listened to. `rippinrumble_v0.11_sound_preview.mp3` plays all of them in order for review.
+
 ## v0.10 — 2026-10-06 — gallery: one row of six, arrows
 
 ### Changed
