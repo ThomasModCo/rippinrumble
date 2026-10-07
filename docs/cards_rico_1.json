@@ -1,0 +1,672 @@
+[
+ {
+  "id": 1,
+  "rarity": "legendary",
+  "name": "Archie Romano",
+  "alias": "Archie",
+  "meta": [
+   "Personnel",
+   "Level 16"
+  ],
+  "paras": [
+   "Archie Romano doesn’t see buildings; he sees circulatory systems. Before the \"Incident\" that cost him his license and nearly his life, Archie was the golden boy of the City Planning Commission. He designed the very transit hubs and bridge retrofits that define the metropolis today. But Archie was too good at his job; he found the structural shortcuts the contractors were taking and the kickbacks the mayor was pocketing. When they tried to bury him under a collapsed parking garage project, Archie didn't die—he evolved. Now known as \"The Architect,\" Archie operates out of a high-rise penthouse that overlooks the entire city grid. His \"war room\" is filled with translucent architectural overlays and 3D-printed models of the city’s most secure vaults. He doesn’t plan a heist; he choreographs an urban event. Archie is obsessive, often going 48 hours without sleep, drinking cold espresso, and staring at traffic patterns until they resolve into a rhythm he can exploit. To Archie, a heist is a \"stress test.\" He specializes in simultaneous operations—three hits at once in three different districts. Why? Because he knows the city’s emergency response algorithms better than the police chief does. He knows that a fire at the docks and a chemical spill in the industrial zone will leave the Diamond District with a response time of exactly eleven minutes. If his team is one second late, Archie considers the job a failure, even if they walk away with millions. He is calm, detached, and views the people on his payroll as structural components: some are load-bearing, others are decorative, but all must fit the blueprint."
+  ]
+ },
+ {
+  "id": 2,
+  "rarity": "legendary",
+  "name": "Elena Vasquez",
+  "alias": "Elena",
+  "meta": [
+   "Personnel",
+   "Level 16"
+  ],
+  "paras": [
+   "Elena Vasquez has died four times. Once in a helicopter crash in the Andes, once in a safehouse fire in Berlin, once in a drowning accident in the Mediterranean, and once on paper at the CIA’s Langley headquarters. Every time she \"dies,\" she rises from the ashes with a new face, a new accent, and a new set of credentials. She is the \"Phoenix,\" not because of fire, but because of her refusal to stay buried in the past. Elena was the CIA’s most effective \"honey trap\" and deep-cover operative until she realized that the agency was just another gang, only with better tailoring. She took her retirement in the form of an encrypted drive containing the private banking details of twelve different senators and vanished. Today, she is the team’s Social Engineer and Counter-Intelligence expert. Elena doesn’t just wear a disguise; she lives the persona. She can spend six months as a high-society philanthropist to get an invitation to a private gala, or six minutes as a frantic cleaning lady to bypass a frantic security guard. Her expertise lies in the \"Human Vulnerability.\" She knows that people don't look at faces; they look at uniforms and confidence. She can read a person's micro-expressions to tell if they are lying, or more importantly, to tell exactly what they want to hear. Within the team, she is the ghost. Even Archie doesn't know what she actually looks like without the contacts, the wigs, and the subtle prosthetic fillers. She is the ultimate safety net; if a job goes sideways, Elena is the one who has already subverted the local police captain or established a \"burn-path\" for the team to disappear through."
+  ]
+ },
+ {
+  "id": 3,
+  "rarity": "legendary",
+  "name": "James Harrison",
+  "alias": "James",
+  "meta": [
+   "Personnel",
+   "Level 15"
+  ],
+  "paras": [
+   "If Archie is the architect who draws the map, the Colonel is the general who leads the army across it. A retired Special Forces commander who was \"separated\" from the military after a black-ops mission went politically sour, James Harrison applies battlefield logic to criminal operations. He doesn't see a heist as a robbery; he sees it as a \"surgical strike.\" He is the \"Protocol\" because he believes that every variable—from the wind speed on the rooftop to the tire pressure of the Marauder—must be accounted for. The Colonel’s role is coordination. During a complex hit involving multiple teams, he sits in the COMI alongside Riley, managing the \"Tempo\" of the operation. He uses the Savant Glasses to track the physical locations of every \"Unit\" (Personnel, K9, and Vehicle), barking orders over the radio with a voice that demands instant obedience. He is the one who designed the \"Standard Operating Procedures\" for the Bulldozer’s breach and the Viper’s escape. To the Colonel, a successful heist is one where the enemy (the police) never even realized a war was being fought. The Colonel is a man of rigid habit. He wakes at 0400, maintains a strict fitness regimen, and expects the same from the crew. He has no patience for \"freestyling\" or ego; if you deviate from the Protocol, you are out. He has a begrudging respect for Archie’s intellect, though he often clashes with Arthur’s \"Old School\" intuition. He is the reason the team operates with military precision, turning a group of disparate criminals into a lethal, synchronized machine. When the Colonel says \"Go,\" the city itself seems to hold its breath."
+  ]
+ },
+ {
+  "id": 4,
+  "rarity": "legendary",
+  "name": "Isabella Cross",
+  "alias": "Isabella",
+  "meta": [
+   "Personnel",
+   "Level 15"
+  ],
+  "paras": [
+   "Isabella Cross was once on track for Olympic gold in gymnastics before a career-ending injury—and a subsequent realization that the \"gold\" was much easier to find in a billionaire’s penthouse—redirected her talents. She is the \"Phantom,\" a specialist in verticality and physical evasion. While Tomi is about speed and street-smarts, Isabella is about grace and impossible geometry. She can contort her body to fit through laser grids that would trip a wire on anyone else. Isabella handles the \"High-End\" residential and corporate hits. She is the one who rappels down the side of a skyscraper in the middle of a thunderstorm to plant a bug on the window of a penthouse. She is the team’s most disciplined member, spending hours every day in a state of meditative stretching and strength training. She views the security systems of the elite as a personal insult to her athletic ability. She often works in tandem with the Viper, using the supercar’s speed to reach a target and her own body to vanish into the rafters. She is the one who carries the Savant Glasses, using the AR overlay to see the heat-signatures of guards through the walls. Isabella is elegant, distant, and possesses a dry wit that often cuts through the tension of a botched job. She doesn't care about the money as much as the \"impossible\" nature of the climb. To Isabella, every skyscraper is just a mountain that needs to be conquered from the outside in. She also functions as the team's \"Archive,\" utilizing her brother Archie's visual genius to research historical blueprints of target buildings."
+  ]
+ },
+ {
+  "id": 5,
+  "rarity": "legendary",
+  "name": "Viper",
+  "alias": "Viper",
+  "meta": [
+   "Vehicle",
+   "Level 15"
+  ],
+  "paras": [
+   "The Viper is not just a car; it is a 200-mile-per-hour insurance policy. A bespoke, open-top supercar finished in a \"Blood-Neon\" red that seems to shift colors under the city's sodium vapor streetlights, it is the most recognizable and feared vehicle in the underground circuit. It was originally a concept car stolen from a private tech expo in Tokyo, and Carlos (Rain) spent three years retrofitting it for the specific demands of urban evasion. The Viper’s chassis is made of a proprietary carbon-weave that makes it lighter than a standard sedan but strong enough to maintain structural integrity at speeds that would melt a normal engine. It features an active-aero system; the wings and flaps adjust millisecond-by-millisecond to keep the car glued to the asphalt during Carlos's infamous \"90-degree drifts.\" But its most important feature is the \"Ghost-Finish\"—a specialized paint containing microscopic metallic flakes that can be polarized with an electric charge. With the flip of a switch, the car's radar and LIDAR signature disappears, making it a \"ghost\" to police speed traps and automated helicopter tracking. Inside, the Viper is stripped of all luxury. There is no leather, no stereo, and no passenger comforts—only two racing buckets, a roll cage, and a dash filled with Zara’s frequency-scanning equipment. It is used almost exclusively for \"High-Value Transit.\" If the team has the \"Acquisition\" and the police have every bridge blocked, the Viper is the only thing that can punch a hole through the cordon and disappear into the night before the sirens can even catch up. It is the signature vehicle of Sophia \"Silk\" Blackwood and Elena \"Phoenix\" Vasquez, used for high-stakes social infiltration at Ristorantes and country clubs, granting immediate \"VIP\" status upon arrival."
+  ]
+ },
+ {
+  "id": 6,
+  "rarity": "rare",
+  "name": "Shadow",
+  "alias": "Shadow",
+  "meta": [
+   "Vehicle",
+   "Level 14"
+  ],
+  "paras": [
+   "The Shadow is the most important car in Archie’s garage, despite being the least impressive to look at. It is a 1980s-era executive sedan finished in a faded teal paint that blends perfectly into the urban background of any parking lot or street corner. To a patrolling cop, it is just another \"beater\" driven by a commuter. In reality, it is a \"Sleeper\"—a vehicle gutted and rebuilt with a modern racing suspension, bullet-resistant glass, and a silent, high-output electric motor. The Shadow is the team’s primary surveillance and \"Cold Extraction\" vehicle. It is used by Maya \"Spider\" Patel for long-term stakeouts, as its unremarkable silhouette never draws a second glance. It features a \"hot-swap\" license plate system and a hidden compartment for the Whisper pistol kits. When the team needs to vanish after a heist, they move from the loud, high-profile Delivery Van into the Shadow. Within three blocks, they are just another car in traffic, invisible and untraceable. It is the ultimate \"Gray Man\" asset, proving that the most effective way to beat a security cordon is to look like the most boring person on the street. Under the hood, it carries a high-output racing engine and a muffled exhaust system. It is used for \"cold\" extractions where the team needs to disappear into city traffic without being flagged by automated license plate readers. It is the primary vehicle for Arthur McGrath, who appreciates the old-school reliability of the frame."
+  ]
+ },
+ {
+  "id": 7,
+  "rarity": "rare",
+  "name": "Winston Davies",
+  "alias": "Winston",
+  "meta": [
+   "Personnel",
+   "Level 14"
+  ],
+  "paras": [
+   "Winston Davies spent thirty years carrying a badge in a city that treats the law like a suggestion. He wasn't a \"dirty\" cop in the traditional sense; he didn't want the money. Winston wanted the leverage. He understood early on that a bullet can kill a man, but a secret can bury an entire dynasty. By the time he \"retired\" from the force, he had compiled a literal library of \"sins\"—files on every judge, politician, and mob boss in the metropolis. He is called the \"Cleric\" because people come to him to confess, usually right before they ask him for a favor. In Archie’s organization, Winston is the Intelligence Gatherer. He doesn't go on the hits, and he doesn't touch the guns. Instead, he sits in the back of a nondescript Taxi or a dimly lit diner, meeting with a network of informants that spans from the gutter to the penthouse. He is the one who tells the team which security guards are behind on their gambling debts and which police precincts are currently undergoing a shift change. He is the human equivalent of the COMI’s server racks, processing raw data into actionable leads. Winston is a man of quiet, old-fashioned dignity. He wears tailored wool coats and carries a silver flask of tea. He views the younger members of the crew with a mixture of amusement and pity, often providing \"sermons\" on the nature of loyalty and the inevitability of betrayal. He is the one who manages the Rat informants—not the biological ones, but the human snitches who provide the team with the codes to the back door. Without Winston, the team is just a group of talented criminals; with him, they are an inevitability that the city's elite simply cannot hide from."
+  ]
+ },
+ {
+  "id": 8,
+  "rarity": "rare",
+  "name": "Riley Thompson",
+  "alias": "Riley",
+  "meta": [
+   "Personnel",
+   "Level 14"
+  ],
+  "paras": [
+   "Riley Thompson doesn't exist in any federal database. To the world, he is a ghost; to the team, he is the god of the machine. Riley’s obsession with digital systems began during his time as a signals intelligence officer, where he realized that every \"secure\" network was merely a puzzle waiting for the right key. After a \"disagreement\" with his superiors involving the redirection of a black-budget fund into an offshore account, Riley went underground. He now lives almost entirely within the cramped, server-lined walls of the COMI, rarely stepping outside during the daylight hours. Riley specializes in creating \"digital blind spots.\" While most hackers try to break into a system, Riley prefers to make the system believe nothing is happening at all. He can loop CCTV footage with millisecond precision, spoof biometric scanners using pre-recorded data, and shut down a city block’s power grid to provide cover for an extraction. He is the one who monitors the Rat’s microphone feed, cleaning the audio through AI filters to catch the whisper of a combination. Riley is socially distant, preferring the company of his cooling fans and his encrypted chat rooms. He treats every heist as a high-stakes game of chess against the city’s cybersecurity firms. His greatest fear isn't being caught by the police; it’s being outsmarted by a rival coder. Within the crew, he is the voice in their ears—calm, monotone, and clinical—guiding them through laser grids and encrypted doors as if he were walking through his own living room. If Riley says a door is open, it is open; if he says you have thirty seconds before the silent alarm trips, you have exactly twenty-nine."
+  ]
+ },
+ {
+  "id": 9,
+  "rarity": "rare",
+  "name": "Marcus Chen",
+  "alias": "Marcus",
+  "meta": [
+   "Personnel",
+   "Level 13"
+  ],
+  "paras": [
+   "Data analyst and probability expert who predicts security patterns and law enforcement response times. Uses algorithmic models to calculate optimal timing for operations. Former MIT professor with a specialized degree in predictive mathematics. To Marcus, the city is not a place, but a series of interconnected data streams. He is the \"Prophet\" because his models are so accurate they border on the precognitive. He calculates the exact \"Perfect Minute\" for the team to breach, ensuring they strike when the police patrols are at their furthest point and the local traffic lights are timed to facilitate an uninterrupted escape. He is often seen staring at a grid of monitors in the COMI, his fingers dancing across the keyboard as he adjusts for variables like weather-induced traffic delays or the mood of the target's security chief. Marcus is clinical, detached, and sees the world as a stream of numbers that can be manipulated to the team's advantage. He is the one who determines if a job is \"Green-Lit\" or if the probability of failure has exceeded the acceptable threshold. He has a photographic memory for schedules and a deep-seated distrust of any plan that relies on \"luck.\""
+  ]
+ },
+ {
+  "id": 10,
+  "rarity": "rare",
+  "name": "Sophia Blackwood",
+  "alias": "Sophia",
+  "meta": [
+   "Personnel",
+   "Level 13"
+  ],
+  "paras": [
+   "Sophia Blackwood understands that the most expensive security system in the world is still operated by a human being with a mortgage, an ego, and a desire to be liked. A former high-end art authenticator who was blacklisted for proving a museum’s centerpiece was a forgery, Sophia realized that \"truth\" is a flexible concept. She is the \"Silk\" because she can slip through the tightest security cordons without ever raising a heartbeat. She doesn't break into buildings; she is invited into them. Sophia’s preparation for a heist is more like an actor preparing for a Broadway debut. She studies the target’s social circles, their preferred vintage of wine, and the names of their children’s tutors. In the field, she is the primary handler of the Puppy card—using the sheer disarming power of a pedigree animal to bypass \"No Entry\" zones. While the guards are distracted by the dog, Sophia is cloning their keycards or planting a bug under their desk. She is also the primary occupant of the Viper supercar when the team needs to make a high-society entrance at a Ristorante or a private gala. Within the crew, she is the diplomat. She bridges the gap between Archie’s cold logic and the raw aggression of the Muscle. She is elegant, poised, and possesses a terrifying memory for faces and secrets. She views every heist as a performance, and the \"score\" is merely her standing ovation. If she is caught, she doesn't run—she talks the police officer into giving her a ride home and an apology. She is the only member of the team who truly enjoys the \"game\" of the crime, thriving in the high-stakes environment where one wrong word could mean life in prison."
+  ]
+ },
+ {
+  "id": 11,
+  "rarity": "rare",
+  "name": "COMI",
+  "alias": "COMI",
+  "meta": [
+   "Vehicle",
+   "Level 12"
+  ],
+  "paras": [
+   "The COMI is the \"Black Box\" of Archie’s organization. Finished in a matte, light-absorbing midnight black, the vehicle is designed to vanish into the shadows of underpasses and industrial alleys. It is the sanctum of Riley \"Ghost\" Thompson, featuring a reinforced chassis and a lead-lined interior that prevents electronic emissions from leaking out and being traced by police \"Stingray\" scanners. The rear of the vehicle houses a triple-redundant server array and a high-definition monitoring station. From these glowing blue screens, Riley can view the live feed from Echo’s harness, the Rat’s audio stream, and the Colonel’s real-time battlefield telemetry. The COMI is more than a van; it is a mobile localized internet. It generates its own encrypted mesh network, allowing the team to stay in constant contact even if the city’s cell towers are shut down. While Bulldozer or Natasha are on the front lines, the COMI sits blocks away, its silent electric cooling fans the only sign of the massive processing power inside. It is equipped with an \"Active Cloak\" system that can spoof its own GPS location and rotate its digital license plates in seconds. If the COMI is ever cornered, it contains a \"Scrub Protocol\"—a thermite charge that will melt the server racks into a heap of slag in under ten seconds, ensuring the organization’s secrets never fall into federal hands."
+  ]
+ },
+ {
+  "id": 12,
+  "rarity": "rare",
+  "name": "Natasha Kozlov",
+  "alias": "Natasha",
+  "meta": [
+   "Personnel",
+   "Level 12"
+  ],
+  "paras": [
+   "Natasha Kozlov is a remnant of a shadow war that officially never happened. Trained from a young age in a Spetsnaz \"Deep Cover\" program, Natasha is a master of Sambo, knife fighting, and high-speed pursuit. She is the \"Viper\"—deadly, silent, and striking with surgical precision. While Bulldozer is the hammer, Natasha is the needle. She doesn't fight a crowd; she eliminates the three most dangerous people in the room before they can draw their weapons. Natasha’s primary identity is tied to the Viper supercar. She is the only person Carlos \"Rain\" Ruiz trusts to push the car to its absolute limit. In the field, she serves as Sophia’s \"Bodyguard,\" playing the role of a silent assistant or a cold-eyed security detail. She is the primary user of the Shiv and the Knife cards, preferring the intimacy and silence of a blade to the noise of a firearm. If a \"Rat\" is discovered in the organization, it is Natasha who is sent to \"clean\" the situation. Natasha is a woman of ice. She rarely speaks, and when she does, it is only to provide tactical updates. She has no known family and no life outside of the crew. To her, the heist is a mission, and the crew is her unit. She has a particular affinity for Echo, the K9 Scout, often training with the dog to perform synchronized takedowns. She is the one who keeps the team alive when the \"perfect plan\" falls apart, turning a chaotic retreat into a disciplined withdrawal. She doesn't want the fame or the thrill; she just wants the mission accomplished."
+  ]
+ },
+ {
+  "id": 13,
+  "rarity": "rare",
+  "name": "Bulldozer",
+  "alias": "Bulldozer",
+  "meta": [
+   "Personnel",
+   "Level 12"
+  ],
+  "paras": [
+   "Andre Williams is the team’s insurance policy for when things go \"Loud.\" A former military demolitions expert and combat engineer, Andre spent his career learning how to turn \"inbound\" into \"outbound.\" He doesn't believe in the finesse of a lockpick gun or the subtlety of a social engineer. To Andre, every problem in the world can be solved with the correct application of force. He is the \"Bulldozer\" because once he starts moving, nothing—not concrete walls, not armored doors, and certainly not security guards—stops him. Andre is the primary handler of Diesel, the K9 Enforcer. The two share a silent, military-grade bond; they move in sync, a wall of muscle and bite that clears hallways in seconds. Andre is also the team’s heavy weapons specialist, though he prefers the Baseball Bat for \"close-up work\" to avoid drawing unnecessary heat. He is the one who drives the Ironclad armored truck, using its 6x6 chassis to ram through police barricades while the rest of the team scrambles inside. He is the \"Anchor\" of the team—the one who stays behind to hold the line while the specialists escape with the score. Despite his terrifying physical presence, Andre is a man of deep, quiet discipline. He doesn't drink, he doesn't smoke, and he keeps his gear in a state of constant readiness. He is fiercely protective of the \"Technicals\" like Diego and Riley, viewing them as the brains that he is paid to protect. He has a dry, gallows humor and a surprisingly soft spot for the Pigeons, often being the one who feeds them on the rooftop of the safehouse. When the sirens start, and everyone else is feeling the pressure, Andre is the one who sighs, picks up his shield, and tells the team, \"Stay behind me.\""
+  ]
+ },
+ {
+  "id": 14,
+  "rarity": "rare",
+  "name": "Diesel",
+  "alias": "Diesel",
+  "meta": [
+   "K9",
+   "Level 12"
+  ],
+  "paras": [
+   "If Echo is a scalpel, Diesel is a sledgehammer. A massive, barrel-chested Rottweiler-Doberman mix, Diesel was rescued from an illegal underground fighting ring by Andre \"Bulldozer\" Williams during a debt-collection job. Where Echo is lean and silent, Diesel is a wall of muscle and concentrated intimidation. He doesn't care about stealth; he cares about dominance. He was named \"Diesel\" because once his engine starts running, nothing short of a brick wall is going to stop his forward momentum. Diesel’s role in the heist is \"The Anchor.\" During high-stress extractions or \"loud\" breaches, he is deployed to control the floor. He is trained in \"Target Saturation\"—meaning he doesn't just bite and hold; he moves between threats, knocking security guards off their feet and using his 120-pound frame to pin targets until the Muscle can zip-tie them. He is immune to the chaos of a gunfight, having been \"desensitized\" by the Colonel using recordings of explosions and high-pressure flashbangs. He wears a reinforced K9 ballistic vest capable of stopping small-arms fire, and his presence alone is often enough to make a guard drop their weapon without a shot being fired. Despite his terrifying appearance on the job, Diesel is the emotional heart of the crew’s safehouse. He is fiercely loyal to Bulldozer and has developed a strange, protective bond with Sophia \"Silk\" Blackwood, often sitting at her feet while she rehearses her high-society personas. In the field, Diesel’s \"Diesel\" nametag on his chest glows with a dim, menacing amber light in the dark—a warning to anyone foolish enough to try and run. When Diesel is on the scene, the message is clear: the exit is closed, and the law of the jungle has officially taken over."
+  ]
+ },
+ {
+  "id": 15,
+  "rarity": "rare",
+  "name": "Ironclad",
+  "alias": "Ironclad",
+  "meta": [
+   "Vehicle",
+   "Level 12"
+  ],
+  "paras": [
+   "The Ironclad is a decommissioned military logistics vehicle that has been \"civilianized\" by Bulldozer. It is a six-wheeled monster designed to survive an IED blast, making it the only vehicle in the fleet capable of ramming through a police roadblock or a bank’s reinforced exterior wall. It is slow, heavy, and terrifying. The Ironclad is used for \"Heavy Goods\" transport. When a heist results in hundreds of pounds of gold bullion or a fully loaded vault door, the Ironclad is the only thing that can carry the weight. It features reinforced steel plating, run-flat tires, and a series of \"countermeasure\" ports that can deploy smoke or tear gas. It is the team’s \"Juggernaut\"—once the Ironclad starts moving, it doesn't stop until it reaches the safehouse. It is the hammer to the Viper’s scalpel."
+  ]
+ },
+ {
+  "id": 16,
+  "rarity": "rare",
+  "name": "Marauder",
+  "alias": "Marauder",
+  "meta": [
+   "Vehicle",
+   "Level 11"
+  ],
+  "paras": [
+   "The Marauder is the middle ground between the speed of the Viper and the brute force of the Ironclad. It is a high-performance armored SUV used for \"Active Combat\" extractions. When a job goes sideways and the team is under fire, the Marauder is the vehicle that comes screaming around the corner to pick them up. It features level-7 ballistic protection and an engine tuned for high-speed urban maneuvering. The Marauder is the primary vehicle for the Muscle and Security team. It has enough room for Diesel, Bulldozer, and Natasha, with a roof rack designed for Zara’s signal-jamming equipment. It is the workhorse of the \"Loud\" heist, designed to take a beating and keep the specialists safe while they return fire. If the Ironclad is a tank, the Marauder is a cavalry horse—strong, fast, and built for the heat of battle."
+  ]
+ },
+ {
+  "id": 17,
+  "rarity": "rare",
+  "name": "Whisper",
+  "alias": "Whisper",
+  "meta": [
+   "Weapon",
+   "Level 11"
+  ],
+  "paras": [
+   "The Whisper is not just a firearm; it is a precision instrument designed for the \"cold\" phase of an operation. A modular .45 caliber platform with a carbon-fiber suppressor, it is the primary tool of Natasha \"Viper\" Kozlov and Elena \"Phoenix\" Vasquez. The kit includes subsonic ammunition specifically weighted to ensure the sound of the shot is quieter than the slide of the weapon itself. To a professional, the Whisper is a ghost’s touch—it allows the team to neutralize security cameras or silent sentries without alerting the rest of the building. It is always kept in a biometric-lock case within the Shadow or the COMI, only drawn when the plan requires surgical elimination."
+  ]
+ },
+ {
+  "id": 18,
+  "rarity": "rare",
+  "name": "Alexis Petrov",
+  "alias": "Alexis",
+  "meta": [
+   "Personnel",
+   "Level 11"
+  ],
+  "paras": [
+   "Alexis Petrov was once the youngest chief of neurosurgery at a prestigious Moscow hospital. Her career ended abruptly when she was caught performing life-saving surgeries on high-ranking members of the Bratva—men the government wanted dead. They stripped her of her license, but they couldn't strip her of her hands. Alexis discovered that the same tactile sensitivity required to navigate the human brain was perfectly suited for feeling the minute drops of mechanical tumblers in a high-security vault. As the team’s \"Doc,\" she handles the mechanical heart of every heist. While the others use explosives or digital bypasses, Alexis prefers the \"pure\" method. She uses medical-grade stethoscopes and ultrasonic analyzers to \"listen\" to a safe’s internal mechanics. To Alexis, a vault door is just a patient that refuses to wake up. She moves with a surgical rhythm—deliberate, bloodless, and absolute. When she’s working, the rest of the world ceases to exist; she can hear the grind of a single gear over the sound of a gunfight. She carries her tools in a sterilized surgical roll, and she insists on the same level of cleanliness in the field as she did in the OR. If a teammate is wounded, her surgical training comes back into play, but she charges a \"consultation fee\" that usually involves a larger cut of the score. She is cold, intellectual, and slightly morbid, often comparing the structural weaknesses of a vault to the frailties of the human heart. She doesn't trust technology, preferring the weight of the Revolver and the tactile feedback of steel on steel."
+  ]
+ },
+ {
+  "id": 19,
+  "rarity": "uncommon",
+  "name": "Sam Lau",
+  "alias": "Sam",
+  "meta": [
+   "Personnel",
+   "Level 10"
+  ],
+  "paras": [
+   "To Sam Lau, money isn't paper or gold; it’s just a series of electronic pulses moving through the air. A former high-level executive at a global investment bank, Sam was the \"Golden Boy\" of international finance until he was caught using the bank’s high-frequency trading algorithms to \"evaporate\" the debts of a local crime syndicate. He realized that the world’s financial systems were built with backdoors designed for the elite, and he decided to kick those doors open for Archie’s crew. He is the \"Bird\" because he makes the \"heavy\" cash from a heist fly away and return as \"clean\" digital assets. Sam manages the financial flows of the organization. Once the Ironclad or the Delivery Van returns to the safehouse with a load of untraceable bills, Sam begins the \"Wash.\" He moves the currency through a dizzying array of shell companies, offshore accounts, and cryptocurrency mixers. He is the reason the team can afford the Viper and the Marauder without attracting the attention of the IRS. Sam operates out of the COMI, his screens a chaotic blur of stock tickers, blockchain ledgers, and black-market exchange rates. Sam is a high-strung, fast-talking \"yuppie\" who seems perpetually caffeinated. He views the physical danger the others face as \"inefficient,\" often reminding them that he can steal more money with a keyboard than they can with a Revolver. Despite his arrogance, he is fiercely loyal to the crew, mostly because Archie is the only one who appreciates the mathematical beauty of his laundering schemes. He is the one who handles the \"payouts,\" ensuring that every member of the team has their \"nest egg\" safely tucked away in a digital vault that no government can touch."
+  ]
+ },
+ {
+  "id": 20,
+  "rarity": "uncommon",
+  "name": "Carlos Ruiz",
+  "alias": "Carlos",
+  "meta": [
+   "Personnel",
+   "Level 10"
+  ],
+  "paras": [
+   "Carlos Ruiz was the best stunt driver in Hollywood until he was blacklisted for a \"mishap\" on a set that involved a high-speed chase through a live shopping mall. Carlos didn't care; he found that the \"real\" chases in the streets of the city were far more exhilarating than anything on a film set. He is the \"Rain\" because he is at his best when conditions are at their worst—slick streets, zero visibility, and a dozen police cruisers in his rearview mirror. Carlos is the master of the garage. He manages the Shadow sedan, the Rusty Pickup, and the Marauder armored SUV. He treats his cars like high-performance athletes, tuning their suspensions for the specific potholes and curb heights of the city’s industrial district. Carlos doesn't just drive; he \"reads\" the city. He knows which alleys have trash cans that can be hit without stopping a car and which bridges have a three-second gap in their lifting cycle. He is the one who plans the \"Switch,\" where the team moves from the \"Loud\" Delivery Van into the \"Invisible\" Shadow to disappear into traffic. Carlos is a high-energy, adrenaline-addicted personality who views Archie’s blueprints as a challenge to his creativity. He is often seen wearing the Savant Glasses, using the AR display to track police helicopter positions and traffic light patterns. He has a friendly rivalry with Tomi \"Monty\" O'Brien, often betting on whether Tomi can beat him across town on a Skateboard during rush hour. Carlos is the team’s \"get-out-of-jail-free\" card. As long as he has four wheels and a tank of gas, the team knows they aren't going to spend the night in a cell."
+  ]
+ },
+ {
+  "id": 21,
+  "rarity": "uncommon",
+  "name": "Diego Morales",
+  "alias": "Diego",
+  "meta": [
+   "Personnel",
+   "Level 10"
+  ],
+  "paras": [
+   "Diego Morales earned the nickname \"Spark\" during his three tours as a military bomb disposal technician. It wasn't because he caused explosions—it was because he was the only man who could sit in a room with a ticking pressure-plate IED and never let a single spark of panic cross his face. Diego doesn't just understand electronics; he speaks their language. He views every alarm system, circuit breaker, and automated turret as a living thing with a pulse that he can stop at will. While Riley handles the digital world, Diego handles the physical hardware. He is the man who crawls into the basement of a bank to bypass the physical vibration sensors or to install the Stone Age EMP device. His hands are his most valuable asset—perfectly steady, even when the sirens are wailing and the Bulldozer is shouting for an exit. Diego’s toolkit is a mix of high-tech RFID duplicators and old-school copper bypasses. He is often seen meticulously cleaning his RoKey tool, a device he helped design to bridge the gap between mechanical locks and electronic keycards. Diego is a man of few words, haunted by the memories of the wires he couldn't snip in time during the war. He has a prosthetic left pinky finger—a reminder of a mistake he only made once. He treats the team's K9 units, Echo and Diesel, with more warmth than his human teammates, often spending his downtime at the safehouse soldering custom armor plates for their tactical vests. In the field, Diego is the bridge between a plan working and a plan going up in smoke."
+  ]
+ },
+ {
+  "id": 22,
+  "rarity": "uncommon",
+  "name": "Savant glasses",
+  "alias": "Savant",
+  "meta": [
+   "Tool",
+   "Level 10"
+  ],
+  "paras": [
+   "The Savant Glasses are the primary interface for Marcus \"Prophet\" Chen and Archie \"The Architect\" Romano. These heavy-framed, tactical glasses feature a transparent OLED display that overlays Archie’s blueprints directly onto the user's field of vision. When the team is inside a building, the glasses \"see\" through walls, projecting the heat signatures of guards (via Echo’s thermal feed) and the invisible paths of laser grids. They turn the chaotic environment of a heist into a clean, digital game board, allowing the specialists to move with a confidence that borders on the supernatural. Connected via micro-Bluetooth to a concealed earpiece. Displays real-time building schematics, facial recognition data, and thermal imaging overlays. Battery life of 6 hours with wireless charging case."
+  ]
+ },
+ {
+  "id": 23,
+  "rarity": "uncommon",
+  "name": "Zara Harris",
+  "alias": "Zara",
+  "meta": [
+   "Personnel",
+   "Level 9"
+  ],
+  "paras": [
+   "Zara Harris is the mistress of the \"invisible air.\" A former telecommunications engineer who grew tired of building networks for people she didn't respect, Zara realized that the airwaves of the city were a chaotic library of secrets waiting to be organized. She doesn't look at the city’s skyline; she looks at the signal towers, the satellite beams, and the encrypted radio bursts. She is the one who keeps the team’s communications clean and the police’s communications dead. Zara’s role is the most complex: she manages the \"Bio-Intel.\" She is the primary handler for the Pigeons and the Rat. From her station in the COMI, she monitors the Rat’s movement through the ventilation shafts, using a custom-built joystick to guide it toward the target’s voice. When the team needs to go dark, Zara is the one who releases the Pigeons, ensuring their flight paths avoid the city’s falconry-based drone deterrents. She is a \"noise\" addict, constantly wearing a headset that cycles through police scanners, private cell calls, and air traffic control. Zara is the one who identified the Shadow as the perfect surveillance platform—a car so boring that no one notices the forest of high-gain antennas hidden inside its fiberglass roof. She is high-energy, often talking faster than the team can follow, and has a habit of \"hacking\" her teammates' phones just to see if they’ve improved their passwords. Without Zara, the team is deaf and blind; with her, they are the only ones who know the truth of what’s happening in the city."
+  ]
+ },
+ {
+  "id": 24,
+  "rarity": "uncommon",
+  "name": "Tomi O'Brien",
+  "alias": "Tomi",
+  "meta": [
+   "Personnel",
+   "Level 9"
+  ],
+  "paras": [
+   "Tomi O'Brien grew up in the \"negative space\" of the city—the alleyways, the rooftops, and the abandoned subway tunnels. A street urchin turned master of movement, Tomi views the city as a giant parkour course. He doesn't need a key to get into a building when there’s a perfectly good drainpipe and an unlocked window on the fourth floor. He is the \"Acquisition\" specialist because he can get the things that aren't behind vaults: the keys in a CEO’s pocket, the thumb drive on a nightstand, or the biometric scan of a sleeping guard. Tomi is the fastest member of the crew, often seen weaving through gridlocked traffic on his Skateboard or a stolen Courier Bike. He is the \"Ghost\" of the physical world; he can walk through a crowded gala and leave with five wallets and a set of master keys without a single person noticing his presence. He is the primary user of the Shiv—not for killing, but for silent, terrifying efficiency if he’s cornered in a crawlspace. Tomi is the youngest member of the team and treats the elder specialists like the family he never had. He has a particular rivalry with Isabella (Phantom), as they both compete for the title of the team’s best \"infiltrator.\" Tomi represents the \"Low-Tech\" side of Archie’s plans—the human element that can bypass a million-dollar sensor by simply being too fast and too small to be noticed. He is the one who does the \"Pre-Heist\" work, ensuring that by the time the Delivery Van arrives, the back door is already propped open with a pebble."
+  ]
+ },
+ {
+  "id": 25,
+  "rarity": "uncommon",
+  "name": "Maya Patel",
+  "alias": "Maya",
+  "meta": [
+   "Personnel",
+   "Level 9"
+  ],
+  "paras": [
+   "Maya Patel doesn't believe in coincidences. A former private investigator who specialized in high-stakes corporate espionage, Maya realized that if you watch someone for long enough, they will eventually show you exactly how to ruin them. She is the \"Spider\" because she sits at the center of a web of long-term observation posts. While the others focus on the \"hit,\" Maya focuses on the \"pattern.\" She is the one who spends three weeks living in a Sedan parked across from a jewelry mart, documenting every delivery, every cigarette break, and every flickering streetlamp. Maya coordinates the \"Human Intelligence\" network. She is the primary user of the Savant Glasses, using their AR capabilities to mark guard patrol routes and \"dead zones\" in camera coverage. She is also the handler for the Pigeons, utilizing the birds to transport physical surveillance logs or camera SD cards across the city without ever touching a traceable network. She is obsessive, detail-oriented, and possesses a photographic memory for schedules. If a security guard is five seconds late for his round, Maya is the first one to notice, and Archie is the first one she tells. Within the crew, Maya is a loner. She prefers the silence of a stakeout to the chaos of the safehouse. She has a deep-seated distrust of technology—ironic, given her role—and often insists on hand-drawing her surveillance maps. She treats the Pigeon messengers with a surprising amount of affection, viewing them as the only \"honest\" workers in the city. To Maya, the city is a giant clock, and her job is to find the one gear that is starting to wear down, providing the team with the perfect moment to jam the works."
+  ]
+ },
+ {
+  "id": 26,
+  "rarity": "uncommon",
+  "name": "Amanda Sterling",
+  "alias": "Amanda",
+  "meta": [
+   "Personnel",
+   "Level 9"
+  ],
+  "paras": [
+   "Dr. Amanda Sterling didn't start her career in crime; she started it in the soul-crushing bureaucracy of the Department of Motor Vehicles. As a high-level administrator, she realized that the \"Official Record\" was the only thing that actually determined who a person was. If she changed a digit in a database, a man ceased to exist; if she printed a plastic card, a ghost became a citizen. Bored by the lack of challenge, she began selling \"Premium Identities\" to the highest bidder before Archie recruited her to be the team’s document specialist. Known as \"Keys,\" Amanda provides the team with the most essential tool of any heist: the right to be there. She doesn't just forge a driver's license; she creates a digital footprint—social media histories, tax records, and medical files—that can withstand a federal background check. She is the one who provides Elena \"Phoenix\" Vasquez with the credentials to enter government labs. While the rest of the team is focused on the vault, Amanda is focused on the \"Red Tape,\" hacking into bureaucratic databases to ensure the team’s Sedans and Pickups are registered to untraceable shell companies. Amanda is a perfectionist and a shut-in. She operates from a room filled with high-resolution printers, chemical baths for aging paper, and a direct uplink to Riley’s server. She is the most paranoid member of the team, constantly updating her own identity and moving between safehouses. She views the world as a series of locked gates, and her documents are the keys that open them. To Amanda, the greatest thrill isn't the money—it's the knowledge that she has successfully \"hacked\" the concept of reality itself."
+  ]
+ },
+ {
+  "id": 27,
+  "rarity": "uncommon",
+  "name": "Frank Castellano",
+  "alias": "Frank",
+  "meta": [
+   "Personnel",
+   "Level 8"
+  ],
+  "paras": [
+   "Frank Castellano is the living embodiment of the \"Gift of Gab.\" A former legendary used-car salesman from the docks, Frank once sold a flooded convertible to a man who lived in the desert. He realized early on that people don't buy products; they buy the person selling them. He joined the crew because he was tired of \"small-time\" scams and wanted to see if he could sell a bank on the idea of letting him walk out with their money. Frank is the team’s \"Front-man.\" While Sophia handles the high-society targets, Frank handles the street level. He’s the one who navigates territory disputes with rival gangs and ensures the local police precinct stays \"reasonable.\" He is the primary user of the Taxi card—a vehicle that allows him to sit in plain sight for hours, blending into the urban background while Maya \"Spider\" Patel conducts surveillance from the backseat. Frank’s \"Smiles\" moniker is earned; he is always grinning, even when he’s being threatened with a Baseball Bat. It’s a psychological tactic—it’s impossible to know if he’s happy or if he’s just waiting for the Bulldozer to arrive. Frank is the crew’s \"fixer.\" If a member of the team gets picked up on a minor charge, Frank is the one who shows up at the station with a box of donuts and a \"misunderstanding\" that needs clearing up. He is perpetually sweaty, smells of cheap cigars and expensive cologne, and has a story for every occasion. Despite his comical exterior, Frank is a shrewd judge of character. He can tell a \"Rat\" from a mile away and knows exactly which palm needs to be greased to keep the COMI from being towed. He is the grease that keeps the team’s gears turning."
+  ]
+ },
+ {
+  "id": 28,
+  "rarity": "uncommon",
+  "name": "Echo",
+  "alias": "Echo",
+  "meta": [
+   "K9",
+   "Level 8"
+  ],
+  "paras": [
+   "Echo is a third-generation Belgian Malinois, bred for an intensity that most owners couldn't handle. He was originally a washout from a prestigious military K9 program—not because he lacked skill, but because he was \"too independent.\" He wouldn't just follow a command; he would analyze the tactical situation and find a better way to the target. This independence made him a liability to a sergeant, but to Riley \"Ghost\" Thompson, it made him a genius. Riley spent months \"debugging\" Echo’s training, replacing standard aggression commands with sophisticated, silent tactical protocols.",
+   "Echo wears a custom-tailored tactical harness that is a marvel of miniaturized engineering. Centered on his chest is the \"ECHO-1\" unit, a sensor array that acts as the team's forward eyes. It features a 360-degree thermal camera, a high-gain directional microphone that can pick up a heartbeat through a drywall, and a laser-mapping system that feeds a 3D wireframe of the environment directly to the team's Savant Glasses. When the team is stacked up at a door, Echo is the one who goes through the vents or the crawlspaces. He moves with a silent, liquid grace that no human can match.",
+   "He is trained to identify the \"scent\" of electronic hardware—the distinct smell of ionized air and heated copper that marks a server room or a hidden security hub. He doesn't bark; he communicates via haptic pulses in his collar. One vibration for \"clear,\" two for \"contact,\" and a sustained buzz for \"get out now.\" Within the crew, Echo is treated with the same respect as a human specialist. He has his own designated seat in the COMI and is the only \"team member\" allowed to wander the safehouse floors at night. To the rest of the world, he’s just a stray in the alley; to Archie’s crew, he is the most reliable scout on the payroll."
+  ]
+ },
+ {
+  "id": 29,
+  "rarity": "uncommon",
+  "name": "Arthur McGrath",
+  "alias": "Arthur",
+  "meta": [
+   "Personnel",
+   "Level 8"
+  ],
+  "paras": [
+   "Arthur McGrath is a relic of a city that no longer exists. He remembers when heists were done with mechanical stopwatches, physical maps, and a heavy Revolver that never saw the light of day. A legendary bank robber from the \"Iron Age\" of crime, Arthur—or \"Cappy\" to the few he respects—spent twenty years in a maximum-security prison and came out to find a world he barely recognized. Archie recruited him not for his tech skills, but for his \"Gut.\" Arthur has a sixth sense for trouble that no algorithm can replicate. Arthur is the team’s mentor and traditionalist. He hates the Savant Glasses and the COMI’s blinking lights, preferring to use his own eyes and a lifetime of experience. He is the one who carries the Revolver card, a weapon he maintains with obsessive care. He teaches the younger members, like Tomi and Isabella, the \"Old Ways\"—how to read a man’s eyes to see if he’s about to draw, how to use a Shiv in a crowded room without making a sound, and how to stay calm when the \"plan\" inevitably meets reality. Arthur is the \"Grandfather\" of the safehouse. He spends his days feeding the Pigeons on the roof—an old-school communication method he trusts far more than Riley’s \"magic air.\" He is a man of immense gravity and few words, usually found sitting in a corner with a cigar, watching the team prepare. He is the moral compass of the crew, holding them to a code of professional conduct that is rapidly disappearing. When a job goes sideways, Arthur is the one who stays calm, reminds everyone of the basics, and ensures that no one gets left behind. To Arthur, the \"score\" is secondary; the only thing that matters is that the \"Professionals\" act like it."
+  ]
+ },
+ {
+  "id": 30,
+  "rarity": "uncommon",
+  "name": "EMP",
+  "alias": "EMP",
+  "meta": [
+   "Tool",
+   "Level 8"
+  ],
+  "paras": [
+   "The \"Stone Age\" is the team’s nuclear option for electronic warfare. A portable electromagnetic pulse device, it can be hidden in a Rusty Pickup or planted in a basement. When triggered, it emits a focused burst that fries every unshielded circuit within a 50-foot radius. It is used to create \"Dark Zones\"—windows of time where cameras, electronic locks, and silent alarms are rendered useless. Its name comes from the result: it turns a multi-million dollar \"smart\" building back into a pile of stone and steel, forcing the security team to rely on human senses that Echo and Shadow are already prepared to exploit. Features adjustable power settings to avoid detection, built-in Faraday shielding to protect operator's devices, and a 30-second recharge cycle."
+  ]
+ },
+ {
+  "id": 31,
+  "rarity": "uncommon",
+  "name": "Rokey",
+  "alias": "Rokey",
+  "meta": [
+   "Tool",
+   "Level 7"
+  ],
+  "paras": [
+   "Designed by Diego \"Spark\" Morales, the RoKey is the evolution of the locksmith’s trade. Housed in a heavy-duty briefcase, it combines a high-speed lock-pick gun with an electronic RFID cloner and an ultrasonic tumbler analyzer. While Alexis \"Doc\" Petrov prefers the feel of a manual dial, the RoKey is for the rest of the team when they need to move fast. It can \"sniff\" the wireless signal of a guard’s keycard from six feet away and replicate it instantly. It represents the bridge between the mechanical world and the digital one, a tool that makes every door in the city look like an invitation. Includes a digital scope for viewing internal lock mechanisms and an ultrasonic lock analyzer."
+  ]
+ },
+ {
+  "id": 32,
+  "rarity": "uncommon",
+  "name": "Revolver",
+  "alias": "Revolver",
+  "meta": [
+   "Weapon",
+   "Level 7"
+  ],
+  "paras": [
+   "Arthur \"Cappy\" McGrath’s weapon of choice is a heavy-framed, .357 Magnum revolver. In a world of plastic-framed automatics and complex digital safeties, the Revolver is a statement. It never jams, it doesn't leave shell casings at the crime scene, and it carries a psychological weight that a suppressed pistol lacks. To Arthur, the Revolver is the \"Final Word.\" It is used when the \"Silent\" plan has failed and the team needs to remind the city that they are professionals who are not to be trifled with. High-caliber, reliable handgun that leaves no shell casings behind. Arthur McGrath refuses to use anything else, calling it \"a professional's insurance policy.\""
+  ]
+ },
+ {
+  "id": 33,
+  "rarity": "common",
+  "name": "Thug",
+  "alias": "Thug",
+  "meta": [
+   "Personnel",
+   "Level 6"
+  ],
+  "paras": [
+   "Expendable, high-aggression street talent. They don't have the finesse of the specialists, but they provide the necessary \"noise\" and suppression fire needed to keep the police occupied during an escape. They often carry the Baseball Bats and drive the Rusty Pickups, acting as the expendable layer that keeps the police busy while the specialists (Archie, Elena, etc.) do the real work."
+  ]
+ },
+ {
+  "id": 34,
+  "rarity": "common",
+  "name": "Rat",
+  "alias": "Rat",
+  "meta": [
+   "Asset",
+   "Level 6"
+  ],
+  "paras": [
+   "The Rat is a masterpiece of \"Low-Fi\" engineering. Riley (Ghost) and Diego (Spark) realized that while a human or a dog can be spotted, a common sewer rat is part of the city’s background noise. This biological asset is a lab-trained rat outfitted with a sub-miniature, high-gain microphone and a GPS pacer hidden in a \"fur-mimic\" harness. The Rat is used to navigate the \"arteries\" of the city—HVAC ducts, electrical conduits, and narrow crawlspaces where even Echo cannot fit.",
+   "The Rat’s primary purpose is eavesdropping. It is deployed near the target building and guided via pheromone trails or ultra-low frequency tones toward the target’s private boardroom. Once inside, the Rat huddles in a corner or behind a server rack, its microphone picking up every whispered safe combination or private conversation. The audio is transmitted back to the COMI, where Riley uses AI to scrub out the sound of the rat’s own breathing. It is a terrifyingly effective tool of corporate espionage, proving that the biggest secrets can be stolen by the smallest creatures."
+  ]
+ },
+ {
+  "id": 35,
+  "rarity": "common",
+  "name": "Pigeon",
+  "alias": "Pigeon",
+  "meta": [
+   "Asset",
+   "Level 6"
+  ],
+  "paras": [
+   "In a city saturated with \"Stingray\" cell-tower mimics, AI-monitored internet traffic, and police scanners, the team’s greatest vulnerability is their digital footprint. To solve this, Arthur \"Cappy\" McGrath introduced the \"Pigeon Protocol.\" These are not common city birds; they are highly trained homing pigeons bred for speed and endurance. They are the only way the team communicates when the city is under a total digital lockdown or when Archie needs to send physical encryption keys that can never, under any circumstances, touch a network.",
+   "The Pigeons live in a concealed loft atop a tenement building near the safehouse. When a message needs to be sent, a micro-film canister is attached to the bird’s leg. The bird is released from a high-rise window or the roof of a Sedan, navigating the city's \"urban canyons\" at speeds that drones can't match. They are invisible to radar and ignored by the city’s automated surveillance systems. To Maya \"Spider\" Patel, the birds are the most \"honest\" part of the job. They represent a time when a man’s word was carried by wing rather than wire. Using a Pigeon is a signal that the job has reached a \"Level Black\" security state."
+  ]
+ },
+ {
+  "id": 36,
+  "rarity": "common",
+  "name": "Pitbull",
+  "alias": "Pitbull",
+  "meta": [
+   "Asset",
+   "Level 6"
+  ],
+  "paras": [
+   "The Pitbull represents the team’s \"Last Line of Defense.\" While Echo scouts and Diesel breaches, the Pitbull is used for territorial denial. This animal is a specialized breed, selected for its massive jaw pressure and its refusal to back down from a fight. Often seen guarding the back entrance of a heist location or the perimeter of the safehouse, the Pitbull is the ultimate \"Stay Here\" deterrent. If the team needs to hold a bank lobby for ten minutes, the Pitbull is chained to the central pillar—creating a \"no-go zone\" that even the bravest security guard won't cross.",
+   "The Pitbull's lore is tied to the streets. These are dogs often \"borrowed\" from local scrap yards or high-end illegal breeders by Frank \"Smiles\" Castellano. They are outfitted with heavy, polished steel chains and heart-shaped charms—a psychological trick to make them look like \"pets\" until the moment their teeth are bared. The Pitbull doesn't need a high-tech harness or a digital uplink; it simply needs a target. In Archie’s plans, the Pitbull is the \"Immovable Object\" that ensures the team's flanks are always protected."
+  ]
+ },
+ {
+  "id": 37,
+  "rarity": "common",
+  "name": "Puppy",
+  "alias": "Puppy",
+  "meta": [
+   "Asset",
+   "Level 6"
+  ],
+  "paras": [
+   "The Puppy is the most underestimated \"weapon\" in the organization’s arsenal. A high-pedigree, incredibly friendly Golden Retriever or French Bulldog pup, this asset is used exclusively by the Social Engineering team. Sophia \"Silk\" Blackwood understands that even the most hardened corporate security guard has a weakness for a small, wagging tail. The Puppy is used to create \"social friction\"—a distraction that allows a specialist to linger in a restricted area without raising suspicion.",
+   "If Sophia needs to plant a bug near a gated entrance, she simply \"accidently\" lets the Puppy’s leash slip. While the guards are busy laughing and petting the dog, the team is cloning their RFID badges or mapping the internal gate sensors. The Puppy is trained to be \"professionally adorable,\" sitting and staying on command while the crew performs their work. It is the ultimate \"Gray Man\" asset—no one remembers the woman who walked by with a briefcase, but everyone remembers the cute puppy she had with her."
+  ]
+ },
+ {
+  "id": 38,
+  "rarity": "common",
+  "name": "Junkyard dog",
+  "alias": "Junkyard",
+  "meta": [
+   "Asset",
+   "Level 6"
+  ],
+  "paras": [
+   "Butcher doesn’t have a pedigree, a digital harness, or a formal training record. Born in the back of a rusted-out ’78 sedan in the heart of the city’s largest automotive cemetery, he is a creature of iron, oil, and pure, territorial spite. While Echo is a precision scout and Diesel is a disciplined enforcer, the Junkyard Dog is something else entirely: he is raw, unmitigated deterrence. He doesn’t wait for a command to strike; he considers the very act of breathing his air to be a capital offense.",
+   "The heavy, industrial-grade chain around his neck isn’t for a leash—it’s a trophy. It was originally used to tow engine blocks, but now it serves as a grim warning to the low-level street gangs and undercover \"sniffers\" who try to poke around the crew’s stash houses. Butcher bears the literal scars of his profession; the jagged mark across his right eye is a souvenir from a run-in with a rival gang’s machete—a fight that Butcher reportedly won in under thirty seconds. His jaw pressure is legendary among the city's underground, rumored to be capable of snapping a steering column, and he has a particular distaste for the smell of cheap cologne and police-issue leather boots.",
+   "Archie \"The Architect\" Romano views Butcher as the team’s most cost-effective security system. He doesn't require a salary, he can't be hacked by Riley, and he can't be charmed by Sophia. He simply exists to turn the \"negative space\" of the team’s junkyard headquarters into a lethal gauntlet. When the team is out on a high-stakes hit with the Viper and the Ironclad, it is Butcher who stays behind, prowling the neon-soaked shadows of the garage. He is the reason the crew can sleep soundly in their safehouse; they know that any intruder will have to get through eighty pounds of scarred muscle and a lifetime of pent-up aggression before they even reach the front door. He is the king of the rust, a silent sentinel who reflects the neon lights of the city in his unblinking eyes, waiting for the one foolish soul to test his chain."
+  ]
+ },
+ {
+  "id": 39,
+  "rarity": "common",
+  "name": "Baseball bat",
+  "alias": "Baseball",
+  "meta": [
+   "Weapon",
+   "Level 5"
+  ],
+  "paras": [
+   "The Baseball Bat is the most honest weapon in the organization's armory. It doesn't require digital authorization, it never runs out of ammunition, and its message is understood in every language. While the specialists use high-tech tools, the Thug and the Bulldozer rely on the bat for \"Physical Negotiations.\" It is a heavy, solid-core aluminum bat, wrapped in layers of grimy athletic tape to ensure a perfect grip even in the heat of a chaotic brawl.",
+   "In the lore of the crew, the Baseball Bat is used for \"Hardware Decommissioning.\" When Diego \"Spark\" Morales identifies a security camera or an alarm box that is air-gapped from the network, the Bat is the tool used to \"silence\" it. It is also the primary weapon for the \"Distraction Team\"—the low-tier muscle hired to cause a scene in a lobby to draw security away from the vault. The sound of a bat hitting a glass door or a metal desk has a psychological effect that a gunshot lacks; it is a primal, aggressive sound that triggers an immediate \"flight\" response in untrained personnel.",
+   "Bulldozer treats his bat with a strange sense of ritual, often seen taping and re-taping the handle in the safehouse. To him, the bat is a non-lethal (but highly \"persuasive\") way to control a room. It represents the \"Street\" side of Archie’s plans—the reminder that underneath all the blueprints and AR overlays, a heist is still a high-stakes confrontation between people. The Bat is the weapon of the \"Heavy,\" the tool that ensures that if someone refuses to move, they can be made to move."
+  ]
+ },
+ {
+  "id": 40,
+  "rarity": "common",
+  "name": "Knife",
+  "alias": "Knife",
+  "meta": [
+   "Weapon",
+   "Level 5"
+  ],
+  "paras": [
+   "The Knife is the signature weapon of Natasha \"Viper\" Kozlov. It is not a street blade, but a professional-grade tactical tanto forged from a high-carbon steel alloy that holds an edge sharp enough to cut through Kevlar webbing. For Natasha, the knife is an extension of her Spetsnaz training—a tool for \"Silent Elimination\" that leaves no trace. While a gun creates a \"vibration\" in the environment that sensors can detect, a knife is a ghost.",
+   "The lore of the Knife is tied to the concept of \"The surgical strike.\" It is used for the quiet removal of obstacles—cutting through the heavy plastic ties of a server rack, slicing a security harness, or neutralizing a sentry in a dark hallway. Natasha carries the knife in a specialized sheath designed for a \"reverse-grip\" draw, allowing her to strike with a speed that is almost invisible to the human eye. Within the team, the Knife is respected as the ultimate professional’s weapon; it requires the user to be close enough to feel their target's heartbeat, a level of commitment that Arthur \"Cappy\" McGrath considers the mark of a true criminal.",
+   "Beyond combat, the Knife is a versatile survival tool. In the hands of Alexis \"Doc\" Petrov, it can be used for field cauterization or emergency surgery. In the hands of Isabella \"Phantom\" Cross, it is used to carve \"grips\" into wooden structures to facilitate a climb. It is a cold, silent, and absolute tool that represents the \"Zero-Failure\" mentality of the organization's top-tier specialists."
+  ]
+ },
+ {
+  "id": 41,
+  "rarity": "common",
+  "name": "Shiv",
+  "alias": "Shiv",
+  "meta": [
+   "Weapon",
+   "Level 5"
+  ],
+  "paras": [
+   "The Shiv is a weapon born of necessity and paranoia. Unlike the professional Knife, the Shiv is an improvised, non-metallic spike made from high-density ceramic or sharpened G10 plastic. It is the \"Ghost Weapon\" of the organization, designed specifically to pass through high-end metal detectors and security checkpoints without a single beep. It is the primary tool of Tomi \"Monty\" O'Brien and Sophia \"Silk\" Blackwood—those who must enter a building completely \"clean.\"",
+   "The lore of the Shiv is one of \"Deep Infiltration.\" It is often hidden in plain sight: a \"luxury\" pen that is actually a weighted spike, or a decorative hair-stick worn by Sophia. It is a \"one-use\" weapon; once it is used to disable a threat or bypass a lock, it is snapped or discarded in a trash can, leaving no forensic link back to the team. It is the ultimate insurance policy for the \"Social Engineer.\" If the cover is blown in a room full of guards, the Shiv is the only thing that allows a specialist to fight their way to an exit.",
+   "For Tomi, the Shiv is a reminder of his life on the streets, where the best weapon was the one the police couldn't find. He makes them himself, spending his downtime in the safehouse sharpening plastic scraps into lethal points. It represents the \"Hidden\" nature of the organization. While the Bulldozer carries the hammer and the Viper carries the supercar, the specialists carry the Shiv—a silent, invisible edge that proves that the most dangerous weapon is the one you never saw coming."
+  ]
+ },
+ {
+  "id": 42,
+  "rarity": "common",
+  "name": "Skateboard",
+  "alias": "Skateboard",
+  "meta": [
+   "Vehicle",
+   "Level 4"
+  ],
+  "paras": [
+   "To the average citizen, a skateboard is a noisy toy for teenagers; to Tomi \"Monty\" O'Brien, it is a low-profile kinetic energy device that turns the city's architecture into a high-speed transit network. The Skateboard is Tomi’s signature method for navigating \"The Interior\"—parking garages, shopping malls, and pedestrian plazas where cars are blocked by bollards and bikes are too cumbersome. It is a custom-built deck made of high-density carbon fiber with ceramic \"silent\" bearings that allow Tomi to glide across concrete with almost zero acoustic footprint.",
+   "The lore of the Skateboard is rooted in the \"physics of the escape.\" During the blueprint phase, Archie \"The Architect\" Romano looks for \"Vertical Shortcuts\"—routes that involve dropping from a second-story balcony onto a loading ramp or weaving through a crowded subway terminal at twenty miles per hour. The Skateboard allows Tomi to maintain his momentum while keeping his hands free to hold a stolen \"Acquisition\" or a Shiv. Because it can be kicked up into his hand in a single motion, it never has to be \"parked\" or abandoned, making it the only vehicle in the fleet that can accompany a specialist into a high-security vault.",
+   "Within the crew, the Skateboard is viewed with a mixture of amusement and respect. Carlos \"Rain\" Ruiz has even modified the underside of the deck with a specialized friction-tape that can adhere to the roof of the Shadow or the Viper, allowing Tomi to \"hitch\" a ride on the exterior of a getaway car during high-speed extractions. It represents the ultimate street-level agility; it is the only tool that can navigate the \"negative space\" of the city, turning a flight of stairs into a ramp and a security guard's pursuit into a futile chase."
+  ]
+ },
+ {
+  "id": 43,
+  "rarity": "common",
+  "name": "Scooter",
+  "alias": "Scooter",
+  "meta": [
+   "Vehicle",
+   "Level 4"
+  ],
+  "paras": [
+   "The Scooter is the \"Gray Man\" of urban mobility. In a metropolis choked with electric rental transit and delivery drivers, a nondescript matte-grey scooter is the most invisible way to move through a high-security district. Unlike the Viper, which draws every eye in the neighborhood, the Scooter is designed to be ignored. It is used primarily by Sophia \"Silk\" Blackwood and Elena \"Phoenix\" Vasquez to reach a target location without the \"profile\" of a luxury vehicle.",
+   "Technically, the team’s Scooters are heavily modified. Underneath the plastic \"rental\" shell is a high-torque electric motor and a military-grade battery pack that allows for near-instant acceleration. The tires are foam-filled, making them immune to spikes or glass, and the handlebars feature a hidden dock for the Savant Glasses to provide a heads-up navigation display. The Scooter is used for \"The Loiter\"—staying in an area for an extended period without looking like a threat. A specialist can sit on a scooter checking their phone (actually monitoring the Rat’s audio feed) for twenty minutes, and the police will simply see a delivery driver waiting for an order.",
+   "The true value of the Scooter lies in its \"Discard-ability.\" If the police begin a sweep of the area, the specialist can simply park the scooter on a sidewalk, walk into a coffee shop, and vanish. It is a disposable asset, often registered to one of Dr. Amanda \"Keys\" Sterling’s ghost identities. It represents the team’s commitment to camouflage over combat, proving that the most effective way to beat a security cordon is to look like the most boring person on the street."
+  ]
+ },
+ {
+  "id": 44,
+  "rarity": "common",
+  "name": "Courier bike",
+  "alias": "Courier",
+  "meta": [
+   "Vehicle",
+   "Level 4"
+  ],
+  "paras": [
+   "The Courier Bike is a high-performance fixed-gear bicycle designed for the chaotic \"bloodstream\" of the city’s traffic. It is the primary tool for the \"Hand-off\"—the critical moment when a stolen item must move from the hot zone to the COMI while the police have the roads gridlocked. The bike is built from lightweight titanium and features no branding, painted in a \"chameleon\" black that shifts with the light. It is the fastest way to travel across ten city blocks during rush hour, as it can split lanes, ride on sidewalks, and cut through narrow alleys that would trap even the Viper.",
+   "The Courier Bike is often operated by Tomi or Isabella, who use their athletic endurance to maintain speeds that rival motor vehicles in the urban core. It is equipped with a \"Signal-Burst\" hub designed by Zara \"Freq\" Harris, which allows the bike to act as a mobile Wi-Fi bridge, extending the range of the team’s communications as it moves through the city. The lore of the bike is one of pure \"Urban Flow.\" It requires a specialist who can read the rhythm of the traffic lights and the movement of the crowds, using the city’s own chaos as a shield.",
+   "To the crew, the Courier Bike is a symbol of \"The Last Mile.\" When the Ironclad is pinned down by a police blockade, the bike is the contingency plan. The \"Acquisition\" is dropped into a courier bag, and the specialist vanishes into the sea of yellow cabs and buses. It is the only vehicle that can truly \"evaporate\" into the city, leaving the police to surround an empty armored car while the score is already three miles away, being processed in the back of the Shadow."
+  ]
+ },
+ {
+  "id": 45,
+  "rarity": "common",
+  "name": "Sedan",
+  "alias": "Sedan",
+  "meta": [
+   "Vehicle",
+   "Level 3"
+  ],
+  "paras": [
+   "The Sedan is the quintessential \"Ghost Vehicle\" of the urban landscape. While the Viper screams for attention and the Ironclad demands it, the Sedan is designed to be utterly, boringly invisible. Often a mid-range model from the late 2000s, it sits in the sweet spot of automotive anonymity. Within Archie’s organization, it is the primary tool for the \"Gray Man\" approach. Maya \"Spider\" Patel uses it for long-term surveillance, often sitting for hours in a Starbucks parking lot or near a high-security gate without ever drawing a second glance from local patrols. It is a vehicle that exists in the background of everyone’s life, making it the perfect platform for the \"Cold Extraction.\" Under its mundane exterior, the team has retrofitted it with reinforced run-flat tires and a high-gain antenna disguised as a standard radio fin. It represents the crew’s core philosophy: the best way to win a chase is to never let the police know the chase has even started."
+  ]
+ },
+ {
+  "id": 46,
+  "rarity": "common",
+  "name": "Taxi",
+  "alias": "Taxi",
+  "meta": [
+   "Vehicle",
+   "Level 3"
+  ],
+  "paras": [
+   "The Taxi is the master of the urban loiter. In a city of millions, a yellow-and-orange cab idling at a curb is part of the scenery—invisible to security guards, police patrols, and high-society doormen alike. It is the primary tool for Frank \"Smiles\" Castellano’s social infiltration maneuvers. While the Specialists are inside a target building, Frank uses the Taxi to wait in plain sight for the \"hand-off,\" or to provide a mobile sanctuary for Maya \"Spider\" Patel to conduct surveillance from the tinted rear windows. The vehicle is a masterpiece of deception; while the exterior displays a weathered medallion and a flickering \"For Hire\" light, the interior is outfitted with Zara’s signal-boosting repeaters hidden in the upholstery. It allows the crew to maintain a presence in the city’s most restricted zones without ever drawing a second glance. To the world, it’s just a cab waiting for a fare; to Archie, it’s a mobile listening post hiding in the light."
+  ]
+ },
+ {
+  "id": 47,
+  "rarity": "common",
+  "name": "Pickup",
+  "alias": "Pickup",
+  "meta": [
+   "Vehicle",
+   "Level 3"
+  ],
+  "paras": [
+   "The Pickup is the backbone of the organization’s logistics, serving as the primary vehicle for Diego \"Spark\" Morales and the technical team. While the Delivery Van is used for personnel, the Pickup is for the \"Hard Assets\"—heavy-duty hydraulic spreaders, oxygen-lance canisters, and the bulky prototypes for the Stone Age EMP. It is meticulously maintained to look like a standard contractor’s vehicle, often featuring fake company magnetic decals for \"City Power & Light\" or \"Metro Plumbing.\" This allows Diego to park in service alleys or near electrical substations for hours without raising suspicion from passersby or security guards. The bed is equipped with a custom-fitted lockbox that is both waterproof and lead-lined, ensuring that Zara’s frequency scanners don't leak signal while in transit. It isn't built for a 200mph highway run, but its high-torque engine is capable of pulling a vault door off its hinges if the situation turns desperate. It is the working man’s camouflage in a city built on labor."
+  ]
+ },
+ {
+  "id": 48,
+  "rarity": "common",
+  "name": "Rusty pickup",
+  "alias": "Rusty",
+  "meta": [
+   "Vehicle",
+   "Level 2"
+  ],
+  "paras": [
+   "The Rusty Pickup is a \"Sleeper\" beater, a vehicle of pure tactical utility and calculated disposal. To a casual observer, it is a heap of scrap metal and oxidized paint, a relic of the junkyard destined for \"Butcher’s\" territory. In reality, the team has gutted the interior and installed a high-output, turbocharged engine that allows it to accelerate with surprising violence. It is the primary vehicle for the Thugs and the distraction team. Its role is simple: it is a \"Burner.\" It is used for the high-risk, high-impact legs of an operation—ramming through a security gate, blocking a police cruiser, or acting as a decoy during a highway pursuit. Because it looks like trash, it is rarely flagged by automated plate readers as a \"high-threat\" vehicle. Once its job is done, it is driven into a canal or doused in gasoline and torched to destroy every trace of DNA evidence. It is a tool of raw aggression, a disposable weapon that proves that in the city’s underground, the most dangerous thing on the road is often the one you’d least expect to start."
+  ]
+ },
+ {
+  "id": 49,
+  "rarity": "common",
+  "name": "Delivery van",
+  "alias": "Delivery",
+  "meta": [
+   "Vehicle",
+   "Level 2"
+  ],
+  "paras": [
+   "The Delivery Van is the \"Trojan Horse\" of the organization. Dented, dirty, and purposefully nondescript, it is designed to fit into any service alley or loading dock in the metropolis. It serves as the waiting room for the Specialists; behind its windowless sliding doors, Riley, Diego, and Alexis prepare their gear in cramped, neon-lit silence. The Van is the bridge between the \"Planning\" and \"Execution\" phases of a heist. When the side door slides open, the quiet camouflage of the urban environment ends, and the Specialists emerge to begin the strike. Archie insists on the van being aesthetically \"invisible\"—it is never washed and always features a rotating set of fake company logos that Amanda \"Keys\" Sterling prints to match the target district’s local businesses. It is a vehicle of transition, a rolling staging area that carries the team into the belly of the beast and waits patiently in the shadows to whisk them away before the first siren sounds."
+  ]
+ },
+ {
+  "id": 50,
+  "rarity": "common",
+  "name": "Citycar",
+  "alias": "Citycar",
+  "meta": [
+   "Vehicle",
+   "Level 1"
+  ],
+  "paras": [
+   "The Citycar is a tactical pawn on Archie’s urban chessboard. Small, fuel-efficient, and ubiquitous, these vehicles are the most common sights on the city’s gridlocked streets. Within the crew’s operations, they are not used for speed or transport, but for \"Flow Control.\" Archie uses a network of Thugs to position these cars at critical intersections minutes before a heist begins. At the exact second the Viper or Shadow begins its escape, a Citycar \"stalls\" in a narrow lane or \"breaks down\" at a bridge entrance, creating a localized traffic jam that acts as a natural barrier against police response. They are the ultimate \"discardable\" asset; they are often stolen or bought at auction for cash and abandoned the moment the job is done. To a patrol officer, it’s just another piece of urban frustration—a broken-down hatchback blocking the way. To the crew, it’s a perfectly timed barricade that buys them the critical minutes of freedom they need to disappear into the neon haze."
+  ]
+ }
+]

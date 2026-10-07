@@ -1,5 +1,32 @@
 # Rippin Rumble — changelog
 
+## v0.12 — 2026-10-07 — Dawnbreak and Rico decks
+
+### Added
+- Deck screen shown first (Chimera, Dawnbreak, Rico) and a CHANGE DECK button in the lobby. Coins and play levels carry over when the deck changes.
+- Dawnbreak: 50 cards, own background, packs, frames with name ribbons, buttons and music loop; interface font Gentium Book Basic. Popup shows title, race, artifact and the full lore.
+- Rico: 50 cards, own background, packs, frames, buttons and music loop; interface font Jockey One. Popup shows type, level and the description with design notes removed.
+- `?deck=chimera|dawnbreak|rico` opens a deck directly.
+
+### Changed
+- The main button now uses the text-less button art in every deck; the game writes OPEN, CONTINUE or STOP (while Autoplay is running) on it.
+- The gallery is tracked per deck. The sample rip uses cards from the current deck.
+- Long one-block card descriptions are split into short paragraphs in the popup.
+- Art layout: Chimera stays in `art_optimized/`; the new decks are in `art_optimized/dawnbreak/` and `art_optimized/rico/`. The card back is shared.
+
+### Unchanged
+- Math (GnarOne Rip & Rumble, `sheet-v4`), layout, card back and sound effects are the same in every deck.
+
+### Verified
+- 90 scripted rounds per deck (Base and Boosted, all play levels): Coins shown, balances and card rarities matched the provider every round (0 mismatches). All 150 card images load in both sizes.
+- No outside requests and no console errors at 1280x720 and 390x780 (software rendering).
+
+### Known issues / not verified
+- Rico has no help button art; Help opens from the info icon in the settings strip.
+- Card art not in a roster is left out: Dawnbreak Thalvorn; Rico golf cart and "ONE" courier van.
+- Not run on a real phone; music change between decks not checked by ear.
+- Rare and legendary frequency is unchanged (math review deferred).
+
 ## v0.11 — 2026-10-06 — cinematic sound effects
 
 ### Changed
