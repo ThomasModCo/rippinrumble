@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Rippin Rumble v0.13</title>
-<!-- Rippin Rumble v0.13 | playtest build, local provider | math: GnarOne Rip & Rumble sheet-v4 -->
+<title>Rippin Rumble v0.14</title>
+<!-- Rippin Rumble v0.14 | playtest build, local provider | math: GnarOne Rip & Rumble sheet-v4 -->
 <style>:root{--u:1px;--sat:env(safe-area-inset-top,0px);--sab:env(safe-area-inset-bottom,0px);--bg:#03050a;--ink:#f1f5fb;--cy:#19b8e6;box-sizing:border-box;padding-top:var(--sat);padding-bottom:var(--sab)}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#03050a}}
 :root[data-theme="dark"]{--bg:#03050a}
@@ -1962,7 +1962,7 @@ var RipRumbleMath = (() => {
 <script>
 /* ===================== CONFIG — every tunable in one place ===================== */
 const CONFIG={
-  version:'0.13',
+  version:'0.14',
   preset:'sheet-v4',
   playTypes:['BASE','BOOSTED'],
   startBalanceMinor:125000,
@@ -2123,7 +2123,15 @@ const DeckUI=(()=>{ const el=$('decks'), list=$('deck-list'); let pick=null; $('
   /* PROVIDER SWAP POINT: the platform build replaces this one line with its own provider. Nothing else changes. */
   const provider=new LocalProvider(CONFIG);
   const loadDeck=async d=>{ const A=deckArt(d), o={}; await Promise.all(Object.keys(A).map(async n=>{o[n]=await loadImg(A[n]);}));
-    try{ await Promise.race([Promise.all(d.fontW.map(w=>document.fonts.load(w+' 30px "'+d.font+'"'))),new Promise(r=>setTimeout(r,2000))]); }catch(e){} return o; };
+    try{ await Promise.race([Promise.all(d.fontW.map(w=>document.fonts.load(w+' 30px "'+d.font+'"'))),new Promise(r=>setTimeout(r,2000))]); }catch(e){}
+    // every button picture for this deck (normal, hover, pressed, on) is fetched and decoded before the interface shows, so no state loads on first use
+    await Promise.race([Promise.all(uiPics(d.id).filter(x=>!x.startsWith('data:')&&!picKeep.has(x)).map(x=>loadImg(x).then(i=>{ picKeep.set(x,i); return i.decode?i.decode().catch(()=>{}):0; }).catch(()=>{}))),new Promise(r=>setTimeout(r,8000))]);
+    return o; };
+  // all pictures the stylesheet uses for a deck, in every state; the loaded images are held in picKeep so the browser keeps them in memory
+  const picKeep=new Map();
+  const uiPics=id=>{ const out=new Set(), walk=rs=>{ for(const r of rs){ if(r.cssRules&&!r.style){ walk(r.cssRules); continue; } const s=r.selectorText||''; if(!r.style||(s.includes('[data-deck=')&&!s.includes('[data-deck="'+id+'"]'))) continue;
+      const m=(r.style.backgroundImage||'').match(/url\((["']?)(.*?)\1\)/g); if(m) m.forEach(x=>out.add(x.replace(/^url\(["']?/,'').replace(/["']?\)$/,''))); } };
+    for(const sh of document.styleSheets){ try{ walk(sh.cssRules); }catch(e){} } return [...out]; };
   const useDeck=d=>{ DECK=d; CARD_DATA=d.cards; document.body.dataset.deck=d.id; Sfx.music(d.base+d.music); };
   const firstDeck=await new Promise(res=>{ const q=CONFIG.deck&&DECKS[CONFIG.deck]; if(q){ res(q); return; }
     DeckUI.show(true); DeckUI.onPick((d,b)=>{ DeckUI.onPick(null); DeckUI.busy(b); Sfx.start(); Sfx.music(d.base+d.music); res(d); }); });
@@ -2711,7 +2719,7 @@ const DeckUI=(()=>{ const el=$('decks'), list=$('deck-list'); let pick=null; $('
   }
   $('deckbtn').addEventListener('click',()=>{ if(state==='lobby'&&!Game.busy&&!Game.demo){ stopAuto(); closeSheet(); DeckUI.show(false); } });
   // ---------- test hooks ----------
-  window.__QA={ deck:id=>switchDeck(DECKS[id]), deckId:()=>DECK.id, decksOpen:()=>DeckUI.isOpen(), cardData:()=>CARD_DATA, music:()=>Sfx.musicUrl(), state:()=>state, select:i=>select(i), setLevel:i=>{const t=typeOf(); Game.levelI[t]=clamp(i,0,Game.levels[t].length-1); refreshHud();}, open:()=>startRound(), continue:()=>{ if(state==='revealed') toLobby(false); },
+  window.__QA={ uiPics:id=>uiPics(id||DECK.id), deck:id=>switchDeck(DECKS[id]), deckId:()=>DECK.id, decksOpen:()=>DeckUI.isOpen(), cardData:()=>CARD_DATA, music:()=>Sfx.musicUrl(), state:()=>state, select:i=>select(i), setLevel:i=>{const t=typeOf(); Game.levelI[t]=clamp(i,0,Game.levels[t].length-1); refreshHud();}, open:()=>startRound(), continue:()=>{ if(state==='revealed') toLobby(false); },
     last:()=>Game.last, balance:()=>Game.balance, shownBalance:()=>balEl.textContent, skip:()=>{ if(tl) tl.progress(1); }, fast:k=>{ gsap.ticker.lagSmoothing(0); gsap.globalTimeline.timeScale(k); }, noRender:false, resultText:()=>({amt:$('res-amt').textContent,on:resEl.classList.contains('on')}), seek:t=>{ if(tl){ tl.pause(); tl.time(t); } }, dur:()=>tl?tl.duration():0, provider:()=>provider, demo:()=>startDemo(), card:a=>openCard(a), landed:()=>({on:landedOn,n:landedEls.length,stable:landStable,t:landedEls.map(e=>e._t)}), cardRect:i=>{ const G=cards[i],p=new THREE.Vector3(),b=[]; for(const [sx,sy] of [[-1,1],[1,-1]]){ p.set(sx*L.cw/2,sy*L.ch/2,0); G.localToWorld(p); p.project(cam); b.push([(p.x+1)/2*vw,(1-p.y)/2*vh]); } return {x:b[0][0],y:b[0][1],w:b[1][0]-b[0][0],h:b[1][1]-b[0][1]}; }, sheetOpen:()=>sheetOpen, sheet:id=>id?openSheet(id):closeSheet(), pulled:()=>[...Game.pulled], fmt };
 
   // ---------- boot ----------

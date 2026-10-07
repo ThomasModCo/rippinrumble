@@ -1,5 +1,13 @@
 # Rippin Rumble — changelog
 
+## v0.14 — 2026-10-07 — button states preloaded
+
+### Changed
+- Every button picture for a deck (normal, hover, pressed, on, settings open) is fetched and decoded while the deck loads, and held in memory. Before, the hover and pressed pictures of Dawnbreak, Rico and the main button were fetched the first time they were needed.
+
+### Verified
+- In each deck, hovering and pressing every button and switching every toggle made no new image request. No console errors. 16 scripted rounds per deck: 0 mismatches.
+
 ## v0.13 — 2026-10-07 — one font, fixed sizes, layout fixes
 
 ### Changed
