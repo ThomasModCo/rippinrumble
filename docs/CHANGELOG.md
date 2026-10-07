@@ -1,5 +1,21 @@
 # Rippin Rumble — changelog
 
+## v0.13 — 2026-10-07 — one font, fixed sizes, layout fixes
+
+### Changed
+- Bebas Neue is the interface font in every deck (long text stays in Roboto). Orbitron, Jockey One and Gentium Book Basic are no longer in the build.
+- Interface boxes are the same size and position in every deck; each deck only supplies its pictures. The main button is the same width everywhere and centred on the same line.
+- Result box: one fixed size, centred midway between the bottom of the cards and the top of the main button.
+- CHANGE DECK moved to the top right corner; the help button sits beside it.
+- Balance: Dawnbreak uses its new background with the coin; the value is vertically centred in the bar in every deck.
+- Chimera and Rico cards: name and rarity moved up 16 px so the rarity line is the same distance from the bottom edge as on Dawnbreak.
+- Dawnbreak card popup: the frame is no longer cropped at the top and bottom.
+
+### Verified
+- Card size and position measured in all three decks: identical (within 0.2 px at 1280x720).
+- Result box measured in all three decks: same size and position, equal space above and below (Dawnbreak's main button art is a little taller, so the space below is 5 px less there).
+- 50 scripted rounds per deck: 0 mismatches. No console errors.
+
 ## v0.12 — 2026-10-07 — Dawnbreak and Rico decks
 
 ### Added
