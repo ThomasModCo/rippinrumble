@@ -1,5 +1,46 @@
 # Rippin Rumble — changelog
 
+## v0.17 — 2026-10-12 — phone layout, round 2
+
+### Changed (phones in portrait; desktop unchanged)
+- Top bar: menu button top left (Gallery is now in the menu), balance top right, logo between them. Coins fly up into the balance.
+- Play amount (minus, amount, plus) is centred directly above OPEN.
+- Reveal: the cards gather face down, then come forward one at a time, full size, lowest rarity first. Each flips, holds, and goes onto the pile; legendaries get the light, flash and longer hold.
+- When all five are out they fan into a stack: the best card on top, the others peeking out to the left and right. Swipe left or right to turn the stack; tap a peeking card to bring it to the top; tap the top card to read it. Dots under the stack show where you are, coloured by rarity.
+- Card details: the art fills the width of the screen. Swipe left or right to move through the round's cards (or, from the gallery, the found cards on that rarity tab); a counter shows "2 / 5". Arrow keys do the same on desktop.
+
+### Fixed
+- The legendary sparkle asked for a bell overtone above what audio can play; that overtone is now skipped.
+
+### Verified
+- 360x780 and 390x844, Rico and Dawnbreak: no overlapping or off-screen controls; the top card after the reveal is the last (best) card; swipe turns the stack; tapping opens the top card; card details step through 5 cards from the reveal and 12 found commons from the gallery, and closing returns to the gallery.
+- Desktop measured the same as v0.16. 16 scripted rounds per deck in both layouts: 0 mismatches. No console errors.
+
+### Not verified
+- Not run on a real phone. Opening a pack on a phone now takes about 7.8 s from tap to stack with no legendary (about 2.5 s longer than desktop), plus about 0.9 s per legendary; Turbo makes it 2.2 times faster.
+
+## v0.16 — 2026-10-12 — phone layout
+
+### Added
+- Phones in portrait get their own layout instead of a shrunk desktop one:
+  - Top bar: Gallery on the left, a small logo in the middle, a menu button on the right.
+  - Control panel at the bottom, in thumb reach: balance and play amount (minus, amount, plus) on one row; Autoplay, OPEN and Turbo on the row below, on a dark gradient.
+  - Menu (new): Change deck, Gallery (with cards found), How it works, Sound on/off, and the No Purchase Necessary line. It replaces the corner settings strip, the help button and the CHANGE DECK button on phones.
+  - Packs: swipe left or right on the pack, or tap the arrow buttons beside it. Only the chosen pack's name is shown, so nothing is cut off at the screen edges. The pack is larger and sits higher.
+  - Cards are revealed in a 3 + 2 grid (lower rarities on top, the best two below), all fully visible and easy to tap, instead of five overlapping cards in a row.
+  - Result box sits between the lower card row and the balance.
+  - Help, gallery, card details and the menu slide up from the bottom of the screen as sheets, with 48 px close buttons.
+- Every button on the phone layout is at least 44 x 44 px. Sizes are set in pixels, so they no longer shrink with narrow screens.
+
+### Unchanged
+- Desktop and landscape layout: measured the same as v0.15.
+
+### Verified
+- 360x780, 390x844 and 430x932, all three decks: no control under 44 px, no controls overlapping, nothing off screen; swipe changes the pack; the menu opens the deck screen. 16 scripted rounds per deck: 0 mismatches. No console errors.
+
+### Not verified
+- Not run on a real phone. Phones held sideways still get the desktop layout scaled down.
+
 ## v0.15 — 2026-10-12 — Coins fly into the balance
 
 ### Added
