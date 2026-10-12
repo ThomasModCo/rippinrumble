@@ -1,5 +1,23 @@
 # Rippin Rumble — changelog
 
+## v0.15 — 2026-10-12 — Coins fly into the balance
+
+### Added
+- When a round returns Coins, Rollerz coins fly from the returned amount on the result box into the coin on the balance. More coins for bigger returns (4 for a small return, up to 22 for the top returns); none when nothing is returned.
+- Each coin plays a metallic clink as it lands, rising slightly in pitch through the run. The balance flashes and its number steps up with every coin, then a closing shimmer plays when the last coin lands.
+- The balance glows while the coins come in, in the deck's colour (cyan Chimera, teal Rico, gold Dawnbreak).
+- Turbo makes the flight about twice as fast. Autoplay waits for the last coin before opening the next pack. CONTINUE during the flight finishes it at once with the correct balance. With reduced motion turned on, there is no flight: the balance glows and the shimmer plays.
+
+### Changed
+- The bell cascade that played when the result box appeared is replaced by the coin sounds.
+- The coin picture is embedded in index.html, so this update needs no new art files.
+
+### Verified
+- Balance shown after the flight equals the provider balance; no coins left on screen after CONTINUE mid-flight. 16 scripted rounds per deck: 0 mismatches. No console errors.
+
+### Not verified
+- Not heard by ear. Not run on a real phone.
+
 ## v0.14 — 2026-10-07 — button states preloaded
 
 ### Changed
