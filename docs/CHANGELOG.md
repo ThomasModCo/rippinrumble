@@ -1,5 +1,26 @@
 # Rippin Rumble — changelog
 
+## v0.18 — 2026-10-19 — 25 new cards per deck, remade RICO art
+
+### Added
+- Chimera: 25 new cards (75 in all): 1 legendary, 4 rare, 10 uncommon, 10 common.
+- Dawnbreak: 25 new artifact and spell cards, plus Thalvorn, who is now in the Dawnbreak sheet (76 in all).
+- RICO: 25 new cards (75 in all).
+- Card details show extra facts from the lore where the sheet has them: who wields an artifact, the school of a spell, and who a spell is associated with.
+
+### Changed
+- RICO: all 50 original cards use the remade art (the -v3 renders).
+- Card names, titles, rarities and lore now come from the updated sheets for every card, old and new. Some existing Dawnbreak and RICO lore changed length because the sheets changed; the sheets are the source.
+- Card details now show the card's title next to its rarity in every deck (Chimera: title and faction; Dawnbreak: title and race or card type; RICO: title and type).
+- Card data files: docs/cards_chimera_3.json, docs/cards_dawnbreak_2.json, docs/cards_rico_2.json (earlier files kept).
+
+### Unchanged
+- Math: the engine returns rarity counts, so larger decks do not change what a pack returns or how often each rarity appears.
+
+### Verified
+- Every card in the three sheets has art in both sizes and matched lore (no card falls back to its summary); no image without a card.
+- 24 scripted rounds per deck: 0 mismatches. Card details checked on desktop and phone for one new card per deck. No console errors.
+
 ## v0.17 — 2026-10-12 — phone layout, round 2
 
 ### Changed (phones in portrait; desktop unchanged)

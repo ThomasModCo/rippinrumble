@@ -1,0 +1,977 @@
+[
+ {
+  "id": 1,
+  "rarity": "legendary",
+  "name": "The Last Architect",
+  "alias": "Architect",
+  "meta": [
+   "Mind of the Makers",
+   "Architect Legacy"
+  ],
+  "paras": [
+   "From the silent heart of a dead star, a signal answers the galaxy’s scream. The Last Architect is the final lingering thought of a race that built universes, a benevolent cosmic force awakened by the escalating chaos of the Interregnum. It is not a creature, but a manifestation of pure, ordered energy — a vast mandala of crystalline golden light and impossible, self-assembling geometry. Its presence on the battlefield is restorative rather than destructive: it rebuilds, heals, and erects defensive pylons of impossible design. It is less a warrior than the universe’s immune system awakening to mend what was broken."
+  ]
+ },
+ {
+  "id": 2,
+  "rarity": "legendary",
+  "name": "The Silent King",
+  "alias": "King",
+  "meta": [
+   "Echo of the Outer God",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "The Silent King is not a creature, machine, or god, but an echo — a sliver of the Outer God’s consciousness given temporary form. It manifests as a massive humanoid silhouette of living darkness, with a galaxy turning within its body and fractured Architect geometry orbiting its head like a broken crown. It does not attack in any conventional sense. Reality simply begins to fail in its presence. Matter erodes, systems unravel, and if left unchecked long enough, existence itself collapses around it. It is the ultimate revelation of the Cult’s faith: not conquest, but the end of reality."
+  ]
+ },
+ {
+  "id": 3,
+  "rarity": "legendary",
+  "name": "Grand Admiral Eva Rostova",
+  "alias": "Admiral",
+  "meta": [
+   "Commander of the Fleet",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "Grand Admiral Eva Rostova is the supreme commander of the Terran Mandate fleet and one of the last great leaders holding human civilization together. An older, dignified strategist who rose from Gunnery Sergeant to command the navy itself, she is rarely portrayed as a frontline combatant. Yet her importance surpasses that of most warriors. From the bridge of the TFS Endeavour, surrounded by tactical displays and fleet telemetry, she directs wars with cold precision and unwavering resolve. Her presence does not merely inspire — it unlocks the full strategic potential of every force under her command."
+  ]
+ },
+ {
+  "id": 4,
+  "rarity": "legendary",
+  "name": "Board of Directors",
+  "alias": "Board",
+  "meta": [
+   "Will of the Market",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "The Board of Directors is not a council of people so much as the ultimate embodiment of pure corporate will. It is a faceless, abstract authority representing the cold, inhuman logic of profit elevated into sovereign power. On the battlefield, its influence manifests through total control of logistics, supply, intelligence, and economic warfare. When the Board intervenes, resources accelerate, black-site prototypes emerge, and enemy systems begin failing before the fighting has truly begun. It is not merely leadership — it is the godlike force of market domination turned into war doctrine."
+  ]
+ },
+ {
+  "id": 5,
+  "rarity": "legendary",
+  "name": "The Silent Voice",
+  "alias": "Voice",
+  "meta": [
+   "Mind of the Swarm",
+   "The Chorus"
+  ],
+  "paras": [
+   "The Silent Voice is the psychic nexus of the Chorus swarm, a synaptic monarch coordinating billions of organisms across sectors of space. It is not a commander in the human sense — it does not issue orders, it simply is the will of the hive made flesh. Grotesque and deeply alien, it appears as a fusion of brain matter, Aetherium crystal, and assimilated machinery, typically hidden at the center of major infestations. Its psychic presence crushes enemy morale and coordinates the swarm with terrifying efficiency. Destroying it can throw a local hive into chaos, but only temporarily. The Chorus always has more voices waiting in the dark."
+  ]
+ },
+ {
+  "id": 6,
+  "rarity": "rare",
+  "name": "Aegis-Class Heavy Cruiser",
+  "alias": "Cruiser",
+  "meta": [
+   "Hammer of the Fleet",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "The Aegis-Class Heavy Cruiser is one of the last true capital warships in Mandate service, a vessel built to bring overwhelming fleet-scale firepower to bear. Massive, heavily armored, and dominated by a colossal Magnetic Accelerator Cannon, it represents the dwindling but still formidable industrial might of humanity. Each deployed Aegis is a strategic declaration that the Mandate is no longer merely enduring the war, but intends to punish its enemies with old-world naval supremacy."
+  ]
+ },
+ {
+  "id": 7,
+  "rarity": "rare",
+  "name": "Orbital Defense Platform",
+  "alias": "Platform",
+  "meta": [
+   "Shield of the Core Worlds",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "A relic of the Federation’s golden age, the Orbital Defense Platform is a colossal stationary fortress designed to halt invasion fleets dead in their advance. Armed with devastating ship-to-ship batteries and anchored in orbit as an immovable bulwark, it is not mobile, but in the right system it can decide entire campaigns. It represents the forgotten truth that humanity once built things meant to last forever."
+  ]
+ },
+ {
+  "id": 8,
+  "rarity": "rare",
+  "name": "Brood-Ship",
+  "alias": "Broodship",
+  "meta": [
+   "Womb of the Void",
+   "The Chorus"
+  ],
+  "paras": [
+   "The Brood-Ship was once a civilian colony ark. Now it is a living womb for the Chorus. Its old hull is buried under chitin, flesh, and spawning sacs, and it drifts through the void like a cosmic leviathan. It does not exist to duel warships directly. It exists to flood worlds with endless biomass and drown resistance under wave after wave of new organisms. In terms of strategic horror, few things are more dangerous."
+  ]
+ },
+ {
+  "id": 9,
+  "rarity": "rare",
+  "name": "Spartan-001 “The Vindicator”",
+  "alias": "Vindicator",
+  "meta": [
+   "Last of the Spartans",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "Spartan-001 is the last survivor of a desperate Federation super-soldier program meant to create humanity’s ultimate defender. Encased in unique masterwork power armor inspired by the knightly imagery of Old Earth, he is a one-man army and a relic of a nobler age. He fights not for what the Mandate has become, but for what the Federation was meant to be. He is both strategic asset and living myth — a fallen Camelot walking into modern war."
+  ]
+ },
+ {
+  "id": 10,
+  "rarity": "rare",
+  "name": "High Diviner Kaelen Marr",
+  "alias": "Diviner",
+  "meta": [
+   "Prophet of the Outer God",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "Kaelen Marr is the High Diviner, prophet and living oracle of the Outer God. Ancient, frail in appearance, and radiant with Aetherium-infused transcendence, he has crossed the threshold from priest into something nearly post-human. His power lies in revelation, psychic domination, and the terrifying certainty with which he interprets the will of the abyss. He is not the Cult’s blunt instrument, but one of its most dangerous minds."
+  ]
+ },
+ {
+  "id": 11,
+  "rarity": "rare",
+  "name": "Frigate “Duty’s Resolve”",
+  "alias": "Frigate",
+  "meta": [
+   "Veteran of the Golden Age",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "Duty’s Resolve is a scarred survivor from the golden age of the Federation, once a vessel of peace and exploration, now hardened into a veteran warship. Elegant beneath the damage of countless campaigns, it carries history as much as armament. On the battlefield it represents endurance, discipline, and the refusal to let the old ideals of civilization die quietly."
+  ]
+ },
+ {
+  "id": 12,
+  "rarity": "rare",
+  "name": "Scorpion MBT",
+  "alias": "Scorpion",
+  "meta": [
+   "Iron Fist of the Mandate",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "The Scorpion Main Battle Tank is the blunt force instrument of the Mandate war machine: heavy armor, simple doctrine, and overwhelming cannon fire. In an age of biotech horrors and esoteric weapons, the Scorpion remains terrifying precisely because it is so direct. It is a monument to the brutal usefulness of steel, treads, and disciplined battlefield pressure."
+  ]
+ },
+ {
+  "id": 13,
+  "rarity": "rare",
+  "name": "Cathedral Tank “Wrath’s Hymn”",
+  "alias": "CathedralTank",
+  "meta": [
+   "Rolling Shrine of War",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "Wrath’s Hymn is a mobile cathedral of blasphemy and annihilation, a fusion of shrine and war engine. Ornate gothic architecture, sacred imagery, and catastrophic weapon systems are welded into a single advancing icon of holy violence. It is slow, but its sheer presence warps the battlefield into a ceremony of terror. Few things embody Cult doctrine more completely."
+  ]
+ },
+ {
+  "id": 14,
+  "rarity": "rare",
+  "name": "Nanite Swarm",
+  "alias": "Nanites",
+  "meta": [
+   "Grey Goo Protocol",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "The Nanite Swarm is one of the Syndicate’s most illegal and terrifying weapons: self-replicating microscopic machines unleashed as a cloud of industrialized death. It can strip vehicles, consume fortifications, and reduce enemy material into raw feedstock. It is not a soldier or vehicle, but a technological plague — profit logic weaponized at molecular scale."
+  ]
+ },
+ {
+  "id": 15,
+  "rarity": "rare",
+  "name": "Rogue Architect Sentinel",
+  "alias": "Sentinel",
+  "meta": [
+   "Guardian Gone Astray",
+   "Architect Legacy"
+  ],
+  "paras": [
+   "The Rogue Architect Sentinel is an ancient crystalline defense drone left behind by the vanished Architects. Awakened by the chaos of the Interregnum, it now follows directives no one alive fully understands. It is beautiful, geometric, and terrifyingly precise, striking with the cold authority of a civilization that once manipulated reality as engineering. Whether guardian or executioner depends entirely on what it decides you are."
+  ]
+ },
+ {
+  "id": 16,
+  "rarity": "rare",
+  "name": "Archon",
+  "alias": "Archon",
+  "meta": [
+   "Psychic Sovereign",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "An Archon is a senior priest of the Cult whose communion with the Outer God has elevated them into a terrifying psychic war-leader. Floating above the ground in ceremonial armor and impassive masks, they wield doctrine, fear, and mind-breaking power as naturally as soldiers wield rifles. They are not merely priests — they are psychic sovereigns of zealotry."
+  ]
+ },
+ {
+  "id": 17,
+  "rarity": "rare",
+  "name": "Revenant Cyber-Ninja",
+  "alias": "Revenant",
+  "meta": [
+   "Phantom of the Board",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "The Revenant is the pinnacle of Syndicate cybernetic assassination. Where lesser operatives are spies, the Revenant is a ghost weapon: nearly all organic components replaced with elite military-grade implants and cloaked behind flawless lethality. It is the sort of operative deployed when the Board no longer wants plausible deniability — only results."
+  ]
+ },
+ {
+  "id": 18,
+  "rarity": "rare",
+  "name": "Siege Mech",
+  "alias": "SiegeMech",
+  "meta": [
+   "Arbitrator of Mergers",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "The Arbitrator-class Siege Mech is less a battlefield unit than a walking hostile takeover. Towering, angular, and brutally industrial, it is built to break fortified assets and secure them for acquisition. The Syndicate does not waste time romanticizing conquest. The Siege Mech is conquest reduced to efficient corporate procedure."
+  ]
+ },
+ {
+  "id": 19,
+  "rarity": "uncommon",
+  "name": "Helljumper Captain",
+  "alias": "Helljumper",
+  "meta": [
+   "Feet First Into Hell",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "The Helljumper Captain is one of the elite leaders of the Orbital Drop Shock Troopers — soldiers who drop directly into the most hellish combat zones in known space. Charismatic, hard-bitten, and forged in impossible deployments, they embody courage under impossible odds. In close campaigns, they are the sharp end of the Mandate’s spear."
+  ]
+ },
+ {
+  "id": 20,
+  "rarity": "uncommon",
+  "name": "Tarantula Mining Walker",
+  "alias": "Tarantula",
+  "meta": [
+   "Repurposed Strip-Miner",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "Originally designed as an industrial walker for hazardous strip-mining operations, the Tarantula has been adapted into a heavy combat platform by the Syndicate. Multi-legged, stable, and brutally practical, it reflects the corporation’s core philosophy: if an asset can generate profit in war, it will be repurposed to do so."
+  ]
+ },
+ {
+  "id": 21,
+  "rarity": "uncommon",
+  "name": "Abomination",
+  "alias": "Abomination",
+  "meta": [
+   "The Committee of Flesh",
+   "The Chorus"
+  ],
+  "paras": [
+   "The Abomination is the Chorus’s ultimate insult to individuality — a monstrous fusion of multiple assimilated beings into one asymmetrical brute. Flesh, armor, limbs, and identities all collapse into a single horrifying organism. It is not elegant, but it is a terrifying expression of the hive’s philosophy: all things become one, whether they consent or not."
+  ]
+ },
+ {
+  "id": 22,
+  "rarity": "uncommon",
+  "name": "Bile Launcher",
+  "alias": "BileLauncher",
+  "meta": [
+   "Living Artillery",
+   "The Chorus"
+  ],
+  "paras": [
+   "The Bile Launcher is living artillery — a mobile sac of corrosive fluids and parasitic larvae mounted on a corrupted chassis. It vomits destruction across the battlefield in heavy arcs, dissolving fortifications and turning static defenses into biological ruin. Crude, grotesque, and effective, it is Chorus siege warfare in its purest form."
+  ]
+ },
+ {
+  "id": 23,
+  "rarity": "uncommon",
+  "name": "Zealot Squad",
+  "alias": "Zealot",
+  "meta": [
+   "Glaives of Faith",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "Zealots are Initiates whose devotion has been hardened into militant service. Clad in ritualized gothic armor and armed with Aetherium-charged polearms, they function as the disciplined core of many Cult assaults. They are dangerous not because of madness alone, but because their fanaticism has structure."
+  ]
+ },
+ {
+  "id": 24,
+  "rarity": "uncommon",
+  "name": "Marksman Team",
+  "alias": "Sniper",
+  "meta": [
+   "The Scalpel",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "A Marksman Team is a sniper and spotter operating as a surgical precision unit within the Mandate’s broader war machine. Where Marines are the hammer, these teams are the scalpel. They excel in attritional warfare, eliminating key targets and reshaping engagements through patience and precision rather than volume of fire."
+  ]
+ },
+ {
+  "id": 25,
+  "rarity": "uncommon",
+  "name": "Viper Gunship",
+  "alias": "Viper",
+  "meta": [
+   "Surgical Strike Craft",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "The Viper Gunship is a fast-attack craft built around speed, strike accuracy, and decisive overkill. Sleek and insectoid in silhouette, it represents the Syndicate’s preference for high-yield violence applied exactly where profitability demands. It is not designed for fair fights. It is designed for efficient liquidation of resistance."
+  ]
+ },
+ {
+  "id": 26,
+  "rarity": "uncommon",
+  "name": "Assimilation Tendril",
+  "alias": "Tendril",
+  "meta": [
+   "The Creeping Carpet",
+   "The Chorus"
+  ],
+  "paras": [
+   "The Assimilation Tendril is the slow horror of the Chorus made visible — a creeping wave of biomass that spreads across terrain like a living infection. It does not need speed or brilliance. Its threat lies in inevitability. Everything it reaches becomes substrate for the hive."
+  ]
+ },
+ {
+  "id": 27,
+  "rarity": "uncommon",
+  "name": "Spitter Beast",
+  "alias": "Spitter",
+  "meta": [
+   "Corrupted Hauler",
+   "The Chorus"
+  ],
+  "paras": [
+   "The Spitter Beast is a grotesque conversion of utility machinery into a biological assault organism. Beneath layers of mutated flesh, parts of its former mechanical chassis still show through. It serves as a ranged harassment creature, hurling corrosive matter at enemies while embodying the Chorus principle that nothing useful should remain unassimilated."
+  ]
+ },
+ {
+  "id": 28,
+  "rarity": "uncommon",
+  "name": "Gunnery Sergeant “Grizz”",
+  "alias": "Grizz",
+  "meta": [
+   "Backbone of the Corps",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "Gunnery Sergeant “Grizz” is a veteran of countless campaigns and one of those rare soldiers whose reputation is stronger than rank. Scarred, stubborn, and held together by field repairs and attitude, he represents the unbreakable center of the Mandate Marine Corps. He is not flashy. He is dependable — which is why soldiers trust him."
+  ]
+ },
+ {
+  "id": 29,
+  "rarity": "uncommon",
+  "name": "Penitent Engine",
+  "alias": "Penitent",
+  "meta": [
+   "Engine of Atonement",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "The Penitent Engine is Cult doctrine turned into mechanized punishment. Heretics are surgically bound into open-frame killing machines and sent into battle as a chance at absolution through suffering and violence. It is fanatical, horrifying, and symbolic of a faction that sees agony as a pathway to truth."
+  ]
+ },
+ {
+  "id": 30,
+  "rarity": "uncommon",
+  "name": "Broadsword Interceptor",
+  "alias": "Broadsword",
+  "meta": [
+   "Lord of the Skies",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "The Broadsword Interceptor is one of the Mandate’s most sophisticated aerospace craft, a direct inheritance from Federation-era engineering. Fast, sharp, and purpose-built for space superiority, it stands in contrast to the more rugged, improvised feel of many Mandate ground assets. It is proof that some parts of the old human war machine still shine."
+  ]
+ },
+ {
+  "id": 31,
+  "rarity": "uncommon",
+  "name": "Enforcer",
+  "alias": "Cyborg",
+  "meta": [
+   "Corporate Law Incarnate",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "The Syndicate Enforcer is corporate law armed and armored. These heavily augmented soldiers are built to impose order, break labor resistance, and ensure compliance through superior violence. Chrome limbs, shield systems, and weaponized efficiency make them living declarations that in Syndicate space, contract law and state violence are effectively the same thing."
+  ]
+ },
+ {
+  "id": 32,
+  "rarity": "uncommon",
+  "name": "Infiltrator",
+  "alias": "Spy",
+  "meta": [
+   "Ghost in the Machine",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "The Syndicate Infiltrator is espionage refined into profession and then weaponized for maximum return. Clad in stealth systems and armed with sabotage tools, assassinations, and extraction protocols, these operatives represent the quiet face of corporate conquest. The most profitable takeover is always the one completed before the target knows it has begun."
+  ]
+ },
+ {
+  "id": 33,
+  "rarity": "common",
+  "name": "Pelican Dropship",
+  "alias": "Pelican",
+  "meta": [
+   "Workhorse of the Corps",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "The Pelican is the workhorse transport of the Mandate Marine Corps — bulky, practical, and built to keep flying even when elegance has long since failed. It is a VTOL troop carrier designed for utility above all else. In a setting full of cosmic horrors, the Pelican’s value lies in its reliability. It brings soldiers home when it can."
+  ]
+ },
+ {
+  "id": 34,
+  "rarity": "common",
+  "name": "Relic Bearer",
+  "alias": "Bearer",
+  "meta": [
+   "Mobile Shrine",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "The Relic Bearer is an initiate entrusted with carrying fragments of ancient Architect technology into battle. Though not powerful in isolation, the relic they bear can dramatically alter nearby engagements. They occupy a strange space within the Cult hierarchy — not mighty, but deeply significant."
+  ]
+ },
+ {
+  "id": 35,
+  "rarity": "common",
+  "name": "The Derelict",
+  "alias": "Derelict",
+  "meta": [
+   "Tomb in the Void",
+   "Unaligned / Ancient Relic"
+  ],
+  "paras": [
+   "The Derelict is a drifting crescent-shaped vessel of unknown origin, ancient and deeply unsettling. Its design merges fossilized organic curvature with advanced biomechanical structures, suggesting a civilization or horror long lost to history. It is not an active combatant in the usual sense, but wherever it appears, it brings mystery, danger, and the possibility of awakening things best left forgotten."
+  ]
+ },
+ {
+  "id": 36,
+  "rarity": "common",
+  "name": "Spore Chimney",
+  "alias": "Spawner",
+  "meta": [
+   "Living Factory",
+   "The Chorus"
+  ],
+  "paras": [
+   "A Spore Chimney is one of the first structures the Chorus grows on an infested world — a stationary biological tower that turns territory into production. It belches spores, breeds organisms, and marks the beginning of total ecosystem replacement. Left unchecked, it is not just a structure, but a warning that the planet is already being rewritten."
+  ]
+ },
+ {
+  "id": 37,
+  "rarity": "common",
+  "name": "Vision of Madness",
+  "alias": "Madness",
+  "meta": [
+   "Psychic Shockwave",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "A Vision of Madness is a focused psychic detonation unleashed by Cult psykers, a blast aimed not at the body but at the mind. It shatters coherence, induces terror, and can reduce disciplined fighters into panicked wrecks. It is one of the Cult’s most insidious weapons because it leaves the victim alive long enough to understand what is happening."
+  ]
+ },
+ {
+  "id": 38,
+  "rarity": "common",
+  "name": "Choir of the Void",
+  "alias": "Choir",
+  "meta": [
+   "Psychic Artillery",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "The Choir of the Void is a squad of lesser psykers whose minds have been opened just enough to hear the whispers of the Outer God, but not enough to become true leaders. Their potential is weaponized collectively, turning them into psychic artillery and ritual amplifiers. Individually fragile, together they can be devastating."
+  ]
+ },
+ {
+  "id": 39,
+  "rarity": "common",
+  "name": "Warthog ATV",
+  "alias": "Warthog",
+  "meta": [
+   "Old Reliable",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "The Warthog is a rugged all-terrain vehicle from an earlier age of war — simple, reliable, and brutally practical. No shields, no grav-tech, no excess. Just wheels, engine, steel, and a mounted gun. It remains beloved because in a collapsing galaxy, dependable machinery is almost sacred."
+  ]
+ },
+ {
+  "id": 40,
+  "rarity": "common",
+  "name": "Aetherium Anomaly",
+  "alias": "Anomaly",
+  "meta": [
+   "Wound in Reality",
+   "Unaligned / Aetheric Phenomenon"
+  ],
+  "paras": [
+   "An Aetherium Anomaly is a localized wound in space-time, a place where the residue of impossible Architect-era energies has destabilized reality. It is not alive, yet it behaves with hostile unpredictability. It can empower, distort, or annihilate depending on how it manifests. To encounter one is to stand too close to physics breaking."
+  ]
+ },
+ {
+  "id": 41,
+  "rarity": "common",
+  "name": "Sacrificial Altar",
+  "alias": "Altar",
+  "meta": [
+   "Consecrated Ground",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "A Sacrificial Altar is a hastily erected battlefield shrine built from alien stone, metal, and ritual blood. It anchors Cult rites and turns conquered ground into consecrated territory. Its value is less in direct offense and more in what it empowers around it: zealotry, psychic resonance, and the normalization of atrocity."
+  ]
+ },
+ {
+  "id": 42,
+  "rarity": "common",
+  "name": "Initiate",
+  "alias": "Acolyte",
+  "meta": [
+   "First Step Into Truth",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "The Initiate is a fresh convert to the Cult, newly broken open by exposure to Aetherium and the whispers of the void. Clad in simple robes and armed with fanatic conviction more than battlefield skill, they are individually weak but ideologically dangerous. Every cult begins here."
+  ]
+ },
+ {
+  "id": 43,
+  "rarity": "common",
+  "name": "Corrupted Marine",
+  "alias": "CorruptGrunt",
+  "meta": [
+   "Fallen Brother",
+   "The Chorus"
+  ],
+  "paras": [
+   "A Corrupted Marine is one of the most demoralizing sights in the Chimera universe: a disciplined Mandate soldier absorbed by the hive and turned against their former allies. Their training remains, but their humanity is gone. They are proof that the Chorus does not merely kill — it repurposes."
+  ]
+ },
+ {
+  "id": 44,
+  "rarity": "common",
+  "name": "Auditor",
+  "alias": "Suit",
+  "meta": [
+   "Voice of the Bottom Line",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "The Auditor is the Board’s physical representative in war zones, a sharply dressed corporate official protected by shielding and backed by the force of contract, capital, and lethal enforcement. They are not frontline brawlers, but their authority can redirect entire battles. Their power lies in systems, not strength."
+  ]
+ },
+ {
+  "id": 45,
+  "rarity": "common",
+  "name": "Skitterling",
+  "alias": "Scout",
+  "meta": [
+   "Herald of the Swarm",
+   "The Chorus"
+  ],
+  "paras": [
+   "The Skitterling is the first warning sign of Chorus infestation: a fast, chittering scout organism about the size of a large dog, optimized for infiltration and reconnaissance. It is individually weak, but horrifying in implication. One Skitterling usually means many worse things are nearby."
+  ]
+ },
+ {
+  "id": 46,
+  "rarity": "common",
+  "name": "Shock Trooper",
+  "alias": "Clone",
+  "meta": [
+   "Vat-Grown Asset",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "The Shock Trooper is vat-grown labor militarized into cheap infantry. Flash-trained through neural induction and deployed as expendable assets, they embody the Syndicate belief that soldiers are just one more product line. Efficient, replaceable, and utterly dehumanized, they are corporate warfare at scale."
+  ]
+ },
+ {
+  "id": 47,
+  "rarity": "common",
+  "name": "Field Medic",
+  "alias": "Doc",
+  "meta": [
+   "Keeper of Lives",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "The Field Medic is one of the clearest surviving echoes of the Federation’s old ideals. Lightly armed and marked by ancient symbols of care, they enter fire zones not to kill, but to preserve life in a universe increasingly built on its disposal. They are not mighty warriors, but they are morally essential."
+  ]
+ },
+ {
+  "id": 48,
+  "rarity": "common",
+  "name": "Marine",
+  "alias": "Grunt",
+  "meta": [
+   "The Thin Line",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "The Mandate Marine is the baseline human soldier of the setting: disciplined, exhausted, under-equipped, and still willing to stand the line. Worn armor and practical rifles define them, but their deeper identity is inheritance. They fight for a civilization they mostly know through ruins and stories."
+  ]
+ },
+ {
+  "id": 49,
+  "rarity": "common",
+  "name": "Corrupted ATV",
+  "alias": "CorruptHog",
+  "meta": [
+   "Living Battering Ram",
+   "The Chorus"
+  ],
+  "paras": [
+   "Once a Mandate Warthog, this vehicle has been overtaken by the Chorus and turned into a mindless biomechanical assault platform. Its old structure remains visible beneath the infestation, making it both practical threat and psychological weapon. The Chorus never wastes useful material."
+  ]
+ },
+ {
+  "id": 50,
+  "rarity": "common",
+  "name": "Prospector",
+  "alias": "Digger",
+  "meta": [
+   "Expendable Asset",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "The Prospector is the Syndicate at its lowest rung: an expendable worker lured by promises of wealth and then ground down into the industrial machine. Equipped with cheap suits and basic extraction gear, they are not soldiers by trade, but in a crisis they become yet another resource the corporation is willing to spend."
+  ]
+ },
+ {
+  "id": 51,
+  "rarity": "legendary",
+  "name": "Genesis Lance",
+  "alias": "Lance",
+  "meta": [
+   "Tool of World-Making",
+   "Architect Legacy"
+  ],
+  "paras": [
+   "The Genesis Lance is the only Architect weapon ever found intact, and it may not be a weapon at all. Discovered in a sealed vault beneath the ice of a dead moon, it is a spear of folded golden crystal three times the height of a man, humming at a frequency that makes raw Aetherium sing. Federation scientists believed it was a construction tool, used by the Architects to shape the molten cores of newborn worlds. The Mandate, the Syndicate and the Cult have all spilled oceans of blood to possess it, each certain of its purpose: a planet-killer, a priceless asset, a holy relic. All of them are right. Whoever wields the Genesis Lance can unmake matter with a touch and remake it at will, collapsing fortresses into glittering dust or raising crystal ramparts from bare rock. On the battlefield it reshapes the terrain itself, erasing enemy defenses and building new ones in a heartbeat. Yet it never stays with one owner for long. Every bearer has lost it within a year, through betrayal, accident or sheer impossible coincidence. It seems, unnervingly, to choose — and no one knows what it is looking for."
+  ]
+ },
+ {
+  "id": 52,
+  "rarity": "rare",
+  "name": "Liquidator-General Varo Kade",
+  "alias": "Liquidator",
+  "meta": [
+   "Closer of Accounts",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "When a Syndicate investment fails, Varo Kade arrives to close the account. As Liquidator-General, he commands the Syndicate's asset-recovery fleets, and his name is the last line printed on the ledger of every rebellious world. Kade is more boardroom than battlefield: an impeccably tailored executive whose spine, lungs and heart have been replaced by matte-black augments, his face deliberately kept human so his targets believe they are negotiating with a person. They are not. Kade prices every planet down to its last citizen and offers its government one clean, final number. Those who pay become loyal subsidiaries. Those who refuse are liquidated: cities stripped, populations relocated to labor contracts, the remainder auctioned for parts. On the battlefield, his presence turns Syndicate forces into a precise instrument of foreclosure, prioritizing high-value targets and reclaiming destroyed enemy assets as Syndicate property. He has never lost a negotiation, because he has never once believed it was one."
+  ]
+ },
+ {
+  "id": 53,
+  "rarity": "rare",
+  "name": "Oathkeeper",
+  "alias": "Oathkeeper",
+  "meta": [
+   "Blade of the Vindicator",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "Oathkeeper is the blade of the Vindicator, and the last weapon forged in the Federation's golden age. Its edge is a sliver of compressed neutronium sheathed in a field of hard light, capable of parting tank armor like silk and deflecting particle beams with a turn of the wrist. It was designed by the same engineers who built the Spartan program, and its hilt is engraved with the name of every candidate who died in the trials. There are 312 names. The Vindicator reads them before every battle. The blade is coded to his genetic signature alone; anyone else who grips it feels only a cold, inert weight. Mandate Marines speak of Oathkeeper the way Old Earth spoke of Excalibur — a sword that will pass to the Federation's true heir when the dark age ends. Until then it remains in the hands of a ghost, cutting a path through a galaxy that has forgotten what it once promised."
+  ]
+ },
+ {
+  "id": 54,
+  "rarity": "rare",
+  "name": "The Hollow Commodore",
+  "alias": "Commodore",
+  "meta": [
+   "Admiral of the Swarm",
+   "The Chorus"
+  ],
+  "paras": [
+   "Commodore Elias Hale was the most decorated fleet officer in the Mandate, the man who held the Tarsus Gate for forty days against the first Chorus incursion. On the forty-first day, his flagship went silent. Three years later it returned — and so did he. The Hollow Commodore is the Chorus's most terrifying achievement: an assimilated mind whose genius was kept intact. Hale's body is an armored husk, his dress uniform fused into chitin, his medals embedded in the flesh of his chest like trophies. A crown of neural spines connects him directly to the swarm, and through him the Chorus has learned to think like a navy. It flanks, it feints, it sets traps using Mandate doctrine against Mandate fleets. His old comrades still broadcast his name over open channels, hoping something human answers. Something always does. It uses his voice. It knows their call signs. And it is always lying."
+  ]
+ },
+ {
+  "id": 55,
+  "rarity": "rare",
+  "name": "Requiem",
+  "alias": "Requiem",
+  "meta": [
+   "Song of the Martyrs",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "Requiem is a greatsword grown, not forged. The Cult's artisans seed a blade of blackened Architect alloy with Aetherium and bury it beneath a Sacrificial Altar, where it drinks the life force of a hundred martyrs over a hundred days. When it is unearthed, its edge glows a pale, ghostly blue and it sings — a single sustained note drawn from the final breaths of everyone it fed upon. Only Archons and the most favored Zealot champions may carry one. Each strike releases a pulse of dissonant sound that shatters armor plating and cracks the minds of nearby enemies, while allied cultists hear it as a hymn and fight with redoubled fervor. The Cult teaches that Requiem is the voice of the faithful dead, still singing to the Outer God. Mandate psychologists who have studied recordings of its note refuse to listen to them twice."
+  ]
+ },
+ {
+  "id": 56,
+  "rarity": "uncommon",
+  "name": "Lieutenant Ines Varga",
+  "alias": "Sapper",
+  "meta": [
+   "The Sapper",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "Every Mandate victory is built on something, and usually Lieutenant Ines Varga built it. Commander of the 7th Combat Engineer Battalion, Varga is a stocky, soot-streaked officer who has dug trench lines on burning worlds, rebuilt shield generators under artillery fire and demolished bridges with the enemy still on them. Her armor is festooned with tools, demolition charges and a welding rig she refuses to replace. Varga sees war as a construction problem. Where other officers ask how to take a position, she asks how to make the position fight for her: mines in the approaches, collapsed tunnels behind, cover where there was none before. On the battlefield she fortifies captured ground, repairs damaged Mandate vehicles and plants charges capable of toppling a Syndicate Siege Mech. Her Marines joke that she could build a fortress out of a ration crate. She once did, and it held for three days."
+  ]
+ },
+ {
+  "id": 57,
+  "rarity": "uncommon",
+  "name": "'Margin Call' Gauss Rifle",
+  "alias": "Gauss",
+  "meta": [
+   "Leased Anti-Materiel Rifle",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "The 'Margin Call' Gauss Rifle is the Syndicate's preferred solution to problems that cannot be negotiated. A heavy, rail-driven anti-materiel weapon, it accelerates a tungsten slug through a series of magnetic coils, punching through vehicle armor, bunker walls and whatever stands behind them in a single shot. Each rifle is serial-numbered, leased rather than issued, and fitted with a usage meter that bills the operator's department for every round fired. Syndicate marksmen are therefore notoriously patient. They wait for the perfect shot — the enemy officer, the exposed reactor, the fuel line — because a missed round comes out of their bonus. The rifle's targeting suite displays the estimated value of everything in its sights, turning the battlefield into a live price chart. Its name was chosen by the marketing department. It tested very well."
+  ]
+ },
+ {
+  "id": 58,
+  "rarity": "uncommon",
+  "name": "Witch-Hunter Inquisitor",
+  "alias": "Inquisitor",
+  "meta": [
+   "Hunter of Doubt",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "The Cult preaches that every mind belongs to the Outer God, which means every doubt is a form of theft. Inquisitors are the Cult's internal police, hunting heresy within its own ranks with merciless thoroughness. They wear wide-brimmed hats of black leather, long coats stitched with hymns and a monocle of polished Aetherium that lets them see the faint, guilty glow of an unconsecrated thought. Armed with heavy-bore pistols and a chained censer of purifying fire, they move through Cult worlds like a cold wind. It was an Inquisitor who condemned every heretic now wired into a Penitent Engine. On the battlefield, Inquisitors root out infiltrators, expose cloaked units and break hostile psychic influence. They also keep the Cult's own soldiers honest: anyone who hesitates under an Inquisitor's gaze tends to fight far harder, if only to avoid the conversation afterward."
+  ]
+ },
+ {
+  "id": 59,
+  "rarity": "uncommon",
+  "name": "Symbiote Lash",
+  "alias": "Lash",
+  "meta": [
+   "The Whip That Feeds",
+   "The Chorus"
+  ],
+  "paras": [
+   "The Symbiote Lash is a weapon that chooses its wielder by eating part of them. It begins as a coiled, eyeless Chorus organism no longer than a forearm, left near battlefields like bait. When a desperate soldier picks it up, it bores into their wrist, fuses with the nervous system and unspools into a whip of barbed, muscular tendon several meters long. The Lash strikes faster than human reflexes, flaying armor and dragging victims into reach, and it learns — every opponent it kills teaches it new angles of attack. Mandate command has issued strict orders never to touch abandoned Chorus tissue. Those orders are broken more often than anyone admits, because a soldier with a Lash survives fights no one else could. The cost comes later. The whip spreads up the arm. The dreams begin. And one day the soldier hears the Chorus singing, and realizes they have always known the words."
+  ]
+ },
+ {
+  "id": 60,
+  "rarity": "uncommon",
+  "name": "Dax Rourke",
+  "alias": "Mercenary",
+  "meta": [
+   "Captain of the Reapers",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "Dax Rourke is a contractor, which means he is whatever the Syndicate pays him to be. Former Mandate special forces turned mercenary captain, he leads Rourke's Reapers, a hardened company of ex-soldiers, deserters and bounty hunters who sell their rifles to the Syndicate at premium rates. Rourke is all scars and grins, his power armor still bearing a scratched-out Mandate insignia beneath a freshly stenciled corporate logo. Unlike the cloned Shock Troopers he openly despises, Rourke fights with improvisation and instinct, and his loyalty extends exactly as far as the payment terms. He has turned down a bonus to save his men and switched sides twice mid-battle when a better contract came through. On the battlefield, Rourke brings veteran squads, scavenged heavy weapons and dirty tricks no corporate manual would ever approve. He is, by his own account, the most honest man in the galaxy: he always tells you his price."
+  ]
+ },
+ {
+  "id": 61,
+  "rarity": "uncommon",
+  "name": "M41 'Lancer' Rocket Launcher",
+  "alias": "Lancer",
+  "meta": [
+   "The Great Equalizer",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "The M41 'Lancer' is the weapon every Mandate Marine wants beside them when the ground starts shaking. A twin-tube, shoulder-fired launcher with a smart-lock targeting scope, it gives a single soldier the power to destroy a tank, bring down a gunship or crack open a Chorus Abomination. The design is centuries old, a staple of Federation armories, and Mandate quartermasters still assemble them from salvaged parts and hand-machined tubes. Its rockets lock onto heat signatures, and in steady hands two are usually enough. The Lancer is heavy, slow to reload and dangerous to fire indoors, but it is also the great equalizer of the Interregnum. Syndicate engineers spend fortunes on armor plating; a Lancer rocket costs less than a week's rations. Every crater it leaves is a reminder that old weapons, fired well, still win wars."
+  ]
+ },
+ {
+  "id": 62,
+  "rarity": "uncommon",
+  "name": "The Weeping Chaplain",
+  "alias": "Chaplain",
+  "meta": [
+   "Preacher of the Hive",
+   "The Chorus"
+  ],
+  "paras": [
+   "The Weeping Chaplain was once a priest of the Cult of the Outer God, an Archon-candidate who led a crusade into Chorus space, certain his faith would protect him. It did not. Now he walks at the head of Chorus assaults, still wearing the tattered remains of his robes and his golden mask, from which a constant stream of black ichor runs like tears. He still preaches. His voice, distorted by the swarm, recites the Cult's hymns with every word subtly changed, extolling the glory of the hive mind instead of the Outer God. The effect on Cult soldiers is devastating: hearing their own scripture twisted shakes their faith and shatters their discipline. On the battlefield, the Chaplain spreads despair through enemy ranks and drives nearby Chorus organisms into a frenzy. Whether some part of the priest still believes in his old god, no one knows. The tears suggest that something inside him remembers."
+  ]
+ },
+ {
+  "id": 63,
+  "rarity": "uncommon",
+  "name": "Purgator Flamer",
+  "alias": "Purgator",
+  "meta": [
+   "Holy Thurible of Fire",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "The Purgator is a flamethrower shaped like a thurible, and the Cult considers both of those functions sacred. A heavy brass censer is mounted on the wielder's back, filled with blessed promethium and Aetherium incense, and connected by a chain-wrapped hose to an ornate nozzle carved in the likeness of a screaming face. When fired, it projects a gout of blue-white flame that clings to armor and leaves a thick, sickly-sweet smoke. Cultists believe the smoke carries the souls of the burned to the Outer God, making every use an act of devotion. To Mandate soldiers clearing Cult-held cities, the Purgator is the terror of narrow streets and collapsed buildings, impossible to hide from. It is also used in the Cult's own purification rites, consuming heretical texts, defiled shrines and those who doubt — and the brass is always polished afterward until it shines like a church bell."
+  ]
+ },
+ {
+  "id": 64,
+  "rarity": "uncommon",
+  "name": "The Rim Wanderer",
+  "alias": "Wanderer",
+  "meta": [
+   "Hunter of the Frontier",
+   "Unaligned / Mercenary"
+  ],
+  "paras": [
+   "No one knows her real name. On the frontier worlds beyond the Mandate's reach she is simply the Wanderer: a lone bounty hunter in a dust-scoured longcoat and battered armor, carrying a rifle older than most colonies. She arrives on a nameless ship, takes contracts from anyone who can pay and leaves before anyone thinks to ask questions. The Wanderer hunts what others will not: escaped Chorus specimens, rogue Syndicate cyborgs, Cult prophets who have gone too far even for their own kind. She serves no faction and has fought for all of them. Her reputation rests on a single principle: she finishes every job. On the battlefield, the Wanderer can be hired by any side to track down and eliminate a single target. Rumor says she is hunting something of her own — a creature that crawled out of the Derelict. She never speaks of it, but in every port she visits, she asks."
+  ]
+ },
+ {
+  "id": 65,
+  "rarity": "uncommon",
+  "name": "Architect Shardblade",
+  "alias": "Shardblade",
+  "meta": [
+   "Fragment of Impossible Geometry",
+   "Unaligned / Architect Relic"
+  ],
+  "paras": [
+   "Architect ruins are littered with fragments of their impossible geometry: shards of golden crystal that hum softly and cut through anything. Prospectors, scavengers and mercenaries learned early that a large enough shard, wrapped in leather and fixed to a handle, makes a blade unlike any other. No two Shardblades share a shape — each is jagged and asymmetrical — but all share the same unnerving properties. They never dull, they slice armor as easily as cloth, and they occasionally shift a few degrees in the hand, as if correcting their user's aim. Every faction uses them: Mandate officers carry them as trophies, Syndicate collectors pay fortunes for them and the Cult reveres them as relics. But they carry risks. Some shards resonate with nearby Aetherium Anomalies, and their wielders have vanished mid-swing, leaving only the smell of ozone and a blade spinning slowly in the air."
+  ]
+ },
+ {
+  "id": 66,
+  "rarity": "common",
+  "name": "MA-7 Battle Rifle",
+  "alias": "Rifle",
+  "meta": [
+   "The Rifle Is Your Life",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "The MA-7 Battle Rifle is the standard-issue weapon of the Mandate Marine Corps, and it has barely changed in two hundred years. A bullpup rifle chambered for a heavy caseless round, it is rugged enough to fire after being buried in mud, frozen in vacuum or dropped from orbit. Its integrated ammunition counter and simple reflex sight are its only concessions to modern technology. Marines name their rifles, decorate their stocks and sleep with them close at hand. The MA-7 is not the most advanced weapon in the galaxy; Syndicate pulse rifles are lighter and Cult relic-weapons hit harder. But the MA-7 works every time, on every world, in every condition, and in an age when so much has failed, that reliability is a kind of faith. Mandate drill instructors still teach the old mantra: the rifle is your life, and your life belongs to the Mandate."
+  ]
+ },
+ {
+  "id": 67,
+  "rarity": "common",
+  "name": "Aetherium Smuggler",
+  "alias": "Smuggler",
+  "meta": [
+   "Runner of Blockades",
+   "Unaligned / Black Market"
+  ],
+  "paras": [
+   "Every war needs supplies, and the Interregnum needs Aetherium more than anything. Aetherium Smugglers are the freelance pilots, black marketeers and fixers who move the precious substance between factions, slipping past Mandate blockades, Syndicate tariffs and Cult tithes. They are charming, unreliable and always carrying more than one set of papers. A smuggler's ship is a battered freighter riddled with hidden compartments, and a smuggler's loyalty belongs to whoever is paying more this week. On the battlefield they provide quick access to resources, unexpected reinforcements and the occasional escape route. Every faction claims to despise them, and every faction relies on them. The best smugglers are rumored to run trade routes straight through Chorus space, which raises an uncomfortable question: what exactly are they trading?"
+  ]
+ },
+ {
+  "id": 68,
+  "rarity": "common",
+  "name": "Plasma Cutter",
+  "alias": "Cutter",
+  "meta": [
+   "Miner's Last Resort",
+   "Unaligned / Frontier Tool"
+  ],
+  "paras": [
+   "Long before it was a weapon, the plasma cutter was a mining tool. Every Syndicate Prospector, salvage crew and colony engineer carries one: a heavy, pistol-gripped device that projects a short blade of superheated plasma capable of slicing through hull plating and bedrock. In the chaos of the Interregnum, people discovered it is just as effective against flesh. It is a weapon of desperation, wielded by miners defending their claims, colonists trapped by Chorus outbreaks and scavengers boarding derelict ships. Its range is short and its charge limited, but at close quarters it is devastating — precise enough to sever a limb, powerful enough to stop a charging Skitterling. Survivors of Chorus outbreaks pass down a grim rule: aim for the limbs. Severed Chorus tissue is slow to regenerate, and a plasma cutter cauterizes as it cuts."
+  ]
+ },
+ {
+  "id": 69,
+  "rarity": "common",
+  "name": "Debt Collector",
+  "alias": "Collector",
+  "meta": [
+   "Repossession Agent",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "For the Syndicate, every citizen is a customer, and every customer owes something. Debt Collectors are the lowest tier of the Syndicate's enforcement division, assigned to recover overdue payments from indebted colonists, miners and planetary governments. They are thick-necked, lightly augmented and armed with shock batons, contract-scanners and a seemingly endless supply of legal paperwork, their cybernetic eyes displaying each target's credit rating in real time. Collectors are not trained soldiers, but they are relentless. They will follow a debtor across star systems, through war zones and into Chorus-infested ruins if the interest rate is high enough. On the battlefield they seize enemy resources, impound vehicles and mark targets for repossession. Mandate Marines joke that a Collector is the only thing more persistent than the Chorus — and at least the Chorus doesn't charge late fees."
+  ]
+ },
+ {
+  "id": 70,
+  "rarity": "common",
+  "name": "Ritual Dagger",
+  "alias": "Dagger",
+  "meta": [
+   "First Blade of the Faith",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "Every Initiate of the Cult receives a Ritual Dagger on the day of their conversion, and is expected to carry it until the day of their death. The blade is short and curved, forged from black iron etched with faintly glowing glyphs, its handle carved from bone. It is the first weapon of the faith and the most personal. Initiates fight with it, but its true purpose is ceremonial: it is the blade used upon the Sacrificial Altar, the tool that turns life into miracle. Cultists believe every death it brings, enemy or self, sends a soul to the Outer God. Some daggers are passed down through generations of believers, their glyphs growing brighter with every sacrifice. The oldest are said to whisper. Mandate field manuals order soldiers to destroy any Ritual Dagger they recover; several Marines who kept them as souvenirs were later found kneeling at improvised altars, smiling."
+  ]
+ },
+ {
+  "id": 71,
+  "rarity": "common",
+  "name": "Penitent Flagellant",
+  "alias": "Flagellant",
+  "meta": [
+   "Seeker of Absolution",
+   "Cult of the Outer God"
+  ],
+  "paras": [
+   "Before a heretic is condemned to a Penitent Engine, they are given one chance to atone. Penitent Flagellants are cultists who have confessed doubt, failure or impure thoughts and now seek absolution through suffering. They march into battle stripped to the waist, their backs scarred by self-inflicted lashes, hooded in coarse sackcloth and armed with chained flails tipped with Aetherium-laced barbs. They chant prayers of contrition as they advance, ignoring wounds that would stop ordinary soldiers. To the Cult, they are a lesson made flesh: doubt is a sin, and sin is paid for in blood. To their enemies, they are a screaming mob that seems to welcome death. On the battlefield they grow stronger as they are wounded, turning pain into fervor. Those who complete their penance are welcomed back as Initiates. Very few complete their penance."
+  ]
+ },
+ {
+  "id": 72,
+  "rarity": "common",
+  "name": "Shock Baton",
+  "alias": "Baton",
+  "meta": [
+   "Instrument of Compliance",
+   "Aurigan Trade Syndicate"
+  ],
+  "paras": [
+   "The Syndicate's most widely deployed weapon isn't a gun — it's a stick. The SB-12 Shock Baton is a telescoping rod of black polymer with a crackling electrical tip, issued by the hundreds of thousands to Debt Collectors, security guards, Auditors' bodyguards and Shock Trooper sergeants. It can stun a rioting miner, short-circuit a combat drone or, at full power, stop a heart. The baton is cheap, durable and, most importantly to the Syndicate, non-lethal by default, which keeps damaged assets repairable and costly litigation avoidable. Each baton logs every discharge and the identity of its target, providing a complete archive of corporate discipline. Colonists on Syndicate worlds learn to recognize the faint electrical whine of an approaching baton before they see it. It is the sound of the company enforcing its contracts."
+  ]
+ },
+ {
+  "id": 73,
+  "rarity": "common",
+  "name": "Spine Launcher",
+  "alias": "Spines",
+  "meta": [
+   "Bone Cannon",
+   "The Chorus"
+  ],
+  "paras": [
+   "The Chorus does not manufacture weapons; it grows them out of its victims. A Spine Launcher is a ragged organic cannon sprouting from the forearm of a Corrupted Marine or assimilated colonist — a fleshy tube lined with muscle that fires barbed bone spines at lethal velocity. The spines are grown inside the host's own body, harvested from its skeleton and sharpened by the swarm, each one coated in a paralytic venom that slows its victims and makes them easier to assimilate. The weapon is crude but endless: as long as the host has bone left, it has ammunition. Marines who survive Chorus ambushes remember the sound most vividly — a wet, rhythmic thump, followed by the sharp whistle of spines tearing through the air. Medics have learned to cut the barbs out quickly. If left inside too long, they begin to grow."
+  ]
+ },
+ {
+  "id": 74,
+  "rarity": "common",
+  "name": "Mandate Recruit",
+  "alias": "Recruit",
+  "meta": [
+   "Fresh From the Camps",
+   "Terran Mandate"
+  ],
+  "paras": [
+   "Fresh from the training camps, the Mandate Recruit is barely eighteen, issued a battered MA-7 rifle, ill-fitting armor and twelve weeks of hurried drills. They come from refugee camps, shattered colonies and families who have lost everything to the Chorus or the Syndicate. They join because the Mandate promises food, purpose and the chance to fight back. Many will not survive their first deployment. Veteran Marines treat recruits with gruff affection and grim honesty, teaching them how to keep their heads down and their rifles clean; Gunnery Sergeant Grizz is said to remember the name of every recruit he ever lost. On the battlefield recruits are inexperienced and fragile, but they grow stronger fighting beside veterans. Each one represents the Mandate's greatest strength and its greatest tragedy: the endless willingness of ordinary people to stand against the dark."
+  ]
+ },
+ {
+  "id": 75,
+  "rarity": "common",
+  "name": "Infested Colonist",
+  "alias": "Infested",
+  "meta": [
+   "First Victim of the Swarm",
+   "The Chorus"
+  ],
+  "paras": [
+   "The Chorus does not begin with armies. It begins with a cough. Infested Colonists are the first victims of a Chorus outbreak: farmers, miners and families on remote worlds, infected by spores or parasitic larvae and slowly consumed from within. In the early stages they look almost normal — pale, feverish and quiet. Then the growths break through the skin, the eyes cloud over and the voices begin. By the time the Mandate arrives, the infested shamble through the streets of their own towns in work clothes and nightgowns, still clutching tools, children's toys and family photographs. Individually they are weak, but they come in staggering numbers, and every one that reaches an enemy soldier spreads the infection further. Most heartbreaking of all, some still turn when they hear their own names. Mandate Marines are trained not to call out."
+  ]
+ }
+]
