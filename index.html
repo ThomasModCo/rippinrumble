@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Rippin Rumble v0.19</title>
-<!-- Rippin Rumble v0.19 | playtest build, local provider | math: GnarOne Rip & Rumble sheet-v4 -->
+<title>Rippin Rumble v0.20</title>
+<!-- Rippin Rumble v0.20 | playtest build, local provider | math: GnarOne Rip & Rumble sheet-v4 -->
 <style>:root{--u:1px;--sat:env(safe-area-inset-top,0px);--sab:env(safe-area-inset-bottom,0px);--bg:#03050a;--ink:#f1f5fb;--cy:#19b8e6;box-sizing:border-box;padding-top:var(--sat);padding-bottom:var(--sab)}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#03050a}}
 :root[data-theme="dark"]{--bg:#03050a}
@@ -512,6 +512,53 @@ img.pwr{position:absolute!important;display:block;right:auto!important;bottom:au
 
 #ld-cancel{min-height:48px;padding:0 26px;font:400 20px/1 var(--uif);letter-spacing:.08em;color:#fff;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.25);border-radius:10px;cursor:pointer}
 #ladder:not(.picking) #ld-cancel{display:none}
+
+/* ================= v0.20: result box layout, the ladder bar, help in the corner ================= */
+#ladderbtn svg{flex:none;display:block;filter:drop-shadow(0 1px 2px rgba(0,0,0,.55))}
+@keyframes ldbar{50%{filter:brightness(1.2)}}
+@media (orientation:landscape){
+  /* one panel: the amount stacked on the left, the breakdown in columns on the right, the ladder as a bar along the bottom */
+  body #result{width:calc(760*var(--u));height:auto;padding:0;gap:0;flex-wrap:wrap;align-items:stretch;overflow:hidden}
+  body .res-main{flex:0 0 36%;height:calc(112*var(--u));flex-direction:column;align-items:center;justify-content:center;gap:calc(5*var(--u))}
+  body .res-k{font-size:max(11px,calc(16*var(--u)));line-height:1;letter-spacing:.18em;padding-left:.18em}
+  body #res-amt{font-size:max(26px,calc(54*var(--u)));line-height:.9;min-width:0;text-align:center}
+  body #res-net{font-size:max(11px,calc(16*var(--u)));line-height:1;padding:calc(5*var(--u)) calc(14*var(--u)) calc(3*var(--u));border-radius:99px;background:rgba(255,255,255,.07)}
+  body #res-net.up{background:rgba(88,227,154,.14)}
+  body #res-rows{flex:1;align-self:center;padding:calc(2*var(--u)) 0 calc(2*var(--u)) calc(38*var(--u));border-left:1px solid rgba(255,255,255,.14);align-content:center;gap:calc(5*var(--u))}
+  body #res-rows li{display:grid;grid-template-columns:calc(170*var(--u)) calc(56*var(--u)) calc(76*var(--u));column-gap:calc(16*var(--u));font-size:max(12px,calc(17*var(--u)));line-height:1.1}
+  body #res-rows li span,body #res-rows li b{min-width:0}
+  body #res-rows li b{text-align:right}
+  body #ladderbtn{flex:0 0 100%;order:9;visibility:visible;margin:0;display:flex;flex-direction:row;align-items:center;justify-content:center;gap:calc(14*var(--u));height:calc(44*var(--u));padding:0;border:0;border-top:1px solid #ffb38a;border-radius:0;box-shadow:none}
+  body #ladderbtn:not(.on){display:none}
+  body #ladderbtn.on{animation:ldbar 1.8s ease-in-out infinite}
+  @media (hover:hover){body #ladderbtn:hover{animation:none;filter:brightness(1.25)}}
+  body #ladderbtn:focus-visible{outline:2px solid #fff;outline-offset:-4px}
+  body #ladderbtn b{font-size:max(15px,calc(23*var(--u)))}
+  body #ladderbtn span{font-size:max(11px,calc(15*var(--u)))}
+  body #ladderbtn svg{width:calc(30*var(--u));height:calc(30*var(--u))}
+  /* help sits in the top right corner, lined up with settings below it; change deck (lobby only) moves in beside it */
+  body #help{right:calc(51*var(--u));top:calc(44*var(--u))}
+  body #deckbtn{right:calc(135*var(--u));top:calc(47.4*var(--u))}
+  body[data-deck="rico"] #deckbtn{right:calc(51*var(--u))}   /* Rico has no help button art yet, so change deck keeps the corner */
+}
+@media (orientation:portrait){
+  /* phones: the same panel as desktop, in px */
+  body #result{width:min(92vw,380px);height:auto;padding:0;gap:0;flex-direction:row;flex-wrap:wrap;align-items:stretch;overflow:hidden}
+  body .res-main{flex:0 0 38%;height:100px;flex-direction:column;align-items:center;justify-content:center;gap:5px}
+  body .res-k{font-size:12px;line-height:1;letter-spacing:.18em;padding-left:.18em}
+  body #res-amt{font-size:36px;line-height:.9;min-width:0;text-align:center}
+  body #res-net{font-size:13px;line-height:1;padding:4px 11px 3px;border-radius:99px;background:rgba(255,255,255,.07)}
+  body #res-net.up{background:rgba(88,227,154,.14)}
+  body #res-rows{flex:1;align-self:center;padding:2px 12px 2px 14px;border:0;border-left:1px solid rgba(255,255,255,.14);gap:4px}
+  body #res-rows li{display:grid;grid-template-columns:minmax(0,1fr) 30px 44px;column-gap:8px;font-size:14px;line-height:1.1}
+  body #res-rows li span,body #res-rows li b{min-width:0}
+  body #res-rows li b{text-align:right}
+  body #ladderbtn{flex:0 0 100%;order:9;margin:0;width:auto;height:56px;padding:0 12px;border:0;border-top:1px solid #ffb38a;border-radius:0;box-shadow:none;
+    grid-template-columns:auto auto;justify-content:center;justify-items:start;align-content:center;column-gap:12px}
+  body #ladderbtn:not(.on){display:none}
+  body #ladderbtn svg{grid-row:1/3;width:30px;height:30px}
+}
+
 </style></head><body>
 <div id="stage"><div id="ui" class="lobby">
 <button id="gallery" class="btn fade lobby-only" aria-label="Gallery"></button>
@@ -534,7 +581,7 @@ img.pwr{position:absolute!important;display:block;right:auto!important;bottom:au
 <div id="result" role="status" aria-live="polite">
   <div class="res-main"><span class="res-k">Returned</span><b id="res-amt">0</b><span id="res-net"></span></div>
   <ul id="res-rows"></ul>
-  <button id="ladderbtn" type="button"><b>Climb the ladder</b><span></span></button>
+  <button id="ladderbtn" type="button"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><g transform="translate(32 27) rotate(-45) scale(.84) translate(-32 -24)"><path d="M32 3l4 6v31h-8V9z" fill="#fff"/><rect x="31.2" y="10" width="1.6" height="28" fill="rgba(0,0,0,.28)"/><rect x="21" y="39.5" width="22" height="4.6" rx="2.3" fill="#ffd36e"/><rect x="29.8" y="44" width="4.4" height="10" rx="1.2" fill="#7a3a12"/><circle cx="32" cy="57.4" r="3.6" fill="#ffd36e"/></g><g transform="translate(32 27) rotate(45) scale(.84) translate(-32 -24)"><path d="M32 3l4 6v31h-8V9z" fill="#fff"/><rect x="31.2" y="10" width="1.6" height="28" fill="rgba(0,0,0,.28)"/><rect x="21" y="39.5" width="22" height="4.6" rx="2.3" fill="#ffd36e"/><rect x="29.8" y="44" width="4.4" height="10" rx="1.2" fill="#7a3a12"/><circle cx="32" cy="57.4" r="3.6" fill="#ffd36e"/></g></svg><b>Climb the ladder</b><span></span></button>
 </div>
 <div id="demo-cap" aria-live="polite"></div>
 <div id="tap-hint">Tap a card to read about it</div>
@@ -2167,7 +2214,7 @@ var RipRumbleMath = (() => {
 <script>
 /* ===================== CONFIG — every tunable in one place ===================== */
 const CONFIG={
-  version:'0.19',
+  version:'0.20',
   preset:'sheet-v4',
   playTypes:['BASE','BOOSTED'],
   startBalanceMinor:125000,
@@ -2889,7 +2936,7 @@ const DeckUI=(()=>{ const el=$('decks'), list=$('deck-list'); let pick=null; $('
 
   async function onRevealed(){
     if(Game.demo){ demoCaption(2); autoCall=gsap.delayedCall(CONFIG.showMeHoldSec,()=>toLobby(false)); return; }
-    const R=Game.round; let bal=null;
+    const R=Game.round; if(R.shown) return; R.shown=true; let bal=null;
     for(let k=0;k<4&&bal===null;k++){ try{ if(!R.collected){ bal=(await provider.collect(R.r.roundId)).balance; R.collected=true; } }catch(e){ console.error(e); await new Promise(z=>setTimeout(z,600)); } }
     if(bal===null){ toast('Could not collect this round. Check your connection; your Coins are safe.'); bal=Game.balance; }
     R.list.forEach(c=>Game.pulled.add(c.alias));

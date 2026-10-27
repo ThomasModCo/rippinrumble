@@ -1,5 +1,19 @@
 # Rippin Rumble — changelog
 
+## v0.20 — 2026-10-27 — result box, ladder bar, help in the corner
+
+### Changed
+- Result box, redesigned: the amount returned sits on the left, stacked (RETURNED, the amount, then a NET pill); the rarity breakdown sits on the right in aligned columns behind a thin divider. Everything stays inside the box at every screen size; phones get the same layout.
+- Climb the ladder is now a bar along the bottom of the result box, with a crossed-swords icon to show it is a fight. It only appears when the round returned Coins; otherwise the box is shorter.
+- Help sits in the top right corner, lined up with settings below it. Change deck (lobby only) sits just to its left. RICO has no help button art, so Change deck keeps the corner there.
+
+### Fixed
+- The result box overflowed on every desktop size since v0.19 (the amount spilled out on the left, the ladder button on the right).
+- A round is collected and shown only once even if the reveal finishes twice. This could show "Could not collect this round" in automated tests; no player action triggers it, but it is now guarded.
+
+### Verified
+- No overflow at 1024x768, 1280x720, 1512x982 and 1920x1080; help and settings share the same right edge. Phone (390x844) checked with the ladder bar. Ladder flow on desktop and phone, and 120 rounds per deck with no mismatches. No console errors.
+
 ## v0.19 — 2026-10-27 — power on every card, and the Ladder (showcase)
 
 ### Added
