@@ -1,5 +1,22 @@
 # Rippin Rumble — changelog
 
+## v0.19 — 2026-10-27 — power on every card, and the Ladder (showcase)
+
+### Added
+- Power: every card shows its power level from the sheets (the Lvl column, 1 to 16), in an emblem drawn in its deck's own style: a bevelled metal plate with the frame's chamfered corners on Chimera, an art-deco gilt diamond on Dawnbreak, a neon tube sign on RICO. The emblem takes the card's rarity colour and the number is centred on its visible shape. The same emblem appears on the 3D cards, the gallery, card details and the Ladder screen; card details also list "Power N".
+- The Ladder (showcase): after a round that returns Coins, "Climb the ladder" puts those Coins on one of the five cards just pulled. The champion fights three cards, one at a time, each stronger than the last (about power 5, 10 and 15). Win and the Coins multiply; lose and they are gone; after any win the player can take the Coins instead.
+  - Every fight is even on average: the multiplier is 1 / win chance (from 1.2x to 10x), so the Ladder never changes the game's return. A stronger champion wins more often but climbs in smaller steps, so finding a legendary does not mean winning more.
+  - The most a ladder can return is 500x the play amount.
+  - Fight screen: champion against opponent, a win/lose bar sized to the real chance, a needle that lands on the result, and win, loss and final-win sounds.
+- Card data files: docs/cards_chimera_4.json, docs/cards_dawnbreak_3.json, docs/cards_rico_3.json now carry power (earlier files kept).
+
+### Showcase only
+- Fight results are decided in the game for now, not by the engine. Before release the three Ladder calls (start, fight, take) need to move to the GnarOne engine and be approved by Rollerz, along with the cap and the wording.
+
+### Verified
+- Ladder over 20,000 ladders per champion power: power 2 returns 1.03 per Coin, power 9 returns 1.00, power 16 returns 1.00 (full climbs 0.8%, 8.4% and 32.3%).
+- Full flow on desktop and phone: Coins leave the balance when the ladder starts, wins and takes add up, a loss ends the ladder. The Ladder screen fits on 1280x720 and 390x844. No console errors.
+
 ## v0.18 — 2026-10-19 — 25 new cards per deck, remade RICO art
 
 ### Added

@@ -1,0 +1,1418 @@
+[
+ {
+  "id": 1,
+  "rarity": "legendary",
+  "lvl": 16,
+  "name": "Michael",
+  "alias": "Michael",
+  "meta": [
+   "Champion of Dawn",
+   "Celestial"
+  ],
+  "paras": [
+   "Michael is the first spear of dawn and the highest living champion of lawful light still walking the edge between heaven and the mortal world. Clad in radiant armor and crowned by the brilliance of first light, he carries the Blades of Dawn & Dusk, twin divine weapons that embody both the birth of hope and the discipline required to preserve it. To mortals he is not simply an angelic warrior, but the image of order made glorious.",
+   "Where lesser celestials inspire reverence, Michael inspires destiny. He appears only when the balance of the world itself begins to buckle under infernal tyranny, abyssal ruin, or apocalyptic corruption. His presence does not merely turn battles — it judges them. Fiends recoil from him not only because of his power, but because he represents a law older than hell and cleaner than mortal justice.",
+   "At the Fall of the Nine Black Citadels, Michael descended through a storm of ash and broke the infernal banners in a single charge, his twin blades crossing in the sky like sunrise and twilight in war. Those who survived the battle said he did not rage, boast, or hesitate. He moved as if the outcome had already been written by a hand higher than any king’s.",
+   "Michael is not warmth without severity. He is compassionate, but uncompromising. He knows that to preserve the innocent, evil must sometimes be cut out with absolute finality. That is why even the righteous fear disappointing him.",
+   "To see Michael in battle is to understand that dawn is not a gentle thing. It is a force that returns every day and asks darkness, without fail, whether it truly believes it can remain."
+  ],
+  "artifact": "Blades of Dawn & Dusk"
+ },
+ {
+  "id": 2,
+  "rarity": "legendary",
+  "lvl": 16,
+  "name": "Asmodeus",
+  "alias": "Asmodeus",
+  "meta": [
+   "Lord of Nessus",
+   "Archfiend"
+  ],
+  "paras": [
+   "Asmodeus is the architect of infernal law, the supreme ruler of hell’s deepest order, and the one being among devils whose authority is as frightening in silence as it is in wrath. Draped in regal infernal splendor and bearing the Blade of Nessus, he is not chaos, not frenzy, and not hunger. He is domination refined into system.",
+   "Hell under Asmodeus is not merely a place of torment. It is an empire of contracts, hierarchies, punishments, and ambitions sharpened into obedience. The Blade of Nessus is his symbol and his sentence — a weapon said to sever vows, sunder defiance, and bind the wills of the proud beneath infernal law. Kings who believed themselves untouchable have bent after a single audience. Champions who swore never to kneel have found their oaths rewritten in blood and fire.",
+   "At the Concord of Fallen Thrones, Asmodeus appeared not as a conqueror storming gates, but as a sovereign already entitled to them. By dawn, the rulers gathered there had either sworn themselves to him or vanished into chains no mortal eye could see. That is his genius: where demons burn cities, Asmodeus makes cities thank him for the privilege of submission.",
+   "He is patient beyond comprehension, elegant beyond comfort, and merciless beyond appeal. Michael is the certainty that righteousness will stand. Asmodeus is the certainty that every weakness can be systematized, exploited, and made permanent.",
+   "To speak of Asmodeus as merely evil is to underestimate him. He is the tyranny of structure, the seduction of power, and the law that smiles while it closes around your throat."
+  ],
+  "artifact": "Blade of Nessus"
+ },
+ {
+  "id": 3,
+  "rarity": "legendary",
+  "lvl": 15,
+  "name": "Tiamat",
+  "alias": "Tiamat",
+  "meta": [
+   "Queen of Destiny",
+   "Dragon Goddess"
+  ],
+  "paras": [
+   "Tiamat is a dragon queen of mythic antiquity, an age-defining sovereign of draconic will whose presence reshapes empires and whose hunger for dominion reaches beyond simple conquest. Vast, terrible, and divine in her own right, she stands as one of the world’s primal tyrannies — not merely a dragon, but a power around which history fractures.",
+   "She is called Queen of Destiny because kingdoms that defy her are often remembered only by the manner of their destruction. Some legends claim she speaks in many philosophies at once, carrying within her the understanding of order, malice, ambition, and cosmic indifference. Others claim that those who survive her gaze begin to believe their fall was always inevitable. In either case, Tiamat is not a beast of appetite alone. She is a will that insists the world is meant to kneel.",
+   "At the Cinder Reign of Vhal-Azur, Tiamat descended upon a coalition of kings who had sworn to break draconic tribute forever. Their armies vanished beneath storms of flame and ruin, and the kings themselves were found days later not dead, but kneeling in silence before an empty plain. None ever explained what they had seen.",
+   "Tiamat carries no artifact because she requires none. Her body is weapon enough, her breath an army-breaker, her voice a thing that can bend courage into fatalism. Dragons of lesser lineages either worship her, flee from her, or are consumed by their own inadequacy in her presence.",
+   "To behold Tiamat is to understand that destiny may not be a path toward greatness. Sometimes it is simply the name given to the ruin she has chosen for you."
+  ]
+ },
+ {
+  "id": 4,
+  "rarity": "legendary",
+  "lvl": 15,
+  "name": "Leviathan",
+  "alias": "Leviathan",
+  "meta": [
+   "Tidal Devourer",
+   "Abyssal Sea Serpent"
+  ],
+  "paras": [
+   "Leviathan is the abyssal tyranny of the sea made flesh. Its body is the length of coastlines, its scales shimmer like drowned moonlight, and its passing turns navies into driftwood and islands into memory. Unlike dragon lords or infernal kings, Leviathan does not rule by decree. It rules by the impersonal certainty of catastrophe.",
+   "Sailors speak of the Night of Drowned Stars, when an entire archipelago vanished beneath the waves after Leviathan rose from the black water and moved as though oceans themselves had chosen to crawl ashore. There is no malice in the way it destroys, and that absence is what makes it so terrifying. Leviathan does not hate. It simply is, and existence near it is fragile by comparison.",
+   "Its body carries the sea as armor. Fire dies against it. Arrows disappear into sheets of clinging tide. Ships break before even touching it, as though currents bend toward the inevitability of its hunger. Yet “hunger” may be too mortal a word. Leviathan seems less interested in feeding than in reminding civilizations that the oceans beneath them are older than every empire and less forgiving than any god.",
+   "To glimpse Leviathan on the horizon is not to prepare for battle. It is to understand that the world has a tidal edge, and that edge has decided to rise."
+  ]
+ },
+ {
+  "id": 5,
+  "rarity": "legendary",
+  "lvl": 15,
+  "name": "Tarrasque",
+  "alias": "Tarrasque",
+  "meta": [
+   "Destroyer of Worlds",
+   "Primeval Behemoth"
+  ],
+  "paras": [
+   "The Tarrasque is the final answer of the land when civilization grows arrogant enough to believe stone belongs to kings rather than to the world itself. Vast beyond siegecraft, lion-headed and mountain-muscled, it is the apocalypse of the earth given directionless but unstoppable life.",
+   "When the Tarrasque wakes, war ceases to matter. Borders become meaningless. Fortresses become pebbles. Armies turn from instruments of conquest into crowds trying not to be erased. Entire ages are measured by whether the Tarrasque sleeps, and histories speak less of defeating it than of surviving its passage long enough to rebuild somewhere else.",
+   "Its hide turns aside spells. Siege engines splinter against it. The ground shakes before it appears, and behind it remains only the silence of flattened cities and uprooted roads. At the Last March, a thousand knights rode to halt its advance. None returned. Their line is remembered only because the scar across the continent still marks where they died.",
+   "The Tarrasque has no relic, no ideology, and no voice. It does not tempt, negotiate, or threaten. It exists as pure terrestrial collapse — the truth that land itself can decide to move and everything built upon it is merely temporary.",
+   "To see the Tarrasque is to realize the earth has teeth, and that all kingdoms are built within reach of its jaws."
+  ]
+ },
+ {
+  "id": 6,
+  "rarity": "rare",
+  "lvl": 14,
+  "name": "Astrid Dawnlance",
+  "alias": "Astrid",
+  "meta": [
+   "Celestial Valkyrie",
+   "Celestial"
+  ],
+  "paras": [
+   "Astrid Dawnlance is the spear-tip of the upper hosts, a war-valkyrie who hunts the enemies of dawn across storm-dark skies. Winged, severe, and radiant in a way that feels more lethal than comforting, she carries the Spear of the First Dawn as though the morning itself has learned to strike.",
+   "Her beauty is the beauty of lightning — impossible to ignore and never safe to trust. Astrid is not a herald of easy sunrise, but the one who earns it by descending where battle has almost already been lost. When shadow begins to win and the living feel the shape of despair, she appears at the edge between annihilation and one final stand.",
+   "At the Burning of Ashen Vale, Astrid fell from the clouds like a comet and drove her spear through the infernal standard at the exact moment mortal lines were beginning to break. Soldiers later said they felt the battle shift before they understood why, as though fate itself had suddenly remembered the existence of courage.",
+   "Michael inspires reverence from afar. Astrid inspires motion. She does not simply remind the righteous that light exists. She makes them rise while it still can.",
+   "To see Astrid in flight is to witness dawn armed for war."
+  ],
+  "artifact": "Spear of the First Dawn"
+ },
+ {
+  "id": 7,
+  "rarity": "rare",
+  "lvl": 14,
+  "name": "Aurexion",
+  "alias": "Aurexion",
+  "meta": [
+   "Celestial Warden",
+   "Celestial Dragon"
+  ],
+  "paras": [
+   "Aurexion, the Celestial Warden, is not merely a guardian of heaven’s thresholds, but a living war-engine of divine judgment. Vast, radiant, and draconic in form, he is among the oldest wardens still standing between creation and the powers that would tear its oldest seals apart. His scales shine like stormlit gold and darkened silver, and a furnace of celestial fire burns in his chest bright enough to make lesser beings mistake him for a second sun.",
+   "He is not gentle holiness. He is vigilance made sacred. Where many servants of the light inspire comfort, Aurexion inspires awe sharpened by fear. The Starforged Halberd in his grasp was not forged for ceremony but execution, and when it falls it does so with the authority of heaven’s verdict.",
+   "At the Sundering of Vhal Turog, Aurexion descended into a war already thought lost. Witnesses said his arrival split the storm itself, and that his first strike tore through infernal engines and demon ranks alike as though they were parchment laid before a forge. Even allied armies fell silent in his presence, for his victory did not resemble rescue — it resembled sentence.",
+   "Aurexion does not merely keep monsters out. He judges what within the walls is still worth saving. To behold him is to understand that creation is defended not only by mercy, but by guardians willing to become terrifying in its preservation."
+  ],
+  "artifact": "Starforged Halberd"
+ },
+ {
+  "id": 8,
+  "rarity": "rare",
+  "lvl": 14,
+  "name": "Nightfall Sovereign",
+  "alias": "Nightfall",
+  "meta": [
+   "Dread Overlord",
+   "Undead"
+  ],
+  "paras": [
+   "The Nightfall Sovereign is not merely an undead king, but a monarch of ruin, shadow, and imperial despair. Crowned in jagged black regalia and armored like a funeral made regal, he walks the battlefield as though an entire dead empire rises within his silhouette. Violet void-light burns in his skull and chest, and the Crown of Endless Dusk binds twilight, death, and rulership into one unending claim.",
+   "Where liches seek forbidden mastery and vampires seek dynastic hunger, the Nightfall Sovereign seeks obedience through inevitability. Under his gaze, cities do not merely fall — they darken, empty, and become monuments to surrender. Standards rise again under dead hands. Marching lines reform. Bureaucracies of extinction return as though empire itself refuses to die.",
+   "No clear account survives of what he was in life. Some say he was a conqueror-king who refused to surrender his dominion even to death. Others claim he is the vessel of some older cosmic dusk, a force born not from hell nor heaven, but from the hour when all lights fail at once. What is certain is that his presence changes war into something colder, quieter, and more hopeless.",
+   "At the March of Hollow Crowns, every corpse left in a city under siege rose to join him before either army understood what was happening. He did not charge. He arrived. That was enough.",
+   "To face the Nightfall Sovereign is to feel not merely that you may die, but that your death will be folded into a greater order of darkness that was waiting for you long before you were born."
+  ],
+  "artifact": "Crown of Endless Dusk"
+ },
+ {
+  "id": 9,
+  "rarity": "rare",
+  "lvl": 13,
+  "name": "Gunthar",
+  "alias": "Gunthar",
+  "meta": [
+   "Thunder King",
+   "Giant"
+  ],
+  "paras": [
+   "Gunthar the Thunder King is the storm made sovereign flesh. Towering, crowned in lightning, and draped in thunderheads, he walks the high peaks as though they are merely the floor of his true kingdom. The Stormbreaker Staff in his hands is less a tool than a conduit for the violence of the sky itself.",
+   "Gunthar is not a tyrant and not a guardian in any reliable sense. He is wild justice, unpredictable protection, and catastrophe with preferences. Mountain clans honor him because he has broken devils, giants, and tyrants that threatened them. Those same clans fear him because he is every bit as capable of washing away their valleys in a rage that was never meant for them.",
+   "At the Fall of Dhalmere Keep, Gunthar split the storm itself and descended into an infernal siege, lightning leaping from his staff to tear fiends apart like dry wheat. When the storm ended, the devils were gone — and so too was half the valley.",
+   "To call on Gunthar is to gamble with a power that cannot be bribed, bound, or reasoned into gentleness. Yet in that very chaos lies his strange justice: he belongs to no throne and answers only to the storm."
+  ],
+  "artifact": "Stormbreaker Staff"
+ },
+ {
+  "id": 10,
+  "rarity": "rare",
+  "lvl": 13,
+  "name": "Xerathul",
+  "alias": "Xerathul",
+  "meta": [
+   "Balor Lord",
+   "Fiend"
+  ],
+  "paras": [
+   "Xerathul is flame and annihilation made sentient, a balor lord who survived the abyssal wars and emerged not tempered, but made worse by victory. His body is wreathed in ruin-fire, his wings are charred black, and the Infernal Chains of Thar’Kul writhe in his hands like living hatred.",
+   "Unlike Asmodeus, Xerathul does not build systems. He burns them. Unlike Maltheris, he does not seduce. He breaks. Entire cities have vanished beneath his laughter and chain-fire, their people dragged screaming into infernal ruin by links that bite deeper the more they resist.",
+   "At the Burning of Khelar, Xerathul’s chains latched onto a titan, a dragon, and a city gate in the span of a single charge. By the time the chain recoiled, all three were falling.",
+   "To fight Xerathul is to discover that destruction can be deliberate, intelligent, and very, very eager."
+  ],
+  "artifact": "Infernal Chains of Thar’Kul"
+ },
+ {
+  "id": 11,
+  "rarity": "rare",
+  "lvl": 12,
+  "name": "Maltheris",
+  "alias": "Maltheris",
+  "meta": [
+   "The Crimson Duke",
+   "Devil"
+  ],
+  "paras": [
+   "Maltheris is the aristocracy of evil, an infernal duke whose elegance is rivaled only by his cruelty. Draped in crimson finery and moving with courtly grace, he prefers to conquer not by open force, but by humiliation, dependence, and velvet-cloaked betrayal.",
+   "His weapon, the Dagger of Scarlet Chains, binds victims in infernal law through a single cut. Those marked by it find freedom dying quietly inside them, every act of resistance tightening invisible fetters until obedience begins to feel like reason. He has enslaved rulers without ever shouting and broken champions with smiles instead of wounds.",
+   "At the Masquerade of Ashes, Maltheris entered a mortal court as guest and left it empty by dawn, its nobles dragged into infernal service by chains no one saw until too late.",
+   "Where Xerathul is apocalypse, Maltheris is submission with applause."
+  ],
+  "artifact": "Dagger of Scarlet Chains"
+ },
+ {
+  "id": 12,
+  "rarity": "rare",
+  "lvl": 12,
+  "name": "Selyra",
+  "alias": "Selyra",
+  "meta": [
+   "Moon Priestess",
+   "Elf"
+  ],
+  "paras": [
+   "Selyra is one of the oldest living vessels of lunar wisdom still walking the world. Silver-haired, ageless, and haloed in cold astral light, she appears less like a mortal priestess than a living remnant of an older age when moonlight itself was law, prophecy, and ward. In her hands rests the Lunar Scepter, through which tides of moon-magic, foresight, and spiritual binding are made manifest.",
+   "She is not a conqueror. Her power is subtler and in some ways more essential. Selyra seals breaches, restores balances, unveils what shadow hides, and binds what frenzy would unleash. Ancient accounts place her among the moon rites that first closed forbidden crossings beneath the world.",
+   "At the Veiling of Nymora Gate, she arrived alone to a temple already half-opened by cultists. Witnesses said the broken doorway glowed behind her like a second moon, and every spell cast against her vanished into silver tide.",
+   "Selyra is what violence often mistakes for fragility. She is calm old power, and the world is less broken because she is still here to keep certain doors shut."
+  ],
+  "artifact": "Lunar Scepter"
+ },
+ {
+  "id": 13,
+  "rarity": "rare",
+  "lvl": 12,
+  "name": "Zharoth",
+  "alias": "Zharoth",
+  "meta": [
+   "Hound of Ashes",
+   "Fiend"
+  ],
+  "paras": [
+   "Zharoth is no common hellhound but an infernal war-beast bred to break formations, spread terror, and leave only scorched ruin where resistance once stood. Massive, black-furred, plated in armor and ember-scarred flesh, he moves with the battlefield cunning of something that has learned exactly when fear ripens into collapse.",
+   "Around his neck hangs the Collar of Ember Chains, once used to bind him to infernal masters and point his rage toward chosen prey. Those masters are long dead. The chains remain as trophies.",
+   "At the Cinderfall of Morak Plain, Zharoth was unleashed against a line expected to hold until dawn. By midnight there was no line left — only burning trenches, shattered pikes, and survivors who insisted the thing that came through the fire was not an animal but a piece of hell taught to hunt.",
+   "The flames around Zharoth are frightening. The intelligence behind them is worse."
+  ],
+  "artifact": "Collar of Ember Chains"
+ },
+ {
+  "id": 14,
+  "rarity": "rare",
+  "lvl": 12,
+  "name": "Vyrkan",
+  "alias": "Vyrkan",
+  "meta": [
+   "The Bloodborn",
+   "Vampire"
+  ],
+  "paras": [
+   "Vyrkan the Bloodborn is a sovereign of undeath, lineage, and immaculate cruelty. Pale, regal, and unnervingly composed, he rules not as a lurking predator but as a throne-bound warlord whose stillness is more frightening than another creature’s fury. Across his knees lies the Blade of Eternal Hunger, a vampiric relic that drinks life and returns it as strength, loyalty, and dynasty.",
+   "Vyrkan does not gorge. He cultivates. Each city he conquers becomes another sepulchral court. Each battlefield he wins becomes another grave-host waiting to rise beneath disciplined banners. In life he is said to have been a prince obsessed with legacy above pleasure. Death preserved that obsession and made it immortal.",
+   "At the Crimson Coronation of Velcaris, Vyrkan slew the last living king upon his own throne and was crowned in silence while the dead rose in the aisles around him. Witnesses later said he never once raised his voice.",
+   "To face Vyrkan is to face rulership after mercy has died."
+  ],
+  "artifact": "Blade of Eternal Hunger"
+ },
+ {
+  "id": 15,
+  "rarity": "rare",
+  "lvl": 12,
+  "name": "Durmokk",
+  "alias": "Durmokk",
+  "meta": [
+   "The Tyrant King",
+   "Duergar"
+  ],
+  "paras": [
+   "Durmokk rules the under-realms through iron, conquest, and efficiency stripped of all compassion. Broad as a gatehouse and armored in black royal plate, he is the image of subterranean tyranny — a king who believes the world beneath the mountains belongs to the hand strong enough to close around it.",
+   "He took his throne through purges, betrayals, and perfectly organized war. Rival clans were folded into his machine. Priesthoods were chained to the crown. Slave roads were carved through old stone empires so that every gem, ingot, and life would feed his realm. The Hammer of the Iron Throne in his grasp is both scepter and siege engine.",
+   "At the Breaking of Khar-Dovar, Durmokk shattered a citadel gate himself rather than allow rebellion the dignity of requiring a general. By dawn the hold had been renamed and its survivors were either sworn to him or buried beneath it.",
+   "Durmokk does not seek chaos. He seeks submission. That is why he is more dangerous than many monsters."
+  ],
+  "artifact": "Hammer of the Iron Throne"
+ },
+ {
+  "id": 16,
+  "rarity": "rare",
+  "lvl": 11,
+  "name": "Elandor the Wise",
+  "alias": "Elandor",
+  "meta": [
+   "Archmage Supreme",
+   "Human"
+  ],
+  "paras": [
+   "Elandor is the living bridge between mortal scholarship and cosmic order. Once a humble scholar of the Eternal Spire, he rose through intellect, discipline, and terrifying insight until time and starlight themselves bent to his command. In his hands the Staff of Aeons channels chronology, astral geometry, and arcane inevitability.",
+   "He is no battlefield berserker. He wins by making reality better behaved than his enemies. Armies under his watch have marched through frozen time, escaped impossible sieges by stepping through folded moments, and watched storms unwind into harmless rain because Elandor decided they should.",
+   "His wisdom is his greatest strength and his greatest burden. He sees too much to indulge in easy triumph. He knows every victory borrows from a future cost.",
+   "To stand before Elandor is to feel that the universe itself has sent an argument — and it is better armed than you are."
+  ],
+  "artifact": "Staff of Aeons"
+ },
+ {
+  "id": 17,
+  "rarity": "rare",
+  "lvl": 11,
+  "name": "Sulhazir",
+  "alias": "Sulhazir",
+  "meta": [
+   "Efreeti Pasha",
+   "Efreeti"
+  ],
+  "paras": [
+   "Sulhazir is an efreeti tyrant of courtly flame and imperial vanity. Draped in smoke and ember silk, he rules through spectacle, wealth, and the certainty that all things touched by heat eventually soften enough to shape.",
+   "His Scimitar of Burning Sands can melt stone into glass and reduce armored regiments to screaming silhouettes. Yet Sulhazir prefers dominance to slaughter. He is an empire-builder of furnaces, tribute, and oaths spoken over burning altars.",
+   "At the Glassing of Surnak, Sulhazir turned an entire desert citadel into molten walls and mirrored ruin after its rulers refused tribute. He walked its streets the next morning as though conducting an architectural review.",
+   "To face Sulhazir is to discover that vanity can burn just as hot as rage."
+  ],
+  "artifact": "Scimitar of Burning Sands"
+ },
+ {
+  "id": 18,
+  "rarity": "rare",
+  "lvl": 11,
+  "name": "Morgrath",
+  "alias": "Morgrath",
+  "meta": [
+   "Death Tyrant",
+   "Undead"
+  ],
+  "paras": [
+   "Morgrath is a sovereign of disciplined necromancy, a tyrant whose dominion over death is less frantic than precise. Crowned in funerary regalia and surrounded by silent dead, he treats mortality as a resource to be catalogued, assigned, and permanently brought under administration.",
+   "The Crown of Eternal Vigil lets him perceive the restless boundaries between life and death, commanding legions of the fallen not as a mad summoner but as a ruler who has abolished the concept of retirement from service.",
+   "At the Black Census of Vor, Morgrath raised an entire city’s dead and marched them in perfect order through the streets while survivors watched from shuttered windows, realizing the city now served a regime from which even death offered no release.",
+   "Morgrath is not hunger. He is bureaucracy after the soul is gone."
+  ],
+  "artifact": "Crown of Eternal Vigil"
+ },
+ {
+  "id": 19,
+  "rarity": "uncommon",
+  "lvl": 10,
+  "name": "Grumdur Ironfaith",
+  "alias": "Grumdur",
+  "meta": [
+   "Battle Priest",
+   "Dwarf"
+  ],
+  "paras": [
+   "Grumdur is a battle priest of dwarven conviction, a war-cleric whose faith is measured not by sermon but by endurance. Broad, scarred, and impossible to move once he plants his feet, he bears the Hammer of Sanctified Stone and turns prayer into impact.",
+   "He has stood in collapsing tunnels, daemon-broken halls, and front lines where the righteous needed a wall more than a speech. Grumdur is that wall.",
+   "To fight beside him is to believe the mountain itself has chosen to stand with you."
+  ],
+  "artifact": "Hammer of Sanctified Stone"
+ },
+ {
+  "id": 20,
+  "rarity": "uncommon",
+  "lvl": 9,
+  "name": "Kaelen Duskbane",
+  "alias": "Kaelen",
+  "meta": [
+   "Paladin",
+   "Human"
+  ],
+  "paras": [
+   "Kaelen is the knight of the last light, a twilight paladin who stands strongest when hope is hardest to hold. The Blade of the Setting Sun burns not with cheerful brilliance, but with solemn dusk-fire — the promise that night has not yet won.",
+   "He is beloved not because he promises easy victory, but because he remains when others should already have fallen."
+  ],
+  "artifact": "Blade of the Setting Sun"
+ },
+ {
+  "id": 21,
+  "rarity": "uncommon",
+  "lvl": 10,
+  "name": "Gravemaw",
+  "alias": "Gravemaw",
+  "meta": [
+   "The Titan",
+   "Undead Giant"
+  ],
+  "paras": [
+   "Gravemaw is death with battlefield stature. A colossal undead giant carrying Tombcleaver, he marches not like a beast but like a warlord who simply continued commanding after burial failed to keep him.",
+   "Lesser undead gather in his shadow as though rank and obedience survive the grave itself. When Gravemaw appears, armies do not merely fear dying. They fear joining his side before the battle is over."
+  ],
+  "artifact": "Tombcleaver, the Sepulchral Axe"
+ },
+ {
+  "id": 22,
+  "rarity": "uncommon",
+  "lvl": 10,
+  "name": "Strovax",
+  "alias": "Strovax",
+  "meta": [
+   "The Fleshbound",
+   "Aberration"
+  ],
+  "paras": [
+   "Strovax is a deliberate atrocity — a flesh engine shaped by necromancy, alchemy, and ritual mutilation. Green necrotic energy seeps from seams in his body, and every movement suggests pain made functional. He is not random gore given motion, but engineered blasphemy.",
+   "He was built to break walls, survive impossible punishment, and terrify those who saw him. What his makers failed to understand is that awareness would eventually awaken inside the weapon they were building.",
+   "Now Strovax walks with ruined patience, hating everyone equally."
+  ]
+ },
+ {
+  "id": 23,
+  "rarity": "uncommon",
+  "lvl": 9,
+  "name": "Xerathis",
+  "alias": "Xerathis",
+  "meta": [
+   "The Immortal",
+   "Lich"
+  ],
+  "paras": [
+   "Xerathis is a lich archmage whose patience has become more dangerous than another sorcerer’s fury. He does not pursue domination through spectacle, but through permanence. Every plan with Xerathis extends beyond his own destruction because his destruction is treated as inconvenience.",
+   "His phylactery is said to be hidden within layered dimensions of his own design. To “kill” him is often just to delay the next time you regret trying."
+  ],
+  "artifact": "Phylactery of the Endless Coil"
+ },
+ {
+  "id": 24,
+  "rarity": "uncommon",
+  "lvl": 9,
+  "name": "Varnok",
+  "alias": "Varnok",
+  "meta": [
+   "The Stonebound",
+   "Golem"
+  ],
+  "paras": [
+   "Varnok is a stonebound golem of titanic mass, a living fortress animated by the Core of the Living Mountain. He is ancient defense without ego, patient destruction without cruelty, and almost impossible to redirect once awakened.",
+   "If Varnok walks, something very old has decided the world is trespassing."
+  ],
+  "artifact": "Core of the Living Mountain"
+ },
+ {
+  "id": 25,
+  "rarity": "uncommon",
+  "lvl": 8,
+  "name": "Aeryon",
+  "alias": "Aeryon",
+  "meta": [
+   "Storm Roc",
+   "Monstrosity"
+  ],
+  "paras": [
+   "Aeryon is an ancient sovereign of the upper sky, a storm roc whose wings carry lightning and whose territory includes every altitude arrogant enough to believe it is unobserved. He is not an animalistic predator so much as a sky-king who has never needed mortal permission to rule.",
+   "When Aeryon descends, storms stop looking like weather and start looking like heraldry."
+  ]
+ },
+ {
+  "id": 26,
+  "rarity": "uncommon",
+  "lvl": 8,
+  "name": "Kharzoth",
+  "alias": "Kharzoth",
+  "meta": [
+   "Battle Drake",
+   "Monstrosity"
+  ],
+  "paras": [
+   "Kharzoth is a chained war-drake bred for siege and battlefield collapse. Armored, furnace-throated, and brutally direct, he is what tyrants unleash when they want courage broken before strategy even begins.",
+   "He is not a dragon prince. He is war taught to breathe fire."
+  ]
+ },
+ {
+  "id": 27,
+  "rarity": "uncommon",
+  "lvl": 10,
+  "name": "Varkul",
+  "alias": "Varkul",
+  "meta": [
+   "The Flayer",
+   "Fiend"
+  ],
+  "paras": [
+   "Varkul is a demon captain built for field execution. He is not a prince of hell nor a philosopher of ruin. He is the one infernal commanders send when a hunt must end in blood. Lean, vicious, and fast enough to turn panic into inevitability, he fights with the Twinscythes of the Flayer in crossing patterns meant to overwhelm, peel, and finish.",
+   "He is feared because he closes what others start."
+  ],
+  "artifact": "Twinscythes of the Flayer"
+ },
+ {
+  "id": 28,
+  "rarity": "uncommon",
+  "lvl": 8,
+  "name": "Serathil Moonblade",
+  "alias": "Serathil",
+  "meta": [
+   "Blademaster",
+   "Elf"
+  ],
+  "paras": [
+   "Serathil is elegance under pressure, a moon-blessed blademaster whose style turns combat into flowing inevitability. The Moonblade of Selorien shines brightest in motion, rewarding precision, timing, and fearless commitment.",
+   "She is a hero of the present age because she still feels mortal enough for victory to matter."
+  ],
+  "artifact": "Moonblade of Selorien"
+ },
+ {
+  "id": 29,
+  "rarity": "uncommon",
+  "lvl": 8,
+  "name": "Thrain Iron-Crag",
+  "alias": "Thrain",
+  "meta": [
+   "Juggernaut",
+   "Dwarf"
+  ],
+  "paras": [
+   "Thrain is a dwarven champion built like a siege tower and driven like one too. Once he enters a fight, everything becomes simpler: either the enemy breaks, or the ground around him does.",
+   "His Earthsplitter Maul has ended duels, wars, and architecture with equal honesty."
+  ],
+  "artifact": "Earthsplitter Maul"
+ },
+ {
+  "id": 30,
+  "rarity": "common",
+  "lvl": 6,
+  "name": "Shanyuan",
+  "alias": "Shanyuan",
+  "meta": [
+   "Battle Monk",
+   "Human"
+  ],
+  "paras": [
+   "Shanyuan is disciplined force without ornament. Bald, severe, and chain-bound in ritual simplicity, he fights through internal flame, focused will, and bodily mastery sharpened by ascetic suffering.",
+   "He is the sort of holy warrior who looks calm only because panic has long since ceased to be relevant."
+  ],
+  "artifact": "Censer of Burning Will"
+ },
+ {
+  "id": 31,
+  "rarity": "uncommon",
+  "lvl": 7,
+  "name": "Zrath The Overseer",
+  "alias": "Zrath",
+  "meta": [
+   "Taskmaster",
+   "Duergar"
+  ],
+  "paras": [
+   "Zrath is a duergar taskmaster whose authority is measured in scars, chains, and exhausted obedience. He is not a king like Durmokk, but the kind of enforcer who makes a king’s system function.",
+   "He rules labor, punishment, and fear with professional efficiency."
+  ],
+  "artifact": "Lash of Stonefire"
+ },
+ {
+  "id": 32,
+  "rarity": "uncommon",
+  "lvl": 7,
+  "name": "Gorvak",
+  "alias": "Gorvak",
+  "meta": [
+   "Prince of Thieves",
+   "Ogre Mage"
+  ],
+  "paras": [
+   "Gorvak is an ogre mage criminal prince whose genius lies in understanding that greed needs glamour almost as much as gold. He is huge, cunning, and criminally theatrical, ruling theft, smuggling, and shadow-trade from behind layers of deniability.",
+   "He is the sort of villain people underestimate exactly once."
+  ],
+  "artifact": "Mask of the Black Market"
+ },
+ {
+  "id": 33,
+  "rarity": "common",
+  "lvl": 6,
+  "name": "Saryndra Everscorch",
+  "alias": "Saryndra",
+  "meta": [
+   "Succumbus",
+   "Fiend"
+  ],
+  "paras": [
+   "Saryndra is infernal aristocracy sharpened into predation — beautiful, ceremonial, and merciless. Her Searing Veil shifts from ember-silk glamour to execution fire in a breath.",
+   "She conquers through fascination first and fire second."
+  ],
+  "artifact": "Searing Veil"
+ },
+ {
+  "id": 34,
+  "rarity": "common",
+  "lvl": 6,
+  "name": "Chymeron",
+  "alias": "Chymeron",
+  "meta": [
+   "Chimera Warlord",
+   "Monstrosity"
+  ],
+  "paras": [
+   "Chymeron is a triune predator made sovereign, a chimera whose threefold savagery moves with one purpose. He does not merely rampage. He dominates the wild through unity of hunger."
+  ]
+ },
+ {
+  "id": 35,
+  "rarity": "common",
+  "lvl": 6,
+  "name": "Medusa",
+  "alias": "Medusa",
+  "meta": [
+   "Gorgon Queen",
+   "Monstrosity"
+  ],
+  "paras": [
+   "Medusa rules fear through poise. She is not a cave-dwelling beast but a queen of petrifying judgment, turning enemies into monuments to their own final expression."
+  ],
+  "artifact": "Crown of Serpents"
+ },
+ {
+  "id": 36,
+  "rarity": "common",
+  "lvl": 6,
+  "name": "Brughor Skullcrusher",
+  "alias": "Brughor",
+  "meta": [
+   "Warlord",
+   "Troll"
+  ],
+  "paras": [
+   "Brughor is brute force with persistence attached. Huge, hateful, and hard to keep down, he is every battle’s argument for why some things should be killed from very far away."
+  ],
+  "artifact": "Maul of the Broken Fang"
+ },
+ {
+  "id": 37,
+  "rarity": "common",
+  "lvl": 5,
+  "name": "Sir Caelen",
+  "alias": "Caelen",
+  "meta": [
+   "Commander",
+   "Human"
+  ],
+  "paras": [
+   "Sir Caelen is a cavalry commander of old-school honor and battlefield responsibility. He is not mythic, but he is reliable in exactly the way kingdoms desperately need."
+  ],
+  "artifact": "Sword of the Dawn"
+ },
+ {
+  "id": 38,
+  "rarity": "common",
+  "lvl": 5,
+  "name": "Karguk the Red",
+  "alias": "Karguk",
+  "meta": [
+   "Warlord",
+   "Orc"
+  ],
+  "paras": [
+   "Karguk is momentum, violence, and tribal pride weaponized into one relentless barbarian charge."
+  ],
+  "artifact": "Axe of the Blood Howl"
+ },
+ {
+  "id": 39,
+  "rarity": "common",
+  "lvl": 5,
+  "name": "Torvik Flamebrand",
+  "alias": "Torvik",
+  "meta": [
+   "Fire Sorcerer",
+   "Human"
+  ],
+  "paras": [
+   "Torvik is a forge-blooded pyromancer whose magic feels crafted rather than wild. His fire is heat with purpose."
+  ],
+  "artifact": "Staff of the Eternal Forge"
+ },
+ {
+  "id": 40,
+  "rarity": "common",
+  "lvl": 4,
+  "name": "Lyrelle The Ranger",
+  "alias": "Lyrelle",
+  "meta": [
+   "Archer",
+   "Elf"
+  ],
+  "paras": [
+   "Lyrelle is a woodland hunter whose arrows feel more like quiet decisions than attacks. Precision defines her."
+  ],
+  "artifact": "Bow of Whispering Leaves"
+ },
+ {
+  "id": 41,
+  "rarity": "common",
+  "lvl": 4,
+  "name": "Drogan Stonefist",
+  "alias": "Drogan",
+  "meta": [
+   "Captain",
+   "Dwarf"
+  ],
+  "paras": [
+   "Drogan is a shield-captain, the kind of veteran whose authority is trusted because it has already survived too much to be theatrical."
+  ],
+  "artifact": "Aegis of the Deep Forge"
+ },
+ {
+  "id": 42,
+  "rarity": "common",
+  "lvl": 3,
+  "name": "Fizzbit The Trickster",
+  "alias": "Fizzbit",
+  "meta": [
+   "Illusionist",
+   "Goblin"
+  ],
+  "paras": [
+   "Fizzbit survives by making the battlefield more confusing than his enemies can tolerate. The difference between comedy and war crime is often just timing."
+  ],
+  "artifact": "Jester’s Lantern"
+ },
+ {
+  "id": 43,
+  "rarity": "common",
+  "lvl": 3,
+  "name": "Amara Dawnshield",
+  "alias": "Amara",
+  "meta": [
+   "Cleric",
+   "Human"
+  ],
+  "paras": [
+   "Amara is a devoted cleric whose faith manifests as healing light, spiritual steadiness, and enough courage to stand near horrors bigger than she is."
+  ],
+  "artifact": "Radiant Staff of Solara"
+ },
+ {
+  "id": 44,
+  "rarity": "common",
+  "lvl": 3,
+  "name": "Grash One-Eye",
+  "alias": "Grash",
+  "meta": [
+   "Berserker",
+   "Orc"
+  ],
+  "paras": [
+   "Grash is what happens when fury survives long enough to become reputation. Loud, brutal, and terrifyingly direct, he is exactly as subtle as the axe he favors."
+  ],
+  "artifact": "Gorefang Axe"
+ },
+ {
+  "id": 45,
+  "rarity": "common",
+  "lvl": 2,
+  "name": "Krell Bonegnasher",
+  "alias": "Krell",
+  "meta": [
+   "Packlord",
+   "Gnoll"
+  ],
+  "paras": [
+   "Krell is a disarm specialist and pack enforcer, a gnoll who understands that battlefield cruelty is most effective when organized."
+  ],
+  "artifact": "Halberd of Chains"
+ },
+ {
+  "id": 46,
+  "rarity": "common",
+  "lvl": 2,
+  "name": "Merrin Quickhands",
+  "alias": "Merrin",
+  "meta": [
+   "Rogue",
+   "Human"
+  ],
+  "paras": [
+   "Merrin is a fast-handed shadow rogue whose danger lies in angles, timing, and the insulting speed with which he can end a confident opponent."
+  ],
+  "artifact": "Shadowstep Daggers"
+ },
+ {
+  "id": 47,
+  "rarity": "common",
+  "lvl": 1,
+  "name": "Brother Aldric",
+  "alias": "Aldric",
+  "meta": [
+   "Acolyte",
+   "Human"
+  ],
+  "paras": [
+   "Aldric is young, earnest, and more important than his rank suggests. Some worlds are saved because someone this small still chooses to stand."
+  ],
+  "artifact": "Sunfire Staff"
+ },
+ {
+  "id": 48,
+  "rarity": "common",
+  "lvl": 1,
+  "name": "Skritch",
+  "alias": "Skritch",
+  "meta": [
+   "The Cutpurse",
+   "Goblin"
+  ],
+  "paras": [
+   "Skritch is petty greed in motion, a cutpurse who steals for the joy of getting away with it and kills only when pettiness requires efficiency."
+  ]
+ },
+ {
+  "id": 49,
+  "rarity": "common",
+  "lvl": 1,
+  "name": "Darian Halberdson",
+  "alias": "Darian",
+  "meta": [
+   "Soldier",
+   "Human"
+  ],
+  "paras": [
+   "Darian is not legendary, magical, or chosen. He is the line-holder, and that matters more than many kings would like to admit."
+  ],
+  "artifact": "Halberd"
+ },
+ {
+  "id": 50,
+  "rarity": "common",
+  "lvl": 1,
+  "name": "Imrik The Sneering",
+  "alias": "Imrik",
+  "meta": [
+   "Trickster",
+   "Imp"
+  ],
+  "paras": [
+   "Imrik is a spiteful infernal nuisance whose true danger lies not in his size, but in his talent for provoking fear, betrayal, and exactly the wrong decision at exactly the wrong moment."
+  ],
+  "artifact": "Venomfang Dagger"
+ },
+ {
+  "id": 51,
+  "rarity": "uncommon",
+  "lvl": 10,
+  "name": "Thalvorn",
+  "alias": "Thalvorn",
+  "meta": [
+   "Tideborn",
+   "Elemental Humanoid"
+  ],
+  "paras": [
+   "Thalvorn is the sea given humanoid form, a tideborn warrior whose body carries the rhythm, weight, and merciless patience of the deep. Armed with the Trident of Abyssal Current, he fights like undertow — controlled, inescapable, and stronger the longer one resists.",
+   "He is neither ally nor enemy by nature. He is a force tied to water’s old memory. Coastal warlords have tried to bargain with him. Most have instead learned to fear silence at low tide."
+  ],
+  "artifact": "Trident of Abyssal Current"
+ },
+ {
+  "id": 52,
+  "rarity": "legendary",
+  "lvl": 16,
+  "name": "Blades of Dawn & Dusk",
+  "alias": "Blades",
+  "meta": [
+   "Twin Swords of the Archangel",
+   "Artifact"
+  ],
+  "paras": [
+   "Forged at the first sunrise and quenched in the first sunset, the Blades of Dawn & Dusk are the only weapons ever made for an archangel by the hand of creation itself. They are a matched pair that have never been apart: the dawn blade burns white-gold, light pouring from its edge like a sunrise breaking over a mountain; the dusk blade glows a deep violet-amber, quiet and heavy, carrying the weight of every day that has ever ended.",
+   "Each blade is incomplete alone. Dawn sears shadow and wakes the light in everything it touches, but cannot finish what it starts. Dusk severs, ends and lays to rest, but cannot see what to cut without the light. Wielded together, they are judgment: the first stroke reveals corruption, the second removes it at the root. At the Fall of the Nine Black Citadels, Michael crossed them in the sky above the infernal host like sunrise and twilight meeting in war, and every banner on the field broke at once.",
+   "Many have sought to claim them. Asmodeus once offered Michael a contract for the dusk blade alone, reasoning that an ending without a beginning would make a fine weapon for Hell. Michael's reply is not recorded, but Nessus was without light for a full year afterward.",
+   "The blades cannot be stolen, for they will not leave their bearer's side; they cannot be broken, for each day is reborn in them. Legends say that on the last day of the world, Michael will cross them one final time — and the dawn that follows will be the first of a new creation."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Michael"
+   ]
+  ]
+ },
+ {
+  "id": 53,
+  "rarity": "rare",
+  "lvl": 14,
+  "name": "Spear of the First Dawn",
+  "alias": "Spear",
+  "meta": [
+   "Lance of the Valkyrie",
+   "Artifact"
+  ],
+  "paras": [
+   "The Spear of the First Dawn was carved from a shard of the morning star when it fell from the heavens at the beginning of the world, a crystal that still holds the first light ever to touch creation. Its blade is pale gold at the core and white at the edge, and when Astrid Dawnlance carries it through a storm, the clouds part around it as if the sun were rising early.",
+   "The spear burns brighter the closer a battle comes to being lost. Against a single foe it glimmers; against an army of shadow it blazes like a captured sunrise, and every thrust leaves a streak of daylight hanging in the air. At the Burning of Ashen Vale, Astrid fell from the clouds like a comet and drove it through the infernal standard just as the mortal lines began to break. Soldiers said the light of that single strike reached the back of the army before the sound did.",
+   "The spear answers only to hope. Those who wield it in despair find it cold and dim, and it has slipped from the hands of more than one would-be thief like sunlight through fingers. In Astrid's grip it never dims at all."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Astrid Dawnlance"
+   ]
+  ]
+ },
+ {
+  "id": 54,
+  "rarity": "rare",
+  "lvl": 13,
+  "name": "Infernal Chains of Thar'Kul",
+  "alias": "Chains",
+  "meta": [
+   "Bonds of the Balor Lord",
+   "Artifact"
+  ],
+  "paras": [
+   "Before there were walls in Hell, there were chains. The Infernal Chains of Thar'Kul were forged in the first pit of the Abyss to bind the titans who warred against its creation, and they remember that purpose still. Each link is living iron, glowing like a coal and dripping molten fire, and the whole length writhes and coils with a hunger of its own.",
+   "In Xerathul's hands, the chains strike like serpents. They lash out across a battlefield, wrap around their prey and tighten with every struggle, binding victims in shackles of flame that no strength can break. At the Burning of Khelar, they latched onto a titan, a dragon and a city gate in the span of a single charge, and when Xerathul pulled them back, all three were falling.",
+   "Demons say the chains are not merely forged but fed. Every soul they drag into the Abyss adds a new link, and the chain has grown longer with every century. It is said that one day it will be long enough to bind the world itself."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Xerathul"
+   ]
+  ]
+ },
+ {
+  "id": 55,
+  "rarity": "rare",
+  "lvl": 13,
+  "name": "Stormbreaker Staff",
+  "alias": "Stormbreaker",
+  "meta": [
+   "Sceptre of the Thunder King",
+   "Artifact"
+  ],
+  "paras": [
+   "The Stormbreaker Staff is a colossal rod of ironwood taller than a watchtower, banded in runed iron and scorched black by ten thousand lightning strikes. It was cut from a tree on the highest peak in the world — a tree struck by lightning every night for a thousand years, until the storm itself began to grow in its grain.",
+   "In Gunthar's grasp, the staff is a conductor of the sky. A single gesture summons thunderheads, a sweep of its length calls down lightning in sheets, and a strike against the earth can split a mountain or shatter a fortress. At the Fall of Dhalmere Keep, the staff cracked open the sky itself, pouring fire and rain onto the devil army until half the valley washed away.",
+   "The staff is as unpredictable as its master. Lightning arcs from it unbidden when Gunthar laughs, and storm-clouds gather wherever it rests. Mountain folk who find it planted in the ground know to seek shelter — the Thunder King is near, and his mood could turn either way."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Gunthar"
+   ]
+  ]
+ },
+ {
+  "id": 56,
+  "rarity": "rare",
+  "lvl": 12,
+  "name": "Starfall",
+  "alias": "Starfall",
+  "meta": [
+   "Wrath of the Heavens",
+   "Spell"
+  ],
+  "paras": [
+   "Starfall is one of the oldest moon rites Selyra still keeps, a prayer from the age when moonlight was law. It asks the heavens not for light, but for weight. Sung beneath an open night sky, it calls down meteors that fall slowly at first, glowing like lanterns, and then all at once, with the force of mountains.",
+   "The moon priestesses guard its verses jealously, for Starfall cannot be aimed by hatred. The caster must hold a clear image of what they protect, and the stars fall around it in a perfect ring. Those who cast it in anger find the ring closing upon themselves.",
+   "The craters of its last casting still glow faintly silver on moonless nights. Shepherds avoid them, but children dare each other to sleep inside — and swear they dream of being watched over."
+  ],
+  "facts": [
+   [
+    "School",
+    "Evocation"
+   ],
+   [
+    "Associated with",
+    "Selyra"
+   ]
+  ]
+ },
+ {
+  "id": 57,
+  "rarity": "uncommon",
+  "lvl": 10,
+  "name": "Wall of Radiance",
+  "alias": "Radiance",
+  "meta": [
+   "Bulwark of Dawn",
+   "Spell"
+  ],
+  "paras": [
+   "The Wall of Radiance is the first great ward taught in the temples of Solara, and the last thing many shadow-legions have ever seen. The caster drives a staff or blade into the earth, and a curtain of golden light rises behind it, tall as a cathedral and thin as a sheet of glass.",
+   "Mortals pass through it like warm sunlight. Undead, demons and creatures of shadow strike it like a cliff face. At the Siege of Caelmont, Amara Dawnshield held one for an entire night; by morning, the foot of the wall was buried in ash to the height of a man.",
+   "The Wall draws its strength from the faith of everyone standing behind it. When defenders lose hope, it thins and flickers. When they sing, it blazes."
+  ],
+  "facts": [
+   [
+    "School",
+    "Abjuration"
+   ],
+   [
+    "Associated with",
+    "Amara"
+   ]
+  ]
+ },
+ {
+  "id": 58,
+  "rarity": "uncommon",
+  "lvl": 9,
+  "name": "Blade of the Setting Sun",
+  "alias": "Sunset",
+  "meta": [
+   "Sword of the Twilight Paladin",
+   "Artifact"
+  ],
+  "paras": [
+   "The Blade of the Setting Sun was forged at the hour between day and night, its steel quenched in the last light of evening. Its glow mirrors the dying horizon: gold at the hilt, fading to crimson and then violet at the tip, as if an entire sunset were caught along its length.",
+   "Its power is neither the burning fury of dawn nor the darkness of night, but the authority of transition. Creatures of shadow find their darkness growing thin around it; creatures of light find their arrogance humbled. At the Siege of Halemire, Kaelen held the broken causeway alone, and every swing threw a flare of twilight that blinded the undead until morning came.",
+   "The goddess of balance chose Kaelen to carry it because he understood the lesson the blade teaches: no light lasts forever, and no darkness either. Paladins of dusk swear their oaths upon its edge, promising to stand firm in the hour when the world changes."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Kaelen Duskbane"
+   ]
+  ]
+ },
+ {
+  "id": 59,
+  "rarity": "uncommon",
+  "lvl": 9,
+  "name": "Phylactery of the Endless Coil",
+  "alias": "Phylactery",
+  "meta": [
+   "Soul of the Immortal",
+   "Artifact"
+  ],
+  "paras": [
+   "Every lich hides its soul somewhere. Xerathis hid his in a place that does not fully exist: the Phylactery of the Endless Coil, a spiral of black crystal and silver wire folded through layered dimensions of his own design. Seen from one angle it is a small coiled amulet. Seen from another it is a staircase descending forever.",
+   "As long as the coil endures, Xerathis cannot truly die. His body can be burned, scattered or sealed in stone, and within a season the coil turns once more and draws him back. Adventurers who believed they had destroyed it found only a copy, a decoy or a door into another fold of the spiral.",
+   "Scholars who study it describe the same unsettling detail: the coil never seems to end, and every new turn they map holds a little more of Xerathis waiting inside it. To kill him is not to finish his story. It is only to move the bookmark."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Xerathis"
+   ]
+  ]
+ },
+ {
+  "id": 60,
+  "rarity": "uncommon",
+  "lvl": 9,
+  "name": "Blood Oath",
+  "alias": "Oath",
+  "meta": [
+   "The Crimson Bargain",
+   "Spell"
+  ],
+  "paras": [
+   "The Blood Oath is the rite Vyrkan used to turn a dying princedom into an undying dynasty. It binds two parties with a single drop of blood each, granting the weaker strength borrowed from the stronger — until the debt comes due.",
+   "Desperate kings and failing generals still seek it out. For a time, it works miracles: wounds close, armies rally, walls hold. But every gift is recorded in blood, and the Oath always collects with interest. At the Crimson Coronation of Velcaris, half the nobles in the hall had sworn it at some point in their lives, and when Vyrkan took the throne, every debt was called in at once.",
+   "Scholars call it the most honest spell in the world. It never lies about the price. It simply knows that no one listens."
+  ],
+  "facts": [
+   [
+    "School",
+    "Necromancy"
+   ],
+   [
+    "Associated with",
+    "Vyrkan"
+   ]
+  ]
+ },
+ {
+  "id": 61,
+  "rarity": "uncommon",
+  "lvl": 9,
+  "name": "Stillness of Aeons",
+  "alias": "Stillness",
+  "meta": [
+   "Hourglass Sorcery",
+   "Spell"
+  ],
+  "paras": [
+   "Stillness of Aeons is the sorcery Elandor uses to march armies through frozen time and slip besieged cities out through folded moments. It does not stop time — that would unravel the world — it simply persuades a single moment to last a little longer.",
+   "Within its sphere, the caster and their allies move freely while everything else drifts like dust in a sunbeam. A falling soldier can be caught. A blade can be stepped around. A bridge can be crossed before it collapses. The price is paid in years: every heartbeat of stillness ages the caster by a day.",
+   "Elandor's beard was dark brown before he first cast it."
+  ],
+  "facts": [
+   [
+    "School",
+    "Transmutation"
+   ],
+   [
+    "Associated with",
+    "Elandor"
+   ]
+  ]
+ },
+ {
+  "id": 62,
+  "rarity": "uncommon",
+  "lvl": 8,
+  "name": "Moonblade of Selorien",
+  "alias": "Moonblade",
+  "meta": [
+   "Heirloom of the Starfire Dancer",
+   "Artifact"
+  ],
+  "paras": [
+   "The Moonblade of Selorien is a slender elven sword of silver steel, its blade etched with constellations that shimmer when moonlight touches them. It has passed down Serathil's line for twelve generations, and each wielder has added a single rune to the blade — a gift of power the sword carries forward forever.",
+   "When drawn, the Moonblade sings a clear, high note like wind across a still lake. It moves faster than the eye can follow, leaving arcs of silver light hanging in the air, and it parts armor the way moonlight parts cloud. Under a full moon its power doubles; beneath a blood moon, it blazes brighter than the sun.",
+   "The Moonblade chooses its wielders. Those of Serathil's line found unworthy say it grew heavy as stone in their hands. In Serathil's grip it is lighter than a feather — and the twelfth rune, her own, is said to be the brightest of them all."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Serathil Moonblade"
+   ]
+  ]
+ },
+ {
+  "id": 63,
+  "rarity": "uncommon",
+  "lvl": 8,
+  "name": "Earthsplitter Maul",
+  "alias": "Earthsplitter",
+  "meta": [
+   "Hammer of the Juggernaut",
+   "Artifact"
+  ],
+  "paras": [
+   "The Earthsplitter Maul is a block of runed dwarven iron the size of an anvil, mounted on a haft of black stone-oak and bound with bands of mithril. Its striking face is carved with a single deep rune that means, depending on which dwarf you ask, either 'foundation' or 'end'.",
+   "In Thrain Iron-Crag's hands it settles arguments with geology. A blow on an enemy shield drives its bearer into the ground. A blow on the ground opens it, sending cracks racing outward that topple siege towers and swallow charging lines. When the Wyrm Kargrith besieged his hold, Thrain split the cavern floor beneath it, and the wyrm fell into a chasm the dwarves later named after it.",
+   "Dwarven smiths say the maul has ended duels, wars and architecture with equal honesty. Thrain only says it is the right tool for most problems, and that the rest stop being problems once he has used it."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Thrain Iron-Crag"
+   ]
+  ]
+ },
+ {
+  "id": 64,
+  "rarity": "uncommon",
+  "lvl": 8,
+  "name": "Hellfire Rain",
+  "alias": "Hellfire",
+  "meta": [
+   "Wrath of the Abyss",
+   "Spell"
+  ],
+  "paras": [
+   "Hellfire Rain is the favored opening of every balor siege. Demonic casters tear a wound in the sky and let the Abyss bleed through it: drops of black fire that fall like a storm, hissing through armor, roofs and shields alike.",
+   "The fire does not burn hottest on flesh. It burns hottest on faith. Temples ignite before barracks, holy banners before siege towers, and priests find their prayers catching fire on their lips. At the Burning of Khelar, the cathedral was ash before Xerathul's chains ever touched the gates.",
+   "Survivors say the worst part is not the flames, but the sound — a soft, endless patter on the rooftops, like rain on an ordinary evening, mocking everything it destroys."
+  ],
+  "facts": [
+   [
+    "School",
+    "Evocation"
+   ],
+   [
+    "Associated with",
+    "Xerathul"
+   ]
+  ]
+ },
+ {
+  "id": 65,
+  "rarity": "uncommon",
+  "lvl": 7,
+  "name": "Lash of Stonefire",
+  "alias": "Lash",
+  "meta": [
+   "Whip of the Overseer",
+   "Artifact"
+  ],
+  "paras": [
+   "The Lash of Stonefire is a whip of braided black iron links, each heated in a duergar forge until it glows like a coal and then quenched in the sweat of the mines. Its handle is carved from a single piece of obsidian, and its tip ends in a spur of glowing basalt that never cools.",
+   "Zrath uses it the way other overseers use a bell. A single crack echoes through an entire mine shaft, and every chained worker within hearing quickens their pace. Struck flesh blisters with stone-burns that harden into grey scars, marking each slave as property of the Iron Throne. In battle the lash wraps around weapons and ankles alike, dragging enemies into reach of the duergar line.",
+   "It is not a weapon of glory. It is a tool of production, and Zrath values it the way a smith values a hammer. Under Durmokk's rule, the crack of the Lash of Stonefire is the sound of the under-realm working."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Zrath the Overseer"
+   ]
+  ]
+ },
+ {
+  "id": 66,
+  "rarity": "uncommon",
+  "lvl": 7,
+  "name": "Call of the Grave",
+  "alias": "Grave",
+  "meta": [
+   "Necromantic Summons",
+   "Spell"
+  ],
+  "paras": [
+   "Call of the Grave is the first spell every necromancer learns and the last one most paladins expect. The caster speaks a name into the earth, and the earth answers with bones.",
+   "Skeletal warriors claw out of the soil in their burial armor, still clutching the weapons they died with. They are slow and mindless, but they feel no pain, and on an old battlefield their numbers are endless. Some say Gravemaw learned the spell in reverse — that it was the dead who called him back.",
+   "The spell has a cruel subtlety. Soldiers who fall during the casting rise among the summoned, and their comrades must cut through familiar faces to survive."
+  ],
+  "facts": [
+   [
+    "School",
+    "Necromancy"
+   ],
+   [
+    "Associated with",
+    "Gravemaw"
+   ]
+  ]
+ },
+ {
+  "id": 67,
+  "rarity": "common",
+  "lvl": 6,
+  "name": "Maul of the Broken Fang",
+  "alias": "Maul",
+  "meta": [
+   "Warhammer of the Troll Warlord",
+   "Artifact"
+  ],
+  "paras": [
+   "The Maul of the Broken Fang is a spiked iron club the size of a man, crowned by the shattered fang of a giant Brughor slew with his bare hands. The fang has been reforged into the weapon's head, its point still sharp enough to pierce plate, and the iron around it is studded with spikes salvaged from fallen fortress gates.",
+   "Each swing crushes shields, bones and walls alike. At the Storming of Dreadmoor, Brughor smashed the fortress gate to splinters with three blows, then led his horde through the breach. Trolls who march under its banner believe the giant's strength lives on in the fang — and Brughor has never given them reason to doubt it."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Brughor Skullcrusher"
+   ]
+  ]
+ },
+ {
+  "id": 68,
+  "rarity": "common",
+  "lvl": 6,
+  "name": "Firebolt",
+  "alias": "Firebolt",
+  "meta": [
+   "Spark of the Sorcerer",
+   "Spell"
+  ],
+  "paras": [
+   "Firebolt is the first spell every fire sorcerer masters and the one they never stop using. A spear of flame leaps from the caster's palm, faster than an arrow and hot enough to punch through chainmail.",
+   "In skilled hands, it is a scalpel. Torvik uses it to snap siege ladders, ignite oil slicks and blind charging cavalry. In unskilled hands it is a disaster, and the libraries of Emberholt keep a long list of apprentices who learned that lesson indoors."
+  ],
+  "facts": [
+   [
+    "School",
+    "Evocation"
+   ],
+   [
+    "Associated with",
+    "Torvik"
+   ]
+  ]
+ },
+ {
+  "id": 69,
+  "rarity": "common",
+  "lvl": 5,
+  "name": "Sword of the Dawn",
+  "alias": "Dawnsword",
+  "meta": [
+   "Blade of the Vanguard",
+   "Artifact"
+  ],
+  "paras": [
+   "Legend says the Sword of the Dawn was forged in the first light of morning, hammered while the sun crested the horizon and quenched in morning dew. Its steel gleams with a soft holy fire that brightens as dawn approaches, and it is never colder than a summer morning to the touch.",
+   "Sir Caelen of Briarwatch carries it at the head of every charge, its light visible across the battlefield like a beacon. At the Siege of Black Hollow, he cut down the cursed banner that bound an army of the dead, and the sword's light scattered the host into ash. To the riders who follow him, the glow of that blade is the promise that dawn always comes."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Sir Caelen"
+   ]
+  ]
+ },
+ {
+  "id": 70,
+  "rarity": "common",
+  "lvl": 5,
+  "name": "Battle Fury",
+  "alias": "Fury",
+  "meta": [
+   "War-Song of the Clans",
+   "Spell"
+  ],
+  "paras": [
+   "Battle Fury is not cast so much as unleashed. Barbarian shamans beat it out on war-drums, and every warrior who hears the rhythm feels their heart lock to its pace. Pain fades, fear vanishes, and the world narrows to the enemy ahead.",
+   "Karguk the Red calls for it before every charge; Grash One-Eye seems to live inside it permanently. It turns ordinary clan warriors into a tide of axes — though when the drums stop, the exhaustion hits like a falling tree."
+  ],
+  "facts": [
+   [
+    "School",
+    "Enchantment"
+   ],
+   [
+    "Associated with",
+    "Karguk, Grash"
+   ]
+  ]
+ },
+ {
+  "id": 71,
+  "rarity": "common",
+  "lvl": 4,
+  "name": "Bow of Whispering Leaves",
+  "alias": "Bow",
+  "meta": [
+   "Longbow of the Elderwood",
+   "Artifact"
+  ],
+  "paras": [
+   "The Bow of Whispering Leaves was grown, not carved — a single living branch of an ancient Elderwood tree, shaped over decades by druids until it curved into a perfect longbow. Leaves still sprout from its limbs each spring, and when it is drawn it rustles like a forest in the wind.",
+   "Every arrow it fires carries the whispers of the forest spirits, guiding it unerringly to its mark. At the Battle of Thornpass, Lyrelle dropped a charging warlord from half a league away, the arrow curving through the trees as if it knew the way. The druids say the bow will only ever serve a guardian of the wild — and that it chose Lyrelle, not the other way around."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Lyrelle"
+   ]
+  ]
+ },
+ {
+  "id": 72,
+  "rarity": "common",
+  "lvl": 3,
+  "name": "Jester's Lantern",
+  "alias": "Lantern",
+  "meta": [
+   "Lamp of a Thousand Illusions",
+   "Artifact"
+  ],
+  "paras": [
+   "The Jester's Lantern is a brass lamp shaped like a laughing mask, its eyes and mouth glowing with a flickering, ever-changing light. No one knows who made it; Fizzbit found it in the ruins of a mage's tower, rolling among skeletons whose faces were frozen in terror.",
+   "When its shutters open, the lantern projects illusions so convincing that veteran soldiers break ranks in panic: dragons, demon hordes, burning walls and armies that do not exist. The illusions cannot harm anyone, but fear does the work for them. The lantern seems to enjoy its job — its laughing face grins a little wider every time an army runs."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Fizzbit"
+   ]
+  ]
+ },
+ {
+  "id": 73,
+  "rarity": "common",
+  "lvl": 3,
+  "name": "Shadow Veil",
+  "alias": "Veil",
+  "meta": [
+   "Thief's Cloak of Night",
+   "Spell"
+  ],
+  "paras": [
+   "A whispered word and a twist of the fingers, and the caster's outline melts into darkness. Shadow Veil is a rogue's spell, learned in alley guilds rather than academies, and it lasts only as long as the caster can hold their breath.",
+   "Merrin Quickhands claims he learned it from a cat. Whatever its origin, it has saved more thieves from the gallows than any lawyer, and it is the reason watchmen in gilded cities swing their lanterns twice at every shadow."
+  ],
+  "facts": [
+   [
+    "School",
+    "Illusion"
+   ],
+   [
+    "Associated with",
+    "Merrin"
+   ]
+  ]
+ },
+ {
+  "id": 74,
+  "rarity": "common",
+  "lvl": 2,
+  "name": "Shadowstep Daggers",
+  "alias": "Daggers",
+  "meta": [
+   "Twin Blades of the Phantom Thief",
+   "Artifact"
+  ],
+  "paras": [
+   "The Shadowstep Daggers are a matched pair of slim blackened blades, their hilts wrapped in midnight silk. They hold a single extraordinary enchantment: their wielder can vanish into any shadow and step out of another within sight.",
+   "Merrin Quickhands won them in a card game from an assassin who did not know that Merrin cheats. With them he has crossed palace halls in an eyeblink, lifted crowns from sleeping heads and appeared behind guards who swore no one was there. The daggers ask only for a shadow to step into. In full daylight they are just knives — which is why Merrin always works at night."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Merrin Quickhands"
+   ]
+  ]
+ },
+ {
+  "id": 75,
+  "rarity": "common",
+  "lvl": 1,
+  "name": "Sunfire Staff",
+  "alias": "Sunfire",
+  "meta": [
+   "Relic of the Acolyte",
+   "Artifact"
+  ],
+  "paras": [
+   "The Sunfire Staff is a simple oak staff carved with solar runes and crowned with a ring of gold that glows like a small sun. One is given to every acolyte of the dawn temples who completes their first year of service — a modest relic, blessed in the light of the temple's eternal flame.",
+   "In faithful hands, it magnifies prayer into light: bursts of radiance that ward off shadow and mend the wounded. Brother Aldric raised his against a tide of darkness at the Siege of Emberfall, and its small sun held back despair until help arrived. It is the weakest relic of the temple and, the priests say, the most important — because every hero of the dawn began by carrying one."
+  ],
+  "facts": [
+   [
+    "Wielded by",
+    "Brother Aldric"
+   ]
+  ]
+ },
+ {
+  "id": 76,
+  "rarity": "common",
+  "lvl": 1,
+  "name": "Mending Light",
+  "alias": "Mending",
+  "meta": [
+   "Touch of the Acolyte",
+   "Spell"
+  ],
+  "paras": [
+   "The simplest healing prayer of the dawn temples: the caster lays a hand on a wound and asks the morning to remember what the body looked like whole. Cuts close, bruises fade and fevers break.",
+   "It cannot raise the dead or regrow a limb, but it is the spell that keeps armies marching. Every acolyte learns it in their first week, and every soldier who has felt its warmth remembers the face of the one who cast it."
+  ],
+  "facts": [
+   [
+    "School",
+    "Evocation"
+   ],
+   [
+    "Associated with",
+    "Aldric, Amara"
+   ]
+  ]
+ }
+]
