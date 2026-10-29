@@ -1,5 +1,24 @@
 # Rippin Rumble — changelog
 
+## v0.21 — 2026-10-29 — the Collection book
+
+### Added
+- The gallery is now the Collection and opens on sets: Chimera by faction (Terran Mandate, Cult of the Outer God, Aurigan Trade Syndicate, The Chorus, Relics and Outsiders), Dawnbreak by realm (Mortal Realms, Heavens and Hells, Monsters and Hordes, Artifacts, Spells), RICO by crew (The Crew, Wheels, Arsenal, Assets and K9).
+- Each set shows its progress, a chapter that unlocks when the set is complete, and a set reward. Found cards show art and power; missing cards show the card back, a "?" and their rarity.
+- Completing a set during play shows "Set complete: <set>. Reward unlocked: <reward>".
+- "By rarity" switches to the earlier rarity pages. Card details opened from a set step through that set's found cards and return to the same set when closed.
+- ?collection=demo fills part of each deck's collection (one set complete, the rest part-way) for showcasing without a long session.
+- Card data files: docs/cards_chimera_5.json, docs/cards_dawnbreak_4.json, docs/cards_rico_4.json add each card's set (earlier files kept).
+
+### Placeholders
+- Set groupings for Dawnbreak and RICO are a proposal; Chimera uses the sheet's factions. A Set column in each sheet would make them yours to edit.
+- Chapter text is the set's top card's lore until each set has its own story in the sheets.
+- Rewards are named but not applied yet (no new card backs, frame finishes or titles in the game).
+- Progress lasts for the session only, like the gallery. Keeping it needs Rollerz storage.
+
+### Verified
+- All three decks at 1280x720, 1512x982, 1920x1080 and 390x844: the sheet fits the screen; set switching, card details and return work; completing a set shows the message. 120 rounds per deck with no mismatches; ladder flow on desktop and phone. No console errors.
+
 ## v0.20 — 2026-10-27 — result box, ladder bar, help in the corner
 
 ### Changed
