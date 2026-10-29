@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Rippin Rumble v0.21</title>
-<!-- Rippin Rumble v0.21 | playtest build, local provider | math: GnarOne Rip & Rumble sheet-v4 -->
+<title>Rippin Rumble v0.22</title>
+<!-- Rippin Rumble v0.22 | playtest build, local provider | math: GnarOne Rip & Rumble sheet-v4 -->
 <style>:root{--u:1px;--sat:env(safe-area-inset-top,0px);--sab:env(safe-area-inset-bottom,0px);--bg:#03050a;--ink:#f1f5fb;--cy:#19b8e6;box-sizing:border-box;padding-top:var(--sat);padding-bottom:var(--sab)}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#03050a}}
 :root[data-theme="dark"]{--bg:#03050a}
@@ -632,6 +632,40 @@ img.pwr{position:absolute!important;display:block;right:auto!important;bottom:au
   .col-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:4px 16px 24px;overflow:visible}
 }
 
+
+/* ================= v0.22: the ladder boss, and more impact in the opening and reveal ================= */
+/* ladder: particles, boss rung, boss card, boss title */
+#ld-fx{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:3}
+#ld-flash{position:absolute;inset:0;z-index:2;pointer-events:none;background:radial-gradient(circle at 50% 45%,rgba(255,90,30,.55),rgba(80,0,0,.35) 60%,transparent);opacity:0}
+#ld-rungs .rg.boss{color:#ffd36e;border-color:rgba(255,120,60,.6);background:linear-gradient(180deg,rgba(120,20,10,.55),rgba(40,5,5,.55))}
+#ld-rungs .rg.boss em{color:#ffb38a}
+#ld-rungs .rg.boss.cur{box-shadow:0 0 18px rgba(255,90,40,.55)}
+#ld-rungs .rg.boss.won{color:#7dff9e;border-color:rgba(125,255,158,.5);background:rgba(255,255,255,.04)}
+.ld-card{position:relative}
+.ld-card.boss .ld-face{box-shadow:0 0 0 3px #ff5a2a,0 0 46px rgba(255,80,30,.65);animation:bosspulse 1.4s ease-in-out infinite}
+.ld-card.boss::before{content:"BOSS";position:absolute;top:-13px;left:50%;transform:translateX(-50%);z-index:3;padding:5px 16px 3px;font:400 18px/1 var(--uif);letter-spacing:.2em;color:#2a0700;background:linear-gradient(180deg,#ffe08a,#ff7a2a);border-radius:4px;box-shadow:0 4px 14px rgba(0,0,0,.6)}
+.ld-card.boss.dead .ld-face{animation:none}
+.ld-card.boss.dead::before{opacity:.35}
+@keyframes bosspulse{50%{box-shadow:0 0 0 3px #ffb32a,0 0 72px rgba(255,120,30,.9)}}
+#ld-msg.boss{color:#ff7a4a;text-shadow:0 0 18px rgba(255,90,40,.6)}
+#ld-bosst{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);z-index:4;pointer-events:none;text-align:center;opacity:0;white-space:nowrap}
+#ld-bosst b{display:block;font:400 clamp(60px,10vw,132px)/.9 var(--uif);letter-spacing:.08em;color:#fff;text-shadow:0 0 34px rgba(255,80,30,.95),0 5px 0 #6a1206}
+#ld-bosst span{display:block;margin-top:10px;font:400 clamp(22px,3vw,38px)/1 var(--uif);letter-spacing:.16em;color:#ffd36e;text-shadow:0 2px 10px #000}
+/* reveal: set call-outs over the cards, and the pull banner */
+.setpop{position:absolute;z-index:6;pointer-events:none;transform:translate(-50%,-50%);font:400 max(30px,calc(66*var(--u)))/1 var(--uif);letter-spacing:.08em;color:#fff;white-space:nowrap;text-shadow:0 0 calc(18*var(--u)) var(--c),0 0 calc(6*var(--u)) var(--c),0 calc(3*var(--u)) 0 rgba(0,0,0,.7);animation:setpop 1.5s cubic-bezier(.2,.9,.3,1.2) forwards}
+@keyframes setpop{0%{opacity:0;transform:translate(-50%,-50%) scale(.4)}16%{opacity:1;transform:translate(-50%,-60%) scale(1.18)}28%{transform:translate(-50%,-64%) scale(1)}78%{opacity:1;transform:translate(-50%,-96%) scale(1)}100%{opacity:0;transform:translate(-50%,-112%) scale(.96)}}
+#pullbanner{position:absolute;left:50%;top:34%;z-index:7;pointer-events:none;transform:translate(-50%,-50%);text-align:center;opacity:0;white-space:nowrap}
+#pullbanner::before{content:"";position:absolute;inset:-40% -18%;z-index:-1;background:radial-gradient(closest-side,rgba(0,0,0,.62),rgba(0,0,0,.35) 60%,transparent)}
+#pullbanner b{display:block;font:400 max(52px,calc(118*var(--u)))/.9 var(--uif);letter-spacing:.06em;background:linear-gradient(180deg,#fffaf0 0%,#ffe08a 40%,#ffb02a 70%,#ff7a1a 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 calc(26*var(--u)) rgba(255,170,50,.85)) drop-shadow(0 calc(5*var(--u)) 0 rgba(90,30,0,.95))}
+#pullbanner span{display:block;margin-top:calc(10*var(--u));font:400 max(18px,calc(32*var(--u)))/1 var(--uif);letter-spacing:.18em;color:#fff;text-shadow:0 2px 10px #000,0 0 18px rgba(255,170,50,.6)}
+#pullbanner.legendary b{filter:drop-shadow(0 0 calc(30*var(--u)) rgba(255,182,46,.95)) drop-shadow(0 calc(5*var(--u)) 0 rgba(90,30,0,.95))}
+@media (orientation:portrait){
+  #pullbanner{top:30%} #pullbanner b{font-size:64px} #pullbanner span{font-size:20px}
+  .setpop{font-size:32px}
+  .ld-card.boss::before{font-size:15px;top:-11px;padding:4px 12px 2px}
+}
+@media (prefers-reduced-motion:reduce){ .ld-card.boss .ld-face{animation:none} .setpop{animation-duration:.01s} }
+
 </style></head><body>
 <div id="stage"><div id="ui" class="lobby">
 <button id="gallery" class="btn fade lobby-only" aria-label="Gallery"></button>
@@ -651,6 +685,7 @@ img.pwr{position:absolute!important;display:block;right:auto!important;bottom:au
 <button id="help" class="btn fade lobby-only" aria-label="Help"></button>
 <button id="set-info" class="btn setx" aria-label="How it works"></button>
 <button id="set-sound" class="btn setx" aria-label="Sound" aria-pressed="false"></button>
+<div id="pullbanner" aria-hidden="true"><b></b><span></span></div>
 <div id="result" role="status" aria-live="polite">
   <div class="res-main"><span class="res-k">Returned</span><b id="res-amt">0</b><span id="res-net"></span></div>
   <ul id="res-rows"></ul>
@@ -725,7 +760,7 @@ img.pwr{position:absolute!important;display:block;right:auto!important;bottom:au
 </div>
 <div id="ladder" role="dialog" aria-label="The Ladder"><div class="ld-in">
   <h2 id="ld-title">The Ladder</h2>
-  <p class="ld-sub">Your champion fights three cards, each stronger than the last. Win and your Coins multiply; lose and they are gone. Stronger champions win more often but climb in smaller steps, so every pick is worth the same on average.</p>
+  <p class="ld-sub">Your champion fights two cards, each stronger than the last, then the deck's boss. Win and your Coins multiply; lose and they are gone. Stronger champions win more often but climb in smaller steps, so every pick is worth the same on average.</p>
   <div id="ld-rungs"></div>
   <div id="ld-pick"></div>
   <button id="ld-cancel" type="button">Keep my Coins</button>
@@ -734,6 +769,7 @@ img.pwr{position:absolute!important;display:block;right:auto!important;bottom:au
   <p id="ld-msg"></p>
   <div class="ld-stake"><span>On the line</span><b id="ld-stake">0</b><em id="ld-next"></em></div>
   <div class="ld-btns"><button id="ld-take" type="button">Take the Coins<span></span></button><button id="ld-fight" type="button">Fight<span></span></button></div>
+  <canvas id="ld-fx" aria-hidden="true"></canvas><div id="ld-flash" aria-hidden="true"></div><div id="ld-bosst" aria-hidden="true"><b>Boss fight</b><span></span></div>
   <p class="ld-note">Showcase build: fight results are decided in the game for now. Every fight is even on average (win chance &times; multiplier = 1), so the ladder does not change the game's return.</p>
 </div></div>
 <div id="decks" class="boot" role="dialog" aria-label="Choose a deck"><div class="decks-in">
@@ -2289,7 +2325,7 @@ var RipRumbleMath = (() => {
 <script>
 /* ===================== CONFIG — every tunable in one place ===================== */
 const CONFIG={
-  version:'0.21',
+  version:'0.22',
   preset:'sheet-v4',
   playTypes:['BASE','BOOSTED'],
   startBalanceMinor:125000,
@@ -2311,6 +2347,7 @@ const CONFIG={
   seed:null, dev:false,
   ladderRungs:[5,10,15], ladderCap:500,   // Ladder (showcase): target power of each opponent; the most a ladder can return, in multiples of the play amount
   collectionDemo:false,   // ?collection=demo fills part of each deck's collection, to show the book without playing a long session
+  bannerGreat:5, bannerEpic:15,   // pull banner: GREAT PULL at this many times the play amount, EPIC PULL at the second
   deck:null,   // 'chimera' | 'dawnbreak' | 'rico' skips the deck screen (also ?deck=)
 };
 (()=>{ const q=new URLSearchParams(location.search); if(q.has('seed')) CONFIG.seed=q.get('seed'); if(q.get('dev')==='1') CONFIG.dev=true; if(q.has('deck')) CONFIG.deck=q.get('deck'); if(q.get('collection')==='demo') CONFIG.collectionDemo=true; if(q.get('sharp')==='0'){ CONFIG.msaa=0; CONFIG.cardTexOversample=0; CONFIG.minPixelRatio=1; CONFIG.landedClarity=false; } })();
@@ -2347,12 +2384,13 @@ class LocalProvider{
   _odds(champ,opp,stake,play){ const p0=Math.max(.1,Math.min(.9,.5+.035*(champ-opp))), NICE=[1.2,1.25,1.5,1.75,2,2.5,3,4,5,6,8,10];
     let m=NICE.reduce((a,b)=>Math.abs(1/b-p0)<Math.abs(1/a-p0)?b:a); const cap=this.cfg.ladderCap*play; if(stake*m>cap) m=Math.max(1.05,Math.floor(cap/stake*100)/100); return {m,p:1/m}; }
   _state(extra){ const L=this.lad; return Object.assign({opps:L.opps,rung:L.rung,stake:L.stake,done:L.done,lost:L.lost,next:L.done?null:this._odds(L.champ.lvl,L.opps[L.rung].lvl,L.stake,L.play),balance:this.bal+this.adj},extra||{}); }
-  async ladderStart({champ,pool,play,stake}){ if(this.lad&&!this.lad.done) throw new Error('A ladder is already running'); if(!(stake>0)) throw new Error('Nothing to put on the line');
-    const used=new Set([champ.alias]), opps=[];
+  async ladderStart({champ,pool,play,stake,boss}){ if(this.lad&&!this.lad.done) throw new Error('A ladder is already running'); if(!(stake>0)) throw new Error('Nothing to put on the line');
+    const used=new Set([champ.alias]), opps=[]; if(boss&&boss.alias!==champ.alias) used.add(boss.alias);
     for(const t of this.cfg.ladderRungs){ const c=pool.filter(x=>!used.has(x.alias)); let near=c.filter(x=>Math.abs(x.lvl-t)<=1); if(!near.length) near=c.filter(x=>Math.abs(x.lvl-t)<=3); if(!near.length) near=c;
       const o=near[Math.floor(this._rng()*near.length)]; used.add(o.alias); opps.push(o); }
+    if(boss&&boss.alias!==champ.alias) opps[opps.length-1]=Object.assign({},boss,{boss:true});
     this.adj-=stake; this.lad={champ,opps,rung:0,stake,play,done:false,lost:false}; return this._state(); }
-  async ladderFight(){ const L=this.lad; if(!L||L.done) throw new Error('No fight to play'); const {m,p}=this._odds(L.champ.lvl,L.opps[L.rung].lvl,L.stake,L.play), won=this._rng()<p;
+  async ladderFight(){ const L=this.lad; if(!L||L.done) throw new Error('No fight to play'); const {m,p}=this._odds(L.champ.lvl,L.opps[L.rung].lvl,L.stake,L.play), won=this.forceWin!=null?this.forceWin:this._rng()<p;
     if(won){ L.stake=Math.round(L.stake*m); L.rung++; if(L.rung>=L.opps.length) L.done=true; } else { L.stake=0; L.done=true; L.lost=true; }
     return this._state({won,m,p}); }
   async ladderTake(){ const L=this.lad; if(!L) throw new Error('No ladder to take'); const taken=L.stake; this.adj+=taken; this.lad=null; return {balance:this.bal+this.adj,taken}; }
@@ -2414,6 +2452,19 @@ const Sfx=(()=>{
       clink(i){ const k=1+((i||0)%8)*.03, f=(2300+Math.random()*160)*k;
         nz(0,{ft:'highpass',f:5600,d:.016,peak:.11}); osc(0,{f,d:.24,peak:.07,rev:.3}); osc(0,{f:f*1.505,d:.15,peak:.04,rev:.3}); osc(0,{f:f*2.42,d:.07,peak:.025}); osc(0,{type:'triangle',f:210,f2:120,d:.07,peak:.12}); },
       // all Coins banked: a warm low swell with a bright shimmer
+      // the pack charging when a rare or legendary is inside: a rising riser, longer and deeper for a legendary
+      charge(r){ const L=r==='legendary', d=L?1.05:.6;
+        nz(0,{f:280,f2:L?5600:3400,q:1.4,a:d,d:.12,peak:L?.24:.16,rev:.5}); osc(0,{type:'sawtooth',f:L?55:82,f2:L?220:246,a:d,d:.14,peak:L?.12:.08,lp:600,lp2:2600,lpT:d});
+        osc(0,{f:L?440:660,f2:L?1760:1320,a:d,d:.08,peak:.045,rev:.6}); if(L){ osc(0,{f:38,f2:62,a:d,d:.25,peak:.5}); [880,1108.73,1318.51].forEach((f,i)=>bell(d*.55+i*.09,f,.5,.03,.8)); } },
+      // a set forms during the reveal: two bright bells, higher for bigger sets
+      setpop(n){ const k=1+.12*((n||2)-2); bell(0,1318.51*k,.7,.08,.7); bell(.07,1975.53*k,.8,.06,.8); nz(0,{ft:'highpass',f:5200,d:.06,peak:.06,rev:.5}); },
+      // the boss enters: a sub drop, a dark chord and a crack
+      boss(){ osc(0,{f:64,f2:26,d:2.4,peak:1,rev:.4}); nz(0,{ft:'lowpass',f:900,f2:60,d:1.6,peak:.6,rev:.7});
+        [[55,-9],[58.27,8],[82.41,0],[110,-4]].forEach(([f,det])=>osc(.04,{type:'sawtooth',f,det,a:.25,d:2.2,peak:.12,lp:220,lp2:1100,lpT:.6,rev:.6}));
+        nz(.01,{ft:'highpass',f:2600,d:.18,peak:.22,rev:.7}); osc(0,{type:'triangle',f:180,f2:60,d:.6,peak:.35,rev:.4}); },
+      // a big pull: a fanfare on top of the coin bells
+      fanfare(big){ [[261.63,0],[329.63,.1],[392,.2],[523.25,.32]].forEach(([f,t])=>{ osc(t,{type:'sawtooth',f,det:-5,a:.03,d:big?1.2:.8,peak:.07,lp:900,lp2:3200,lpT:.2,rev:.6}); osc(t,{type:'sawtooth',f,det:6,a:.03,d:big?1.2:.8,peak:.06,lp:900,lp2:3200,lpT:.2,rev:.6}); });
+        osc(0,{f:80,f2:40,d:.9,peak:.5,rev:.3}); [2093,2637,3136,4186].forEach((f,i)=>bell(.34+i*.06,f,.9,.05,.9)); if(big) nz(.3,{ft:'highpass',f:5000,a:.4,d:1.2,peak:.06,rev:.8}); },
       lose(){ osc(0,{type:'sawtooth',f:200,f2:52,a:.02,d:.9,peak:.16,lp:900,lp2:110}); nz(0,{ft:'lowpass',f:420,f2:60,d:.7,peak:.4,rev:.4}); osc(0,{f:72,f2:34,d:.9,peak:.6,rev:.2}); },
       bank(){ osc(0,{f:120,f2:72,d:.4,peak:.32,rev:.25}); nz(0,{f:2600,f2:9000,q:.7,a:.04,d:.55,peak:.05,rev:.7}); [2093,2637,3136,3520].forEach((f,i)=>bell(i*.055,f,.95,.055,.85)); },
     };
@@ -2428,7 +2479,7 @@ const Sfx=(()=>{
     musicUrl:()=>musicUrl,
     toggle(){ on=!on; if(music){ if(on) music.play().catch(()=>{}); else music.pause(); } return on; },
     pause(p){ if(music&&on){ if(p) music.pause(); else music.play().catch(()=>{}); } },
-    tick(){ play('tick'); }, rip(){ play('rip'); }, pop(){ play('pop'); }, clink(i){ play('clink',i); }, bank(){ play('bank'); }, lose(){ play('lose'); }, reveal(r){ play('reveal',r); }, coins(){ play('coins'); },
+    tick(){ play('tick'); }, rip(){ play('rip'); }, pop(){ play('pop'); }, clink(i){ play('clink',i); }, bank(){ play('bank'); }, lose(){ play('lose'); }, charge(r){ play('charge',r); }, setpop(n){ play('setpop',n); }, boss(){ play('boss'); }, fanfare(b){ play('fanfare',b); }, reveal(r){ play('reveal',r); }, coins(){ play('coins'); },
     async render(n,a,sec){ const O=window.OfflineAudioContext||window.webkitOfflineAudioContext, sr=44100, c=new O(2,Math.floor(sr*sec),sr); engine(c)[n](a); const b=await c.startRendering(), L=b.getChannelData(0), R=b.getChannelData(1), o=new Int16Array(L.length*2); for(let i=0;i<L.length;i++){ o[2*i]=Math.max(-1,Math.min(1,L[i]))*32767; o[2*i+1]=Math.max(-1,Math.min(1,R[i]))*32767; } let bin=''; const u=new Uint8Array(o.buffer); for(let i=0;i<u.length;i+=8192) bin+=String.fromCharCode.apply(null,u.subarray(i,i+8192)); return btoa(bin); },
     // test aid: renders one effect offline and reports its level and length
     async measure(n,a,sec){ const O=window.OfflineAudioContext||window.webkitOfflineAudioContext, sr=44100, c=new O(2,Math.floor(sr*(sec||5)),sr); engine(c)[n](a); const b=await c.startRendering(); const L=b.getChannelData(0); let pk=0,sq=0,last=0,lo=0,hi=0,pl=0,ph=0;
@@ -2796,8 +2847,16 @@ const DeckUI=(()=>{ const el=$('decks'), list=$('deck-list'); let pick=null; $('
     gsap.fromTo(u.sm,{opacity:big?.9:.5},{opacity:0,duration:big?1.2:.55,ease:'power2.out'});
     gsap.fromTo(u.st.scale,{x:.3,y:1},{x:big?1.5:1,y:big?.7:.5,duration:big?1.2:.55,ease:'power3.out'});
     if(big) emit(c.position.x,L.baseY+c.position.y-L.ch*.3,c.position.z+.1,46,L.cw*1.1,col,.5,.9,.25,2.6,.03);
+    else if(r==='rare'){ emit(c.position.x,L.baseY+c.position.y,c.position.z+.1,34,L.cw*.9,col,.5,.8,.3,1.6,.028); S.shake=Math.max(S.shake,.014); gsap.fromTo(S,{exposure:1.14},{exposure:1,duration:.5,ease:'power2.out'}); }
+    else if(r==='uncommon') emit(c.position.x,L.baseY+c.position.y,c.position.z+.1,12,L.cw*.7,col,.3,.5,.3,1.1,.022);
+    // a set forms: call it out over the card that made it
+    revCount[r]=(revCount[r]||0)+1; { const n=revCount[r], pt=Game.paytable; if(n>=2&&pt&&pt.pays[r.toUpperCase()]>0&&pt.multiplier[n]>1) setPop(c,'\u00d7'+pt.multiplier[n]+' SET',col,n); }
   }
 
+  let revCount={};
+  function setPop(c,txt,col,n){ const v=new THREE.Vector3(); c.getWorldPosition(v); v.project(cam); const R=cv.getBoundingClientRect(), U=ui.getBoundingClientRect();
+    const el=document.createElement('div'); el.className='setpop'; el.textContent=txt; el.style.setProperty('--c','#'+col.toString(16).padStart(6,'0'));
+    el.style.left=(R.left+(v.x+1)/2*R.width-U.left)+'px'; el.style.top=(R.top+(1-v.y)/2*R.height-U.top)+'px'; ui.appendChild(el); Sfx.setpop(n); setTimeout(()=>el.remove(),1600); }
   function dealTL(P,Rt,Sc,pos){ const t=gsap.timeline();
     t.to(P,{x:i=>pos[i].x,y:i=>pos[i].y,duration:.85,stagger:.07,ease:'expo.out'},0)
      .to(P,{z:i=>.5+i*.03,duration:.3,stagger:.07,ease:'power2.out'},0).to(P,{z:i=>i*.03,duration:.55,stagger:.07,ease:'power2.inOut'},.3)
@@ -2841,6 +2900,7 @@ const DeckUI=(()=>{ const el=$('decks'), list=$('deck-list'); let pick=null; $('
     pk=packs[sel]; const {W,H,ch,baseY,pos}=L, packG=pk.R, bodyG=pk.bodyG, topG=pk.topG;
     gsap.killTweensOf(packs); packs.forEach(P=>{gsap.killTweensOf([P.G.position,P.G.scale]);});
     const P=cards.map(c=>c.position),Rt=cards.map(c=>c.rotation),Sc=cards.map(c=>c.scale),tearY=baseY+(.5-TEAR)*PH,t0=.35;
+    const best=['legendary','rare'].find(r=>CARDS.some(c=>c.r===r))||null, tc=best==='legendary'?1.05:best==='rare'?.6:0, bcol=best?RARITY[best]:0xfff1dc; revCount={};
     tl=gsap.timeline({onComplete:()=>{state='revealed'; ui.className='done'; setClear(1); onRevealed();}});
     packs.forEach(Q=>{ if(Q!==pk){const s=slotOf(Q.i); tl.to(Q.G.position,{x:s*W*.95,duration:.7,ease:'power2.in'},0).set(Q.G,{visible:false},.7);}
       else tl.to(Q.G.position,{x:0,y:baseY,z:0,duration:.4,ease:'power2.out'},0).to(Q.G.scale,{x:1,y:1,z:1,duration:.4},0).to(Q,{dim:0,duration:.3},0); });
@@ -2851,8 +2911,8 @@ const DeckUI=(()=>{ const el=$('decks'), list=$('deck-list'); let pick=null; $('
       .to(packG.position,{y:0,duration:.4,ease:'power2.out'},t0)
       .to(inner,{intensity:.6,duration:1,ease:'power2.in'},t0+.15)
       .call(()=>cards.forEach(c=>c.visible=true),null,t0+.4)
-      .to(S,{peel:1,duration:.72,ease:'power2.inOut',onUpdate:ripFx},t0+.45)
-      .call(()=>Sfx.rip(),null,t0+.45).addLabel('rip',t0+1.17).call(()=>Sfx.pop(),null,'rip')
+      .to(S,{peel:1,duration:.72,ease:'power2.inOut',onUpdate:ripFx},t0+.45+tc)
+      .call(()=>Sfx.rip(),null,t0+.45+tc).addLabel('rip',t0+1.17+tc).call(()=>Sfx.pop(),null,'rip')
       .to(topG.position,{x:-W*.3,y:H*.8,z:2.2,duration:.6,ease:'power2.in'},'rip')
       .to(topG.rotation,{z:1.1,x:-2.4,duration:.6,ease:'power2.in'},'rip')
       .call(()=>{S.shake=.045; emit(0,tearY,.2,26,PW*.9,0xfff1dc,1.6,1.4,-4,.8,.04); for(let k=0;k<7;k++) shard(rnd(-.5,.5)*PW,tearY);},null,'rip')
@@ -2870,10 +2930,25 @@ const DeckUI=(()=>{ const el=$('decks'), list=$('deck-list'); let pick=null; $('
       .add(L.stack?gatherTL(P,Rt,Sc):dealTL(P,Rt,Sc,pos),'deal')
       .call(()=>{pk.G.visible=false;})
       .addLabel('flip','+=.15');
+    if(tc){ // the pack glows from inside in the colour of the best card, light leaks from the tear, and it trembles harder as the tear nears
+      const c0=t0+.42, ic=inner.color.getHex(), sc=shaft.material.color.getHex(), n=Math.round(tc/.07), L2=best==='legendary';
+      tl.call(()=>{ inner.color.setHex(bcol); shaft.material.color.setHex(bcol); Sfx.charge(best); },null,c0)
+        .call(()=>{ rim.color.setHex(bcol); rim.position.set(0,tearY+.15,1.5); },null,c0).to(rim,{intensity:L2?3.2:2.2,duration:tc,ease:'power2.in',overwrite:'auto'},c0)
+        .to(inner,{intensity:L2?2.6:1.6,duration:tc,ease:'power2.in',overwrite:'auto'},c0)
+        .to(shaft.material,{opacity:L2?.5:.36,duration:tc,ease:'power2.in'},c0);
+      for(let k=0;k<n;k++) tl.call(()=>{ const a=k/n; S.shake=Math.max(S.shake,.003+(L2?.02:.012)*a*a); emit(rnd(-.45,.45)*PW,tearY,.2,L2?6:4,.06,bcol,.6+a,1.1,-1,.8,.034); },null,c0+k*.07);
+      tl.call(()=>{ S.shake=L2?.075:.055; emit(0,tearY,.2,L2?70:38,PW*.95,bcol,L2?2.6:2,L2?2:1.6,-3,1.2,.045); },null,'rip')
+        .fromTo(S,{exposure:L2?1.45:1.3},{exposure:1,duration:.9,ease:'power2.out',immediateRender:false},'rip')
+        .to(rim,{intensity:0,duration:.7,ease:'power2.out'},'rip+=.1')
+        .call(()=>{ inner.color.setHex(ic); shaft.material.color.setHex(sc); },null,'deal');
+    }
     if(L.stack) stackFlips(); else { let at=0;
     cards.forEach((c,i)=>{
       const big=CARDS[i].r==='legendary',col=RARITY[CARDS[i].r],p=pos[i];
       if(!big){
+        if(CARDS[i].r==='rare'){ const h='flip+='+at; tl.call(()=>{ rim.color.setHex(col); rim.position.set(p.x,baseY+p.y,2.5); Sfx.tick(); },null,h)
+            .to(rim,{intensity:.85,duration:.3,yoyo:true,repeat:1,ease:'sine.inOut'},h).to(c.position,{z:.35,duration:.3,ease:'power2.out'},h)
+            .call(()=>{ S.shake=Math.max(S.shake,.008); },null,h+'+=.3'); at+=.55; }
         tl.to(c.rotation,{y:0,duration:.55,ease:'power3.inOut'},'flip+='+at)
           .to(c.position,{z:.4,duration:.27,ease:'power2.out',yoyo:true,repeat:1},'flip+='+at)
           .call(()=>reveal(c,false),null,'flip+='+(at+.36));
@@ -3017,7 +3092,7 @@ const DeckUI=(()=>{ const el=$('decks'), list=$('deck-list'); let pick=null; $('
     if(bal===null){ toast('Could not collect this round. Check your connection; your Coins are safe.'); bal=Game.balance; }
     const setsBefore=setsDone(); R.list.forEach(c=>Game.pulled.add(c.alias)); colAnnounce(setsBefore);
     Game.last={roundId:R.r.roundId,playType:R.type,totalBetAmount:R.r.totalBetAmount,totalWinAmount:R.r.totalWinAmount,balance:bal,shown:null,cards:R.list.map(c=>({alias:c.alias,r:c.r}))};
-    showResult(R,bal); const payDur=payOut(R,bal); devShow(R.r);
+    showResult(R,bal); pullBanner(R); const payDur=payOut(R,bal); devShow(R.r);
     if(!Game.hintSeen) $('tap-hint').classList.add('show');
     const leg=R.pack.legendary.count>0, big=R.r.totalWinAmount>=R.r.totalBetAmount*CONFIG.autoStopMultiple;
     if(autoplay){
@@ -3043,7 +3118,7 @@ const DeckUI=(()=>{ const el=$('decks'), list=$('deck-list'); let pick=null; $('
     placeResult(); amtEl.textContent='0'; resEl.classList.add('on'); ladderUpdate();
     gsap.to(cnt,{v:r.totalWinAmount,duration:r.totalWinAmount?CONFIG.resultCountSec:0.01,ease:'power2.out',onUpdate:()=>{amtEl.textContent=fmt(Math.round(cnt.v/50)*50);},onComplete:()=>{amtEl.textContent=fmt(r.totalWinAmount); Game.last.shown=amtEl.textContent;}});
   }
-  function hideResult(){ resEl.classList.remove('on'); $('stackdots').classList.remove('on'); $('ladderbtn').classList.remove('on'); }
+  function hideResult(){ gsap.killTweensOf('#pullbanner'); gsap.set('#pullbanner',{opacity:0}); resEl.classList.remove('on'); $('stackdots').classList.remove('on'); $('ladderbtn').classList.remove('on'); }
   // ---------- pay-out: Rollerz coins fly from the returned amount into the balance; the balance glows and counts up as each one lands ----------
   // purely visual: the balance is already the provider's value (Game.balance); only the number on screen catches up with the coins
   let payT=null, payCoins=[];
@@ -3227,21 +3302,21 @@ const DeckUI=(()=>{ const el=$('decks'), list=$('deck-list'); let pick=null; $('
   function faceHTML(c){ const r=c.r||c.rarity, k='c-'+r; return '<div class="ld-face"><img class="ld-art" alt="" src="'+DECK.base+'cards/'+c.alias+'.webp"><img class="ld-frame" alt="" src="'+DECK.base+'ui/'+r+'frame.webp">'+powerImg(r,c.lvl,1)+'</div><div class="ld-name">'+esc(c.name)+'<em class="'+k+'">'+RNAME[r]+'<span><i> \u00b7 </i>Power '+c.lvl+'</span></em></div>'; }
   function ldButtons(on){ const s=LD.st; $('ld-fight').disabled=!on||!s||s.done; $('ld-take').disabled=!on||!s||s.lost; }
   function ldInfo(msg,cls){ const s=LD.st, n=s.next;
-    $('ld-rungs').innerHTML=s.opps.map((x,k)=>(k?'<i class="ln"></i>':'')+'<div class="rg '+(k<s.rung?'won':k===s.rung?(s.lost?'lost':'cur'):'')+'">'+(k===s.opps.length-1?'Final':'Round '+(k+1))+'<em>Power '+x.lvl+'</em></div>').join('');
+    $('ld-rungs').innerHTML=s.opps.map((x,k)=>(k?'<i class="ln"></i>':'')+'<div class="rg'+(x.boss?' boss':'')+' '+(k<s.rung?'won':k===s.rung?(s.lost?'lost':'cur'):'')+'">'+(x.boss?'Boss':k===s.opps.length-1?'Final':'Round '+(k+1))+'<em>'+(x.boss?esc(x.name)+' \u00b7 ':'')+'Power '+x.lvl+'</em></div>').join('');
     $('ld-stake').textContent=fmt(s.stake); $('ld-next').textContent=n?'win \u2192 '+fmt(Math.round(s.stake*n.m)):'';
     $('ld-zone').style.width=(n?n.p*100:0)+'%'; $('ld-zl').textContent=n?'WIN '+Math.round(n.p*100)+'%':'';
     $('ld-fight').innerHTML=n?'Fight<span>\u00d7'+n.m+' \u00b7 '+Math.round(n.p*100)+'% chance to win</span>':'Fight<span>&nbsp;</span>';
     $('ld-take').innerHTML='Take the Coins<span>'+fmt(s.stake)+' to your balance</span>';
     const m=$('ld-msg'); m.textContent=msg||'\u00a0'; m.className=cls||''; ldButtons(!LD.busy); }
   function ldFaces(){ const s=LD.st, o=s.opps[Math.min(s.rung,s.opps.length-1)];
-    $('ld-champ').innerHTML=faceHTML(LD.champ); $('ld-opp').innerHTML=faceHTML(o); $('ld-champ').className='ld-card'; $('ld-opp').className='ld-card'; gsap.set('#ld-needle',{x:0,opacity:0}); }
+    $('ld-champ').innerHTML=faceHTML(LD.champ); $('ld-opp').innerHTML=faceHTML(o); $('ld-champ').className='ld-card'; $('ld-opp').className='ld-card'+(o.boss?' boss':''); gsap.set('#ld-needle',{x:0,opacity:0}); }
   function ladderOpen(){ const R=Game.round; if(!R||LD.on||state!=='revealed') return; stopAuto(); if(autoCall){ autoCall.kill(); autoCall=null; } finishPay(); closeSheet();
     LD.on=true; LD.st=null; LD.busy=false; ldEl.classList.add('picking'); $('ld-title').textContent='Pick your champion'; $('ld-rungs').innerHTML='';
     $('ld-pick').innerHTML=CARDS.map((c,i)=>'<button type="button" data-i="'+i+'" aria-label="'+esc(c.name)+', power '+c.lvl+'">'+faceHTML(c)+'</button>').join('');
     ldEl.classList.add('on'); Sfx.tick(); const f=$('ld-pick').querySelector('button'); if(f) f.focus({preventScroll:true}); }
   function ladderClose(){ ldEl.classList.remove('on'); LD.on=false; LD.st=null; LD.busy=false; ladderUpdate(); }
   async function ladderPick(i){ if(LD.busy) return; const c=CARDS[i], R=Game.round; if(!c) return; LD.busy=true;
-    let s; try{ s=await provider.ladderStart({roundId:R.r.roundId,champ:{alias:c.alias,lvl:c.lvl},pool:CARD_DATA.map(x=>({alias:x.alias,lvl:x.lvl,rarity:x.rarity,name:x.name})),play:R.amt,stake:R.r.totalWinAmount}); }
+    let s; try{ s=await provider.ladderStart({roundId:R.r.roundId,champ:{alias:c.alias,lvl:c.lvl},pool:CARD_DATA.map(x=>({alias:x.alias,lvl:x.lvl,rarity:x.rarity,name:x.name})),play:R.amt,stake:R.r.totalWinAmount,boss:ldBoss(c)}); }
     catch(e){ console.error(e); ladderClose(); toast('The ladder is not available right now.'); return; }
     R.laddered=true; LD.st=s; LD.champ=c; setBalance(s.balance,true);
     ldEl.classList.remove('picking'); $('ld-title').textContent='The Ladder'; ldFaces(); LD.busy=false; ldInfo('Round 1'); Sfx.pop();
@@ -3253,14 +3328,14 @@ const DeckUI=(()=>{ const el=$('decks'), list=$('deck-list'); let pick=null; $('
     const t=gsap.timeline(); t.set(nd,{x:W*.5,opacity:1});
     [.92,.08,.8,.2,.65,.35].forEach((v,k)=>t.to(nd,{x:v*W,duration:.2+k*.045,ease:'sine.inOut',onStart:()=>Sfx.tick()}));
     t.to(nd,{x:land*W,duration:.7,ease:'power3.out'});
-    t.to(ch,{x:24,duration:.14,ease:'power2.in'},'-=.2').to(op,{x:-24,duration:.14,ease:'power2.in'},'<').call(()=>Sfx.pop())
+    t.to(ch,{x:24,duration:.14,ease:'power2.in'},'-=.2').to(op,{x:-24,duration:.14,ease:'power2.in'},'<').call(()=>{ Sfx.pop(); ldShake(.8); ldBurst($('ld-meter'),'#ffd9a8',26,380); })
      .to([ch,op],{x:0,duration:.5,ease:'elastic.out(1,.45)'})
-     .call(()=>{ LD.st=r; if(r.won){ op.classList.add('dead'); ch.classList.add('win'); Sfx.reveal(r.done?'legendary':'rare'); } else { ch.classList.add('dead'); op.classList.add('win'); Sfx.lose(); } setBalance(r.balance,false); });
+     .call(()=>{ LD.st=r; if(r.won){ op.classList.add('dead'); ch.classList.add('win'); Sfx.reveal(r.done?'legendary':'rare'); ldBurst(op,r.done?'#ffc24a':'#7dff9e',r.done?120:50,r.done?640:420); if(r.done) ldShake(1.4); } else { ch.classList.add('dead'); op.classList.add('win'); Sfx.lose(); ldBurst(ch,'#ff3b3b',40,360); ldShake(1); } setBalance(r.balance,false); });
     await t.then();
-    if(!r.won){ ldInfo('Defeated \u2014 the Coins are gone','bad'); gsap.delayedCall(2.2,ladderClose); return; }
-    if(r.done){ ldInfo('Champion! \u00d7'+r.m,'gold'); gsap.delayedCall(1.6,()=>{ LD.busy=false; ladderTake(); }); return; }
+    if(!r.won){ const by=r.opps[r.rung]; ldInfo(by&&by.boss?'Defeated by '+by.name+' \u2014 the Coins are gone':'Defeated \u2014 the Coins are gone','bad'); gsap.delayedCall(2.2,ladderClose); return; }
+    if(r.done){ const wasBoss=r.opps[r.opps.length-1].boss; ldInfo((wasBoss?'Boss defeated! ':'Champion! ')+'\u00d7'+r.m,'gold'); if(wasBoss){ gsap.delayedCall(.35,()=>{ ldBurst($('ld-opp'),'#ffe08a',90,700); Sfx.fanfare(true); }); } gsap.delayedCall(wasBoss?2.4:1.6,()=>{ LD.busy=false; ladderTake(); }); return; }
     ldInfo('Victory! \u00d7'+r.m,'good'); ldButtons(false);
-    gsap.delayedCall(1.2,()=>{ ldFaces(); gsap.from('#ld-opp',{x:140,opacity:0,duration:.45,ease:'power3.out'}); LD.busy=false; ldInfo('Round '+(r.rung+1)+(r.rung===r.opps.length-1?' \u2014 the final':'')); }); }
+    gsap.delayedCall(1.2,()=>{ ldFaces(); gsap.from('#ld-opp',{x:140,opacity:0,duration:.45,ease:'power3.out'}); LD.busy=false; const nb=r.opps[r.rung]; if(nb&&nb.boss) bossIntro(nb); else ldInfo('Round '+(r.rung+1)+(r.rung===r.opps.length-1?' \u2014 the final':'')); }); }
   async function ladderTake(){ if(LD.busy||!LD.st||LD.st.lost) return; LD.busy=true; ldButtons(false);
     let r; try{ r=await provider.ladderTake(); }catch(e){ console.error(e); LD.busy=false; ldButtons(true); return; }
     ladderClose(); setBalance(r.balance,true); if(r.taken>0){ Sfx.bank(); const b=$('balance'); b.classList.add('glow'); setTimeout(()=>b.classList.remove('glow'),900); toast(fmt(r.taken)+' Coins added to your balance.'); } }
@@ -3308,8 +3383,41 @@ const DeckUI=(()=>{ const el=$('decks'), list=$('deck-list'); let pick=null; $('
   const colOpen=f=>{ closeSheet(); openCard(f.dataset.alias,'collection'); };
   $('col-set').addEventListener('click',e=>{ const f=e.target.closest('figure.has'); if(f) colOpen(f); });
   $('col-set').addEventListener('keydown',e=>{ if(e.key!=='Enter'&&e.key!==' ') return; const f=e.target.closest('figure.has'); if(f){ e.preventDefault(); colOpen(f); } });
+  // ---------- a banner for a big pull: GREAT PULL / EPIC PULL by return, LEGENDARY PULL when a legendary is in the pack ----------
+  function pullBanner(R){ const x=R.r.totalWinAmount/Math.max(1e-9,R.r.totalBetAmount), leg=R.pack&&R.pack.legendary&&R.pack.legendary.count>0;
+    const t=x>=CONFIG.bannerEpic?'Epic pull':leg?'Legendary pull':x>=CONFIG.bannerGreat?'Great pull':null; if(!t) return;
+    const el=$('pullbanner'), big=x>=CONFIG.bannerEpic||leg; el.querySelector('b').textContent=t; el.querySelector('span').textContent=(leg&&x<CONFIG.bannerGreat?((R.list||[]).filter(c=>c.r==='legendary').map(c=>c.name).join(' \u00b7 ')||'Legendary found'):(Math.round(x*10)/10)+'\u00d7 your play');
+    el.className=leg?'legendary':''; gsap.killTweensOf(el);
+    gsap.timeline({defaults:{force3D:false}}).fromTo(el,{opacity:0,scale:2.4,xPercent:-50,yPercent:-50,x:0,y:0},{opacity:1,scale:1,duration:.42,ease:'back.out(2.2)'})
+      .call(()=>{ S.shake=Math.max(S.shake,big?.03:.018); Sfx.fanfare(big); })
+      .to(el,{scale:1.04,duration:.6,yoyo:true,repeat:1,ease:'sine.inOut'})
+      .to(el,{opacity:0,y:-30,duration:.45,ease:'power2.in'},'+=.5').set(el,{y:0}); }
+
+  // ---------- the ladder boss: the final rung is the deck's boss card ----------
+  const BOSSES={chimera:['The Silent King','The Last Architect'],dawnbreak:['Tiamat','Asmodeus'],rico:['Archie Romano','Elena Vasquez']};
+  function ldBoss(champ){ for(const n of BOSSES[DECK.id]||[]){ const b=CARD_DATA.find(x=>x.name===n); if(b&&b.alias!==champ.alias) return {alias:b.alias,lvl:b.lvl,rarity:b.rarity,name:b.name}; } return null; }
+  // particles on the ladder screen
+  const LFX={ps:[],raf:0};
+  function ldBurst(el,color,n,pow){ const fx=$('ld-fx'); if(!fx||!el) return; const r=el.getBoundingClientRect(), f=fx.getBoundingClientRect(), x=r.left+r.width/2-f.left, y=r.top+r.height/2-f.top;
+    for(let k=0;k<n;k++){ const a=Math.random()*Math.PI*2, sp=(.35+Math.random())*pow; LFX.ps.push({x,y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp-pow*.25,t:0,life:.6+Math.random()*.7,s:1.5+Math.random()*3,c:color}); }
+    if(!LFX.raf){ let last=performance.now(); const step=now=>{ const dt=Math.min(.05,(now-last)/1000); last=now; const d=devicePixelRatio||1;
+        if(fx.width!==Math.round(fx.clientWidth*d)){ fx.width=Math.round(fx.clientWidth*d); fx.height=Math.round(fx.clientHeight*d); }
+        const g=fx.getContext('2d'); g.setTransform(d,0,0,d,0,0); g.clearRect(0,0,fx.clientWidth,fx.clientHeight); g.globalCompositeOperation='lighter';
+        LFX.ps=LFX.ps.filter(p=>(p.t+=dt)<p.life); for(const p of LFX.ps){ p.vy+=520*dt; p.vx*=.985; p.x+=p.vx*dt; p.y+=p.vy*dt; const a=1-p.t/p.life; g.globalAlpha=a; g.fillStyle=p.c; g.beginPath(); g.arc(p.x,p.y,p.s*(.6+a*.6),0,6.283); g.fill(); }
+        LFX.raf=LFX.ps.length?requestAnimationFrame(step):0; if(!LFX.raf) g.clearRect(0,0,fx.clientWidth,fx.clientHeight); }; LFX.raf=requestAnimationFrame(step); } }
+  const ldShake=k=>gsap.fromTo('.ld-in',{x:-10*k},{x:0,duration:.5,ease:'elastic.out(1,.25)'});
+  function bossIntro(o){ LD.busy=true; ldButtons(false); ldInfo('Final \u2014 the boss: '+o.name,'boss'); ldButtons(false);
+    const t=$('ld-bosst'); t.querySelector('span').textContent=o.name;
+    gsap.timeline({onComplete:()=>{ LD.busy=false; ldButtons(true); }})
+      .set('#ld-opp',{scale:1.6,opacity:0}).to('#ld-flash',{opacity:1,duration:.12})
+      .call(()=>{ Sfx.boss(); ldShake(1.6); })
+      .fromTo(t,{opacity:0,scale:2.6},{opacity:1,scale:1,duration:.4,ease:'back.out(2)'},'<')
+      .to('#ld-flash',{opacity:0,duration:.9,ease:'power2.out'},'<.15')
+      .to('#ld-opp',{scale:1,opacity:1,duration:.45,ease:'power4.in'},'<.35')
+      .call(()=>{ ldShake(1); ldBurst($('ld-opp'),'#ff6a2a',60,520); })
+      .to(t,{opacity:0,y:-24,duration:.4,ease:'power2.in'},'+=.65').set(t,{y:0}); }
   // ---------- test hooks ----------
-  window.__QA={ col:()=>({view:$('sheet-gallery').classList.contains('sets')?'sets':'rarity',set:Game.colSet||0,sets:deckSets().map(s=>({name:s.name,got:s.got,n:s.cards.length})),found:CARD_DATA.filter(c=>Game.pulled.has(c.alias)).length}), colSelect:i=>{ Game.colSet=i; fillCollection(); }, colAliases:i=>deckSets()[i].cards.map(c=>c.alias), colView:v=>{ Game.galView=v; fillGallery(); fillCollection(); }, pull:a=>{ const b=setsDone(); [].concat(a).forEach(x=>Game.pulled.add(x)); colAnnounce(b); }, ladder:()=>({on:LD.on,busy:LD.busy,st:LD.st,btn:$('ladderbtn').classList.contains('on')}), ladderOpen:()=>ladderOpen(), ladderPick:i=>ladderPick(i), ladderFight:()=>ladderFight(), ladderTake:()=>ladderTake(), spin:d=>spin(d), stackTop:()=>{ for(let i=0;i<5;i++) if(slotOfCard(i)===0) return CARDS[i]&&CARDS[i].alias; return null; }, cardStep:d=>cardStep(d), cardCount:()=>$('card-count').textContent, curCard:()=>curCard, isStack:()=>!!L.stack, replayPay:k=>{ const R=Game.round, bal=Game.balance; setBalance(bal-R.r.totalWinAmount,false); gsap.globalTimeline.timeScale(k||1); payOut(R,bal); }, payDbg:()=>payT?{p:payT.progress(),d:payT.duration(),act:payT.isActive(),paused:payT.paused(),kids:payT.getChildren().length}:null, paying:()=>!!payT, flyCoins:()=>document.querySelectorAll('.flycoin').length, uiPics:id=>uiPics(id||DECK.id), deck:id=>switchDeck(DECKS[id]), deckId:()=>DECK.id, decksOpen:()=>DeckUI.isOpen(), cardData:()=>CARD_DATA, music:()=>Sfx.musicUrl(), state:()=>state, select:i=>select(i), setLevel:i=>{const t=typeOf(); Game.levelI[t]=clamp(i,0,Game.levels[t].length-1); refreshHud();}, open:()=>startRound(), continue:()=>{ if(state==='revealed') toLobby(false); },
+  window.__QA={ ladderForce:v=>{ provider.forceWin=v; }, banner:x=>pullBanner({r:{totalWinAmount:x,totalBetAmount:1},pack:{legendary:{count:0}}}), seek:t=>{ if(tl){ tl.pause(); tl.seek(t,false); } }, tlDur:()=>tl?tl.duration():0, tlTime:()=>tl?tl.time():0, freeze:v=>{ if(v) gsap.globalTimeline.pause(); else gsap.globalTimeline.resume(); }, best:()=>['legendary','rare'].find(r=>CARDS.some(c=>c.r===r))||null, col:()=>({view:$('sheet-gallery').classList.contains('sets')?'sets':'rarity',set:Game.colSet||0,sets:deckSets().map(s=>({name:s.name,got:s.got,n:s.cards.length})),found:CARD_DATA.filter(c=>Game.pulled.has(c.alias)).length}), colSelect:i=>{ Game.colSet=i; fillCollection(); }, colAliases:i=>deckSets()[i].cards.map(c=>c.alias), colView:v=>{ Game.galView=v; fillGallery(); fillCollection(); }, pull:a=>{ const b=setsDone(); [].concat(a).forEach(x=>Game.pulled.add(x)); colAnnounce(b); }, ladder:()=>({on:LD.on,busy:LD.busy,st:LD.st,btn:$('ladderbtn').classList.contains('on')}), ladderOpen:()=>ladderOpen(), ladderPick:i=>ladderPick(i), ladderFight:()=>ladderFight(), ladderTake:()=>ladderTake(), spin:d=>spin(d), stackTop:()=>{ for(let i=0;i<5;i++) if(slotOfCard(i)===0) return CARDS[i]&&CARDS[i].alias; return null; }, cardStep:d=>cardStep(d), cardCount:()=>$('card-count').textContent, curCard:()=>curCard, isStack:()=>!!L.stack, replayPay:k=>{ const R=Game.round, bal=Game.balance; setBalance(bal-R.r.totalWinAmount,false); gsap.globalTimeline.timeScale(k||1); payOut(R,bal); }, payDbg:()=>payT?{p:payT.progress(),d:payT.duration(),act:payT.isActive(),paused:payT.paused(),kids:payT.getChildren().length}:null, paying:()=>!!payT, flyCoins:()=>document.querySelectorAll('.flycoin').length, uiPics:id=>uiPics(id||DECK.id), deck:id=>switchDeck(DECKS[id]), deckId:()=>DECK.id, decksOpen:()=>DeckUI.isOpen(), cardData:()=>CARD_DATA, music:()=>Sfx.musicUrl(), state:()=>state, select:i=>select(i), setLevel:i=>{const t=typeOf(); Game.levelI[t]=clamp(i,0,Game.levels[t].length-1); refreshHud();}, open:()=>startRound(), continue:()=>{ if(state==='revealed') toLobby(false); },
     last:()=>Game.last, balance:()=>Game.balance, shownBalance:()=>balEl.textContent, skip:()=>{ if(tl) tl.progress(1); }, fast:k=>{ gsap.ticker.lagSmoothing(0); gsap.globalTimeline.timeScale(k); }, noRender:false, resultText:()=>({amt:$('res-amt').textContent,on:resEl.classList.contains('on')}), seek:t=>{ if(tl){ tl.pause(); tl.time(t); } }, dur:()=>tl?tl.duration():0, provider:()=>provider, demo:()=>startDemo(), card:a=>openCard(a), landed:()=>({on:landedOn,n:landedEls.length,stable:landStable,t:landedEls.map(e=>e._t)}), cardRect:i=>{ const G=cards[i],p=new THREE.Vector3(),b=[]; for(const [sx,sy] of [[-1,1],[1,-1]]){ p.set(sx*L.cw/2,sy*L.ch/2,0); G.localToWorld(p); p.project(cam); b.push([(p.x+1)/2*vw,(1-p.y)/2*vh]); } return {x:b[0][0],y:b[0][1],w:b[1][0]-b[0][0],h:b[1][1]-b[0][1]}; }, sheetOpen:()=>sheetOpen, sheet:id=>id?openSheet(id):closeSheet(), pulled:()=>[...Game.pulled], fmt };
 
   // ---------- boot ----------

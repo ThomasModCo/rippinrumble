@@ -1,5 +1,27 @@
 # Rippin Rumble — changelog
 
+## v0.22 — 2026-10-29 — the ladder boss, and more impact in the opening and reveal
+
+### Added — the ladder boss
+- The final rung of every ladder is the deck's boss: The Silent King (Chimera), Tiamat (Dawnbreak), Archie Romano (RICO). If your champion is the boss card itself, the next boss stands in (The Last Architect, Asmodeus, Elena Vasquez).
+- Reaching the boss plays an entrance: the screen flashes red, BOSS FIGHT slams in with the boss's name, the boss card crashes down with sparks and a deep hit. The boss card keeps a pulsing fire glow and a BOSS tag; the rung shows its name.
+- Beating the boss: "Boss defeated!", a gold burst and a fanfare. Losing to it names the boss.
+- Every fight now hits harder: sparks and a shake on the clash, a burst on the winner, red sparks on a loss.
+- The boss fight is still even on average (win chance x multiplier = 1); a boss is simply a strong opponent, so it pays a big multiple at a low chance.
+
+### Added — opening and reveal
+- An honest tell before the rip: when a rare or legendary is in the pack, the pack glows in that colour from the tear, sparks leak out and it trembles harder until it rips (0.6 s for a rare, 1 s for a legendary), with a rising sound. Packs without one rip straight away, as before. The tell never appears unless the card is really there.
+- The rip bursts in the colour of the best card, with a bigger flash for a legendary.
+- On desktop, a rare holds for a beat with a glow in its colour before it turns. Rares and uncommons now burst on reveal.
+- Sets are called out as they form: "x2 SET", "x3 SET" pops over the card that made the set, with a bell.
+- A banner after a big round: GREAT PULL at 5x the play amount or more, EPIC PULL at 15x or more, LEGENDARY PULL when a legendary is in the pack (naming the card when the return is small). A short fanfare plays with it.
+
+### Unchanged
+- What a pack returns, how often each rarity appears, and the ladder's fairness. Turbo still shortens everything.
+
+### Verified
+- Boss flow on desktop and phone (forced wins and a forced loss), 120 rounds per deck with no mismatches, the ladder fit test, the collection book, set call-outs and the banner. No console errors.
+
 ## v0.21 — 2026-10-29 — the Collection book
 
 ### Added
